@@ -9,7 +9,9 @@ const Dashboard = () => {
       <p className="text-muted-foreground">Bem-vindo ao LigaFaro, o seu centro comunitário para tudo relacionado com Faro!</p>
       
       <FeaturedSection />
-      <LatestNews />
+      <div id="latest-news-container" className="mt-8 border-t pt-8">
+        <LatestNews />
+      </div>
     </div>
   );
 };
