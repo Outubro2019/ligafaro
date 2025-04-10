@@ -8,6 +8,12 @@ python3 gerar_noticias_json.py
 if [ $? -eq 0 ]; then
     echo "Script Python executado com sucesso!"
     
+    # Copiar o arquivo JSON para a pasta public
+    echo "Copiando arquivo de notícias para a pasta public..."
+    mkdir -p public
+    cp noticias_faro.json public/
+    echo "Arquivo copiado com sucesso!"
+    
     # Abrir a página HTML no navegador padrão
     echo "Abrindo a página de notícias no navegador..."
     
