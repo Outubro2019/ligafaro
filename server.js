@@ -69,19 +69,49 @@ const chatWithGPT = async (message) => {
 };
 app.post('/api/chat', async (req, res) => {
   const { question } = req.body;
-  let response;
+
+  if (!question) {
+    return res.status(400).json({ answer: 'Por favor, forneça uma pergunta.' });
+  }
 
   try {
-    if (question.toLowerCase().includes('tempo')) {
-      response = await getWeather();
-    } else if (question.toLowerCase().includes('notícias')) {
-      response = await getNews();
-    } else if (question.toLowerCase().includes('que dia é hoje')) {
-      response = `Hoje é ${getFormattedDate()}.`;
-    } else {
-      response = await chatWithGPT(question);
+    console.log('Processando pergunta:', question);
+    
+    // Executar o script Python do chatbot
+    try {
+      // Escapar aspas duplas para evitar problemas com o comando
+      const escapedQuestion = question.replace(/"/g, '\\"');
+      
+      console.log('Executando script Python do chatbot...');
+      const { stdout, stderr } = await execPromise(`python3 src/services/python/chatbot.py "${escapedQuestion}"`);
+      
+      if (stderr) {
+        console.log('Logs do script Python (stderr):', stderr);
+      }
+      
+      console.log('Resposta do script Python:', stdout);
+      
+      // Processar a resposta
+      const data = JSON.parse(stdout);
+      return res.json(data);
+    } catch (pythonError) {
+      console.error('Erro ao executar script Python do chatbot:', pythonError);
+      
+      // Fallback para o método anterior
+      let response;
+      
+      if (question.toLowerCase().includes('tempo')) {
+        response = await getWeather();
+      } else if (question.toLowerCase().includes('notícias')) {
+        response = await getNews();
+      } else if (question.toLowerCase().includes('que dia é hoje')) {
+        response = `Hoje é ${getFormattedDate()}.`;
+      } else {
+        response = await chatWithGPT(question);
+      }
+      
+      return res.json({ answer: response });
     }
-    res.json({ answer: response });
   } catch (error) {
     console.error('Erro ao processar a requisição:', error);
     res.status(500).json({ answer: 'Ocorreu um erro ao processar sua solicitação.' });
