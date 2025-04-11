@@ -9,6 +9,134 @@ interface Message {
 }
 
 const Chatbot = () => {
+  // Dados estáticos de eventos para teste
+  const staticEvents: EventData[] = [
+    {
+      id: 1,
+      title: "Festival de Verão de Faro",
+      description: "Festival anual com música, arte e cultura",
+      date: "2025-07-15",
+      time: "18:00",
+      location: "Parque Municipal de Faro",
+      category: "Cultura",
+      attendees: 500,
+      imageUrl: "/placeholder.svg",
+      featured: true,
+      organizer: "Câmara Municipal de Faro"
+    },
+    {
+      id: 2,
+      title: "Feira de Artesanato",
+      description: "Exposição e venda de artesanato local",
+      date: "2025-05-20",
+      time: "10:00",
+      location: "Praça da Liberdade",
+      category: "Artesanato",
+      attendees: 200,
+      imageUrl: "/placeholder.svg",
+      featured: false,
+      organizer: "Associação de Artesãos do Algarve"
+    },
+    {
+      id: 3,
+      title: "Concerto Filarmónica",
+      description: "Concerto da Banda Filarmónica de Faro",
+      date: "2025-06-10",
+      time: "21:00",
+      location: "Teatro Municipal de Faro",
+      category: "Música",
+      attendees: 300,
+      imageUrl: "/placeholder.svg",
+      featured: false,
+      organizer: "Banda Filarmónica de Faro"
+    },
+    {
+      id: 4,
+      title: "Exposição de Arte Contemporânea",
+      description: "Exposição de artistas locais e internacionais",
+      date: "2025-05-25",
+      time: "14:00",
+      location: "Galeria Municipal",
+      category: "Arte",
+      attendees: 150,
+      imageUrl: "/placeholder.svg",
+      featured: true,
+      organizer: "Associação Cultural de Faro"
+    },
+    {
+      id: 5,
+      title: "Torneio de Futebol Juvenil",
+      description: "Competição entre equipes juvenis da região",
+      date: "2025-06-05",
+      time: "09:00",
+      location: "Estádio Municipal",
+      category: "Esporte",
+      attendees: 400,
+      imageUrl: "/placeholder.svg",
+      featured: false,
+      organizer: "Associação de Futebol do Algarve"
+    }
+  ];
+
+  // Dados estáticos de notícias para teste
+  const staticNews: NewsItem[] = [
+    {
+      source: { id: null, name: 'Jornal de Faro' },
+      author: 'Maria Silva',
+      title: 'Câmara Municipal anuncia novo projeto de revitalização urbana',
+      description: 'Projeto visa melhorar áreas centrais da cidade com investimento de 2 milhões de euros',
+      url: 'https://ligafaro.netlify.app',
+      urlToImage: '/placeholder.svg',
+      publishedAt: new Date().toISOString(),
+      content: 'A Câmara Municipal de Faro anunciou hoje um novo projeto de revitalização urbana que irá transformar o centro histórico da cidade.',
+      origem_busca: 'Local'
+    },
+    {
+      source: { id: null, name: 'Diário do Algarve' },
+      author: 'João Santos',
+      title: 'Festival de Gastronomia atrai milhares de visitantes a Faro',
+      description: 'Evento celebrou a culinária tradicional algarvia com grande sucesso',
+      url: 'https://ligafaro.netlify.app',
+      urlToImage: '/placeholder.svg',
+      publishedAt: new Date(Date.now() - 86400000).toISOString(), // Ontem
+      content: 'O Festival de Gastronomia de Faro atraiu mais de 5 mil visitantes no último fim de semana, superando todas as expectativas dos organizadores.',
+      origem_busca: 'Local'
+    },
+    {
+      source: { id: null, name: 'RTP Algarve' },
+      author: 'Ana Costa',
+      title: 'Universidade do Algarve lança novo curso de Tecnologias Marinhas',
+      description: 'Curso visa formar profissionais especializados em tecnologias sustentáveis para o mar',
+      url: 'https://ligafaro.netlify.app',
+      urlToImage: '/placeholder.svg',
+      publishedAt: new Date(Date.now() - 172800000).toISOString(), // 2 dias atrás
+      content: 'A Universidade do Algarve anunciou o lançamento de um novo curso de licenciatura em Tecnologias Marinhas, que começará no próximo ano letivo.',
+      origem_busca: 'Regional'
+    },
+    {
+      source: { id: null, name: 'Observador' },
+      author: 'Carlos Mendes',
+      title: 'Farense garante permanência na primeira divisão',
+      description: 'Equipe de Faro vence jogo decisivo e garante mais um ano na elite do futebol português',
+      url: 'https://ligafaro.netlify.app',
+      urlToImage: '/placeholder.svg',
+      publishedAt: new Date(Date.now() - 259200000).toISOString(), // 3 dias atrás
+      content: 'O Sporting Clube Farense garantiu matematicamente a permanência na primeira divisão do futebol português após vitória por 2-0 no último domingo.',
+      origem_busca: 'Nacional'
+    },
+    {
+      source: { id: null, name: 'Jornal Económico' },
+      author: 'Pedro Alves',
+      title: 'Turismo em Faro bate recordes no primeiro trimestre',
+      description: 'Cidade registra aumento de 15% no número de visitantes em comparação com o mesmo período do ano passado',
+      url: 'https://ligafaro.netlify.app',
+      urlToImage: '/placeholder.svg',
+      publishedAt: new Date(Date.now() - 345600000).toISOString(), // 4 dias atrás
+      content: 'O setor de turismo em Faro registrou números recordes no primeiro trimestre de 2025, com um aumento de 15% no número de visitantes.',
+      origem_busca: 'Nacional'
+    }
+  ];
+
   const [messages, setMessages] = useState<Message[]>([
     {
       text: 'Olá! Eu sou o assistente do LigaFaro. Em que posso ajudar?',
@@ -19,33 +147,15 @@ const Chatbot = () => {
   const [input, setInput] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
 
-  // Cache para armazenar dados de eventos e notícias
-  const [eventsCache, setEventsCache] = useState<EventData[]>([]);
-  const [newsCache, setNewsCache] = useState<NewsItem[]>([]);
+  // Usar dados estáticos em vez de carregar dados externos
+  const [eventsCache] = useState<EventData[]>(staticEvents);
+  const [newsCache] = useState<NewsItem[]>(staticNews);
 
-  // Carregar dados de eventos e notícias ao iniciar
+  // Log para debug
   useEffect(() => {
-    const loadData = async () => {
-      try {
-        // Carregar eventos
-        const eventResponse = await eventsService.getEvents();
-        if (eventResponse.events && eventResponse.events.length > 0) {
-          setEventsCache(eventResponse.events);
-          console.log('Eventos carregados para o chatbot:', eventResponse.events.length);
-        }
-
-        // Carregar notícias
-        const newsData = await fetchNews('Faro Algarve', 20);
-        if (newsData && newsData.length > 0) {
-          setNewsCache(newsData);
-          console.log('Notícias carregadas para o chatbot:', newsData.length);
-        }
-      } catch (error) {
-        console.error('Erro ao carregar dados para o chatbot:', error);
-      }
-    };
-
-    loadData();
+    console.log('Chatbot inicializado com dados estáticos:');
+    console.log('Eventos:', staticEvents.length);
+    console.log('Notícias:', staticNews.length);
   }, []);
 
   // Função para processar perguntas sobre eventos
