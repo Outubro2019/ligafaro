@@ -16,12 +16,12 @@ const Chatbot = () => {
   const [input, setInput] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
 
-  // Função para processar perguntas usando o endpoint da API
+  // Função para processar perguntas usando a função serverless do Netlify
   const processQuestion = async (question: string): Promise<string> => {
     try {
-      console.log('Enviando pergunta para o servidor:', question);
+      console.log('Enviando pergunta para a função serverless:', question);
       
-      const response = await fetch('/api/chat', {
+      const response = await fetch('/.netlify/functions/chatbot', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -30,11 +30,11 @@ const Chatbot = () => {
       });
 
       if (!response.ok) {
-        throw new Error(`Erro ao obter resposta da API: ${response.status}`);
+        throw new Error(`Erro ao obter resposta da função: ${response.status}`);
       }
 
       const data = await response.json();
-      console.log('Resposta recebida do servidor:', data);
+      console.log('Resposta recebida da função serverless:', data);
       
       return data.answer || 'Não foi possível obter uma resposta.';
     } catch (error) {
@@ -54,11 +54,14 @@ const Chatbot = () => {
         console.log('Estado anterior de mensagens:', prev.length);
         return [...prev, userMessage];
       });
+      
+      // Guardar o valor atual do input antes de limpá-lo
+      const currentInput = input;
       setInput('');
 
       try {
         console.log('Chamando processQuestion');
-        const botResponseText = await processQuestion(input);
+        const botResponseText = await processQuestion(currentInput);
         console.log('Resposta obtida:', botResponseText);
         const botResponse: Message = { text: botResponseText, sender: 'bot' };
         console.log('Adicionando resposta do bot:', botResponse);
