@@ -13,6 +13,7 @@ export interface NewsItem {
   urlToImage: string | null;
   publishedAt: string;
   content: string | null;
+  origem_busca?: string; // Campo opcional para rastrear a origem da notícia
 }
 
 export interface NewsResponse {

@@ -1,0 +1,7 @@
+# Redirecionamentos para o Netlify
+
+# Redirecionar todas as chamadas de API para a função Netlify
+/api/*  /.netlify/functions/server/:splat  200
+
+# Redirecionar rotas SPA para o index.html
+/*    /index.html   200

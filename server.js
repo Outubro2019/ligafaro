@@ -97,7 +97,7 @@ app.get('/execute-python', async (req, res) => {
   }
   
   // Verificar se o script é permitido (por segurança)
-  const allowedScripts = ['gerar_noticias_json.py'];
+  const allowedScripts = ['gerar_noticias_json.py', 'src/services/python/fetch_events.py'];
   if (!allowedScripts.includes(script)) {
     return res.status(403).json({ error: 'Script não permitido' });
   }
@@ -189,6 +189,113 @@ app.get('/api/news', async (req, res) => {
     console.error('Erro ao executar o script Python:', error);
     // Fallback para a NewsAPI
     return await fetchNewsFromNewsAPI(query, pageSize, res);
+  }
+});
+
+// Endpoint para executar o script Python de notícias e retornar os resultados
+app.get('/api/news-local', async (req, res) => {
+  console.log('Processando requisição para buscar notícias locais');
+  
+  try {
+    // Executar o script Python para gerar o arquivo JSON
+    try {
+      console.log('Executando script Python para gerar notícias...');
+      await execPromise('python3 gerar_noticias_json.py');
+      console.log('Script Python executado com sucesso!');
+    } catch (pythonError) {
+      console.error('Erro ao executar script Python:', pythonError);
+      // Continuar mesmo com erro, pois o arquivo JSON pode já existir
+    }
+    
+    // Ler o arquivo JSON gerado pelo script Python
+    try {
+      // Usar a API de sistema de arquivos do ESM
+      const { readFile } = await import('fs/promises');
+      const jsonData = await readFile('noticias_faro.json', 'utf8');
+      const newsData = JSON.parse(jsonData);
+      
+      console.log('Notícias obtidas com sucesso do arquivo JSON');
+      console.log(`Total de notícias: ${newsData.length}`);
+      
+      // Verificar se há notícias
+      if (!newsData || newsData.length === 0) {
+        console.log('Nenhuma notícia encontrada no arquivo JSON');
+        return res.json({ articles: [] });
+      }
+      
+      // Retornar no formato esperado pelo cliente
+      return res.json({
+        status: 'ok',
+        totalResults: newsData.length,
+        articles: newsData
+      });
+    } catch (readError) {
+      console.error('Erro ao ler arquivo JSON de notícias:', readError);
+      return res.status(500).json({
+        error: 'Erro ao ler arquivo JSON de notícias',
+        details: readError.message
+      });
+    }
+  } catch (error) {
+    console.error('Erro ao processar requisição de notícias locais:', error);
+    return res.status(500).json({
+      error: 'Erro ao processar requisição de notícias locais',
+      details: error.message
+    });
+  }
+});
+
+// Endpoint para buscar eventos
+app.get('/api/events', async (req, res) => {
+  console.log('Processando requisição para buscar eventos');
+  
+  try {
+    // Executar o script Python para gerar o arquivo JSON
+    try {
+      console.log('Executando script Python para gerar eventos...');
+      await execPromise('python3 src/services/python/fetch_events.py');
+      console.log('Script Python executado com sucesso!');
+    } catch (pythonError) {
+      console.error('Erro ao executar script Python:', pythonError);
+      // Continuar mesmo com erro, pois o arquivo JSON pode já existir
+    }
+    
+    // Ler o arquivo JSON gerado pelo script Python
+    try {
+      // Usar a API de sistema de arquivos do ESM
+      const { readFile } = await import('fs/promises');
+      const jsonData = await readFile('public/events_data.json', 'utf8');
+      const eventsData = JSON.parse(jsonData);
+      
+      console.log('Eventos obtidos com sucesso do arquivo JSON');
+      console.log(`Total de eventos: ${eventsData.length}`);
+      
+      // Verificar se há eventos
+      if (!eventsData || eventsData.length === 0) {
+        console.log('Nenhum evento encontrado no arquivo JSON');
+        return res.json({ events: [] });
+      }
+      
+      // Retornar no formato esperado pelo cliente
+      return res.json({
+        success: true,
+        events: eventsData
+      });
+    } catch (readError) {
+      console.error('Erro ao ler arquivo JSON de eventos:', readError);
+      return res.status(500).json({
+        success: false,
+        error: 'Erro ao ler arquivo JSON de eventos',
+        details: readError.message
+      });
+    }
+  } catch (error) {
+    console.error('Erro ao processar requisição de eventos:', error);
+    return res.status(500).json({
+      success: false,
+      error: 'Erro ao processar requisição de eventos',
+      details: error.message
+    });
   }
 });
 

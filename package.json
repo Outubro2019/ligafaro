@@ -4,15 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build:functions": "netlify-lambda build functions",
     "start": "concurrently 'npm run dev' 'node server.js'",
     "dev": "vite",
-    "build": "vite build",
+    "netlify:dev": "node netlify.js",
+    "netlify:serve": "concurrently 'npm run dev' 'npm run netlify:dev'",
+    "build": "npm run build:functions && vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "netlify-lambda": "^2.0.16",
     "@hookform/resolvers": "^3.9.0",
+    "@netlify/functions": "^2.0.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
     "@radix-ui/react-aspect-ratio": "^1.1.0",
@@ -45,6 +50,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
+    "concurrently": "^9.1.2",
     "cors": "^2.8.5",
     "date-fns": "^3.6.0",
     "dotenv": "^16.4.7",
@@ -67,6 +73,7 @@
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.3",
+    "winston": "^3.17.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {

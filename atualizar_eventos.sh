@@ -2,6 +2,7 @@
 
 # Executar o script Python para gerar o arquivo JSON
 echo "Executando script Python para gerar eventos..."
+echo "Buscando eventos da Câmara Municipal de Faro e da Viralagenda..."
 python3 src/services/python/fetch_events.py
 
 # Verificar se o script Python foi executado com sucesso
