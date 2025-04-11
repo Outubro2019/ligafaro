@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { fetchNews, NewsItem } from '@/services/newsService';
-import { eventsService } from '@/services/eventsService';
 import { EventData } from '@/types/EventTypes';
+import { NewsItem } from '@/services/types/newsTypes';
+
+// Adicionar logs globais para debug
+console.log('Chatbot component loaded');
 
 interface Message {
   text: string;
@@ -9,6 +11,7 @@ interface Message {
 }
 
 const Chatbot = () => {
+  console.log('Chatbot component rendering');
   // Dados estáticos de eventos para teste
   const staticEvents: EventData[] = [
     {
@@ -308,58 +311,13 @@ const Chatbot = () => {
     return 'O LigaFaro é sua plataforma comunitária para Faro. Posso ajudar com informações sobre eventos, notícias locais e funcionalidades do site.';
   };
 
-  // Função principal para processar perguntas
+  // Função principal para processar perguntas - versão simplificada para debug
   const processQuestion = async (question: string): Promise<string> => {
     try {
-      const questionLower = question.toLowerCase();
+      console.log('Processando pergunta:', question);
       
-      // Determinar o tipo de pergunta
-      if (questionLower.includes('evento') ||
-          questionLower.includes('acontecendo') ||
-          questionLower.includes('programação')) {
-        return processEventQuestion(question);
-      }
-      
-      if (questionLower.includes('notícia') ||
-          questionLower.includes('jornal') ||
-          questionLower.includes('informação')) {
-        return processNewsQuestion(question);
-      }
-      
-      if (questionLower.includes('site') ||
-          questionLower.includes('aplicação') ||
-          questionLower.includes('ligafaro') ||
-          questionLower.includes('plataforma')) {
-        return processAppQuestion(question);
-      }
-      
-      // Verificar se é uma pergunta sobre o tempo
-      if (questionLower.includes('tempo') || questionLower.includes('clima')) {
-        return 'A temperatura atual em Faro é de aproximadamente 22°C, com céu parcialmente nublado.';
-      }
-      
-      // Verificar se é uma pergunta sobre data
-      if (questionLower.includes('que dia é hoje') || questionLower.includes('data')) {
-        const hoje = new Date().toLocaleDateString('pt-BR', {
-          weekday: 'long',
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
-        });
-        return `Hoje é ${hoje}.`;
-      }
-      
-      // Para outras perguntas, tentar identificar se está relacionada a eventos ou notícias
-      if (eventsCache.some(event => questionLower.includes(event.title.toLowerCase()))) {
-        return processEventQuestion(question);
-      }
-      
-      if (newsCache.some(news => questionLower.includes(news.title.toLowerCase()))) {
-        return processNewsQuestion(question);
-      }
-      
-      // Resposta padrão
-      return 'Posso ajudar com informações sobre eventos em Faro, notícias locais ou sobre o LigaFaro. Como posso ajudar?';
+      // Resposta estática para qualquer pergunta - para teste
+      return `Resposta de teste para: "${question}"\n\nTemos ${eventsCache.length} eventos e ${newsCache.length} notícias disponíveis.`;
     } catch (error) {
       console.error('Erro ao processar pergunta:', error);
       return 'Desculpe, ocorreu um erro ao processar sua solicitação.';
@@ -367,26 +325,42 @@ const Chatbot = () => {
   };
 
   const handleSend = async () => {
+    console.log('handleSend chamado, input:', input);
     if (input.trim() && !isProcessing) {
+      console.log('Iniciando processamento da pergunta');
       setIsProcessing(true);
       const userMessage: Message = { text: input, sender: 'user' };
-      setMessages((prev) => [...prev, userMessage]);
+      console.log('Adicionando mensagem do usuário:', userMessage);
+      setMessages((prev) => {
+        console.log('Estado anterior de mensagens:', prev.length);
+        return [...prev, userMessage];
+      });
       setInput('');
 
       try {
+        console.log('Chamando processQuestion');
         const botResponseText = await processQuestion(input);
+        console.log('Resposta obtida:', botResponseText);
         const botResponse: Message = { text: botResponseText, sender: 'bot' };
-        setMessages((prev) => [...prev, botResponse]);
+        console.log('Adicionando resposta do bot:', botResponse);
+        setMessages((prev) => {
+          console.log('Estado anterior de mensagens (antes da resposta):', prev.length);
+          return [...prev, botResponse];
+        });
       } catch (error) {
         console.error('Erro ao processar mensagem:', error);
         const errorResponse: Message = {
           text: 'Desculpe, ocorreu um erro ao processar sua pergunta.',
           sender: 'bot'
         };
+        console.log('Adicionando mensagem de erro:', errorResponse);
         setMessages((prev) => [...prev, errorResponse]);
       } finally {
+        console.log('Finalizando processamento');
         setIsProcessing(false);
       }
+    } else {
+      console.log('Input vazio ou já está processando');
     }
   };
 
