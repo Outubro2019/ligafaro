@@ -124,7 +124,9 @@ const LeafletMap = ({ markers }: LeafletMapProps) => {
     };
   }, [markers, getImageUrl]);
 
-  return <div id="map" className="h-full w-full"></div>;
+  return (
+    <div id="map" className="h-full w-full" style={{ height: '600px', width: '100%' }}></div>
+  );
 };
 
 export default LeafletMap;
