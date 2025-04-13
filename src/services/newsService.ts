@@ -46,7 +46,7 @@ export const fetchNews = async (query = 'Faro', pageSize = 10): Promise<NewsItem
     // Primeiro, tenta carregar o arquivo JSON local
     try {
       console.log('Tentando carregar notícias do arquivo JSON local...');
-      const response = await fetch('/noticias_faro.json');
+      const response = await fetch('/noticias_faro.json?url');
       
       if (response.ok) {
         const newsData = await response.json();

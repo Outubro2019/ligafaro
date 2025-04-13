@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { Link, useLocation } from 'react-router-dom';
+import StaticMap from './StaticMap';
 import {
   LayoutDashboard,
   Calendar,
@@ -11,7 +12,8 @@ import {
   Sun,
   Moon,
   Newspaper,
-  Building
+  Building,
+  Map
 } from 'lucide-react';
 import { 
   SidebarProvider, 
@@ -85,7 +87,8 @@ const AppSidebar = () => {
     { name: 'Comunidade', path: '/community', icon: Users },
     { name: 'Mercado', path: '/marketplace', icon: ShoppingBag },
     { name: 'Voluntariado', path: '/volunteer', icon: Heart },
-    { name: 'Chatbot', path: '/chatbot', icon: MessageSquare }
+    { name: 'Chatbot', path: '/chatbot', icon: MessageSquare },
+    { name: 'Mapa', path: '/map', icon: Map }
   ];
 
   return (
@@ -124,7 +127,7 @@ const AppSidebar = () => {
           ))}
         </SidebarMenu>
       </SidebarContent>
-      <SidebarFooter>
+      <SidebarFooter className="flex flex-col">
         <div className="p-4 text-xs text-muted-foreground">
           <p className="font-medium mb-1">LigaFaro</p>
           <p>Ligando a comunidade</p>

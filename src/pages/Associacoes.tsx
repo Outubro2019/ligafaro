@@ -1,14 +1,19 @@
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import entidadesData from "../entidades_faro.json";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Building, MapPin, ExternalLink, Info } from "lucide-react";
 
 // Tipo para as associações
 interface Associacao {
-  name: string;
+  nome: string;
   categories: string[];
   image_url: string;
-  entity_id: string;
+  cmf_url: string;
+  morada: string;
+  codigo_postal: string;
+  localidade: string;
+  email: string;
   has_more_categories: boolean;
 }
 
@@ -20,30 +25,22 @@ const Associacoes = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Carregar os dados do arquivo JSON
-    fetch('/entidades_faro.json')
-      .then(response => response.json())
-      .then(data => {
-        setAssociacoes(data);
-        
-        // Extrair categorias únicas
-        const todasCategorias = new Set<string>();
-        data.forEach((associacao: Associacao) => {
-          associacao.categories.forEach(categoria => {
-            todasCategorias.add(categoria);
-          });
-        });
-        
-        // Ordenar categorias alfabeticamente e adicionar "Todas" no início
-        const categoriasOrdenadas = Array.from(todasCategorias).sort();
-        setCategorias(["Todas", ...categoriasOrdenadas]);
-        
-        setLoading(false);
-      })
-      .catch(error => {
-        console.error("Erro ao carregar dados das associações:", error);
-        setLoading(false);
+    // Usar os dados importados diretamente
+    setAssociacoes(entidadesData);
+    
+    // Extrair categorias únicas
+    const todasCategorias = new Set<string>();
+    entidadesData.forEach((associacao: Associacao) => {
+      associacao.categories.forEach(categoria => {
+        todasCategorias.add(categoria);
       });
+    });
+    
+    // Ordenar categorias alfabeticamente e adicionar "Todas" no início
+    const categoriasOrdenadas = Array.from(todasCategorias).sort();
+    setCategorias(["Todas", ...categoriasOrdenadas]);
+    
+    setLoading(false);
   }, []);
 
   // Filtrar associações com base na categoria selecionada
@@ -81,70 +78,92 @@ const Associacoes = () => {
           </TabsList>
           
           <TabsContent value={activeTab} className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {associacoesFiltradas.map((associacao, index) => (
-                <Card key={index} className="hover:bg-muted/50 transition-colors overflow-hidden flex flex-col">
-                  <div className="h-48 overflow-hidden">
-                    <img 
-                      src={getImageUrl(associacao.image_url)} 
-                      alt={`Logo de ${associacao.name}`}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        // Fallback para o logo da Liga Faro se houver erro
-                        (e.target as HTMLImageElement).src = "/Logo_Liga_Faro.png";
-                      }}
-                    />
-                  </div>
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-xl line-clamp-2">{associacao.name}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="flex-grow">
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {associacao.categories.map(categoria => (
-                        <span key={categoria} className="bg-muted px-2 py-0.5 rounded-full text-sm">
-                          {categoria}
-                        </span>
-                      ))}
-                      {associacao.has_more_categories && (
-                        <span className="bg-muted px-2 py-0.5 rounded-full text-sm text-muted-foreground">
-                          +
-                        </span>
-                      )}
+              <div className="grid grid-cols-1 gap-4">
+                {associacoesFiltradas.map((associacao, index) => (
+                  <Card key={index} className="hover:bg-muted/50 transition-colors overflow-hidden flex flex-row">
+                    <div className="w-48 h-48 overflow-hidden flex-shrink-0">
+                      <img 
+                        src={getImageUrl(associacao.image_url)}
+                        alt={`Logo de ${associacao.nome}`}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          // Fallback para o logo da Liga Faro se houver erro
+                          (e.target as HTMLImageElement).src = "/Logo_Liga_Faro.png";
+                        }}
+                      />
                     </div>
-                    
-                    <div className="flex flex-wrap gap-3 text-sm text-muted-foreground mt-auto">
-                      <div className="flex items-center gap-1">
-                        <Building size={16} />
-                        <span>Associação Local</span>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <MapPin size={16} />
-                        <span>Faro</span>
-                      </div>
-                      {associacao.entity_id !== "N/A" && (
-                        <a 
-                          href={`https://associativismo.cm-faro.pt/entidades/${associacao.entity_id}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-1 text-primary hover:underline"
-                        >
-                          <ExternalLink size={16} />
-                          <span>Mais informações</span>
-                        </a>
-                      )}
+                    <div className="flex flex-col flex-grow">
+                      <CardHeader className="pb-2">
+                        <CardTitle className="text-xl line-clamp-2">{associacao.nome}</CardTitle>
+                      </CardHeader>
+                      <CardContent className="flex-grow">
+                        <div className="flex flex-wrap gap-2 mb-3">
+                          {associacao.categories.map(categoria => (
+                            <span key={categoria} className="bg-muted px-2 py-0.5 rounded-full text-sm">
+                              {categoria}
+                            </span>
+                          ))}
+                          {associacao.has_more_categories && (
+                            <span className="bg-muted px-2 py-0.5 rounded-full text-sm text-muted-foreground">
+                              +
+                            </span>
+                          )}
+                        </div>
+                        
+                        <div className="space-y-3">
+                          {associacao.morada && (
+                            <div className="text-sm text-muted-foreground">
+                              <div className="flex items-start gap-1">
+                                <MapPin size={16} className="mt-0.5 flex-shrink-0" />
+                                <span>{associacao.morada}, {associacao.codigo_postal} {associacao.localidade}</span>
+                              </div>
+                            </div>
+                          )}
+                          
+                          {associacao.email && associacao.email !== "N/A" && (
+                            <div className="text-sm">
+                              <a href={`mailto:${associacao.email}`} className="flex items-center gap-1 text-primary hover:underline">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail">
+                                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                                </svg>
+                                {associacao.email}
+                              </a>
+                            </div>
+                          )}
+                          
+                          <div className="flex flex-wrap gap-3 text-sm text-muted-foreground mt-auto">
+                            <div className="flex items-center gap-1">
+                              <Building size={16} />
+                              <span>Associação Local</span>
+                            </div>
+                            
+                            {associacao.cmf_url && (
+                              <a
+                                href={associacao.cmf_url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-1 text-primary hover:underline"
+                              >
+                                <ExternalLink size={16} />
+                                <span>Mais informações</span>
+                              </a>
+                            )}
+                          </div>
+                        </div>
+                      </CardContent>
                     </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-            
-            {associacoesFiltradas.length === 0 && (
-              <div className="text-center py-10">
-                <Info className="mx-auto h-10 w-10 text-muted-foreground" />
-                <p className="mt-2 text-muted-foreground">Não foram encontradas associações nesta categoria.</p>
+                  </Card>
+                ))}
               </div>
-            )}
-          </TabsContent>
+              
+              {associacoesFiltradas.length === 0 && (
+                <div className="text-center py-10">
+                  <Info className="mx-auto h-10 w-10 text-muted-foreground" />
+                  <p className="mt-2 text-muted-foreground">Não foram encontradas associações nesta categoria.</p>
+                </div>
+              )}
+            </TabsContent>
         </Tabs>
       )}
     </div>

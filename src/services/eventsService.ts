@@ -27,7 +27,7 @@ export const eventsService = {
         
         // Tenta carregar o arquivo JSON gerado
         try {
-          const response = await fetch('/events_data.json');
+          const response = await fetch('/events_data.json?url');
           if (response.ok) {
             events = await response.json();
             console.log('Eventos carregados com sucesso do JSON:', events.length);

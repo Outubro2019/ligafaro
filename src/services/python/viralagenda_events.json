@@ -1,32 +1,6 @@
 [
   {
     "id": 10000,
-    "title": "O QUE ELES FALAM DELAS",
-    "description": "Evento em IPDJ (Faro)",
-    "date": "12 ABR 2025",
-    "time": "21:30",
-    "location": "IPDJ (Faro)",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/fae14b53c849e8bf00241eeb8978c6b8-md.jpg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10001,
-    "title": "REM  URASIN (piano) III Ciclo de Recitais Musica da  UFFaro",
-    "description": "Evento em Club Farense",
-    "date": "12 ABR 2025",
-    "time": "21:30",
-    "location": "Club Farense",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1601925-38c5a31d1b7b048c41150b99cb12c48b.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10002,
     "title": "Miguel Martins Quarteto / Glass of Jazz",
     "description": "Evento em Club Farense",
     "date": "13 ABR 2025",
@@ -39,7 +13,7 @@
     "link": null
   },
   {
-    "id": 10003,
+    "id": 10001,
     "title": "Glass of Jazz - Trio Trillar",
     "description": "Evento em Club Farense",
     "date": "13 ABR 2025",
@@ -52,7 +26,7 @@
     "link": null
   },
   {
-    "id": 10004,
+    "id": 10002,
     "title": "SOLAS",
     "description": "Evento em Teatro das Figuras",
     "date": "16 ABR 2025",
@@ -65,7 +39,7 @@
     "link": null
   },
   {
-    "id": 10005,
+    "id": 10003,
     "title": "RUÏDO Festival",
     "description": "Evento em ARCM Associação de Músicos",
     "date": "17 ABR 2025",
@@ -78,7 +52,7 @@
     "link": null
   },
   {
-    "id": 10006,
+    "id": 10004,
     "title": "FERNANDO DANIEL",
     "description": "Evento em Teatro das Figuras",
     "date": "17 ABR 2025",
@@ -91,7 +65,7 @@
     "link": null
   },
   {
-    "id": 10007,
+    "id": 10005,
     "title": "REQUIEM DE W.A. MOZART | Faro",
     "description": "Evento em Teatro das Figuras",
     "date": "18 ABR 2025",
@@ -104,7 +78,7 @@
     "link": null
   },
   {
-    "id": 10008,
+    "id": 10006,
     "title": "Oficina de Literatura Infantojuvenil",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "22 ABR 2025",
@@ -117,7 +91,7 @@
     "link": null
   },
   {
-    "id": 10009,
+    "id": 10007,
     "title": "Lethes Talk - 25 de Abril/ O dia em que mudámos o Futuro",
     "description": "Evento em Teatro Lethes",
     "date": "23 ABR 2025",
@@ -130,7 +104,7 @@
     "link": null
   },
   {
-    "id": 10010,
+    "id": 10008,
     "title": "Comemorações | 24.º Aniversário da Biblioteca Municipal de Faro",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "23 ABR 2025",
@@ -143,7 +117,7 @@
     "link": null
   },
   {
-    "id": 10011,
+    "id": 10009,
     "title": "TIVE 1 IDEIA PARA 1 DUETO REDUX",
     "description": "Evento em Teatro das Figuras",
     "date": "24 ABR 2025",
@@ -156,7 +130,7 @@
     "link": null
   },
   {
-    "id": 10012,
+    "id": 10010,
     "title": "Iberian Mustang Day -  61º Aniversario Ford Mustang",
     "description": "Evento em Faro (cidade)",
     "date": "26 ABR 2025",
@@ -169,7 +143,7 @@
     "link": null
   },
   {
-    "id": 10013,
+    "id": 10011,
     "title": "\"Temos o baile armado\" | Sábados em Família",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "26 ABR 2025",
@@ -182,7 +156,7 @@
     "link": null
   },
   {
-    "id": 10014,
+    "id": 10012,
     "title": "Oficina literária da memória",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "29 ABR 2025",
@@ -195,7 +169,7 @@
     "link": null
   },
   {
-    "id": 10015,
+    "id": 10013,
     "title": "ZÉ EDUARDO E A JAZZ MISSION BIG BAND | Festival ODdJ '25",
     "description": "Evento em Teatro das Figuras",
     "date": "30 ABR 2025",
@@ -208,7 +182,7 @@
     "link": null
   },
   {
-    "id": 10016,
+    "id": 10014,
     "title": "L’APRÈS-MIDI D’UN FOEHN VERSION 1",
     "description": "Evento em Teatro das Figuras",
     "date": "03 MAI 2025",
@@ -217,6 +191,32 @@
     "category": "Cultural",
     "attendees": 0,
     "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1602335-8cd7e5afd8ddd224c0a858d73a3f9f98.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10015,
+    "title": "A anunciar | Faro",
+    "description": "Evento em Teatro das Figuras",
+    "date": "03 MAI 2025",
+    "time": "21:00",
+    "location": "Teatro das Figuras",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1563332-f30b57348b6cd83d4aed1d25e9f170d4.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10016,
+    "title": "Brasa Doirada",
+    "description": "Evento em Teatro Lethes",
+    "date": "03 MAI 2025",
+    "time": "21:00",
+    "location": "Teatro Lethes",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1599408-4bd4d4a66edc85f5aedac0cb0a542183.jpeg",
     "organizer": "Viralagenda",
     "link": null
   }

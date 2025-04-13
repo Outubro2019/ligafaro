@@ -18,6 +18,7 @@ import Associacoes from "./pages/Associacoes";
 import Community from "./pages/Community";
 import Marketplace from "./pages/Marketplace";
 import Volunteer from "./pages/Volunteer";
+import MapPage from "./pages/Map";
 import NotFound from "./pages/NotFound";
 import { useEffect } from "react";
 
@@ -106,6 +107,11 @@ const App = () => {
                <Route path="/chatbot" element={
                  <MainLayout>
                    <Chatbot />
+                 </MainLayout>
+               } />
+               <Route path="/map" element={
+                 <MainLayout>
+                   <MapPage />
                  </MainLayout>
                } />
               {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA CATCH-ALL "*" */}
