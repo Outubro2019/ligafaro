@@ -10,6 +10,7 @@
     "netlify:dev": "node netlify.js",
     "netlify:serve": "concurrently 'npm run dev' 'npm run netlify:dev'",
     "build": "vite build",
+    "build:simple": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
