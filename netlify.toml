@@ -1,6 +1,7 @@
 [build]
   command = "./scripts/prebuild.sh && npm run build"
   publish = "dist"
+  ignore_warnings = true
 
 [dev]
   command = "npm run dev"
