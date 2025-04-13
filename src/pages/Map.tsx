@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import StaticMap from '@/components/StaticMap';
+import LeafletMap from '@/components/LeafletMap';
 import entidadesData from "../entidades_faro.json";
+import { geocodeWithCache } from '@/services/geocodeService';
 
 interface Associacao {
   nome: string;
@@ -14,10 +15,19 @@ interface Associacao {
   has_more_categories: boolean;
 }
 
+// Interface para os marcadores no mapa
+interface MapMarker {
+  id: number;
+  position: [number, number];
+  associacao: Associacao;
+}
+
 const MapPage = () => {
   const [associacoes, setAssociacoes] = useState<Associacao[]>([]);
   const [categoriaAtiva, setCategoriaAtiva] = useState<string>("Todas");
   const [categorias, setCategorias] = useState<string[]>(["Todas"]);
+  const [markers, setMarkers] = useState<MapMarker[]>([]);
+  const [carregandoMarcadores, setCarregandoMarcadores] = useState(false);
   const [carregando, setCarregando] = useState(true);
 
   useEffect(() => {
@@ -38,11 +48,55 @@ const MapPage = () => {
     
     setCarregando(false);
   }, []);
-
+  
   // Filtrar associações com base na categoria selecionada
   const associacoesFiltradas = categoriaAtiva === "Todas"
     ? associacoes
     : associacoes.filter(associacao => associacao.categories.includes(categoriaAtiva));
+  
+  // Geocodificar endereços das associações e criar marcadores
+  useEffect(() => {
+    const geocodificarAssociacoes = async () => {
+      if (associacoesFiltradas.length === 0) return;
+      
+      setCarregandoMarcadores(true);
+      
+      const novosMarkers: MapMarker[] = [];
+      
+      // Processar no máximo 10 associações por vez para evitar sobrecarregar a API
+      const associacoesParaProcessar = associacoesFiltradas.slice(0, 10);
+      
+      console.log("Geocodificando associações:", associacoesParaProcessar.length);
+      
+      for (const [index, associacao] of associacoesParaProcessar.entries()) {
+        const enderecoCompleto = `${associacao.morada}, ${associacao.codigo_postal} ${associacao.localidade}`;
+        
+        try {
+          console.log("Geocodificando endereço:", enderecoCompleto);
+          const resultado = await geocodeWithCache(enderecoCompleto);
+          
+          if (resultado) {
+            console.log("Resultado da geocodificação:", resultado);
+            novosMarkers.push({
+              id: index,
+              position: [resultado.lat, resultado.lng],
+              associacao
+            });
+          } else {
+            console.log("Nenhum resultado encontrado para:", enderecoCompleto);
+          }
+        } catch (error) {
+          console.error(`Erro ao geocodificar ${associacao.nome}:`, error);
+        }
+      }
+      
+      console.log("Marcadores criados:", novosMarkers.length);
+      setMarkers(novosMarkers);
+      setCarregandoMarcadores(false);
+    };
+    
+    geocodificarAssociacoes();
+  }, [associacoesFiltradas]);
   return (
     <div className="space-y-6">
       <div>
@@ -70,12 +124,12 @@ const MapPage = () => {
       </div>
       
       <div className="h-[600px] rounded-lg overflow-hidden border border-gray-200">
-        {carregando ? (
+        {carregando || carregandoMarcadores ? (
           <div className="flex justify-center items-center h-full">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
           </div>
         ) : (
-          <StaticMap associacoes={associacoesFiltradas} />
+          <LeafletMap markers={markers} />
         )}
       </div>
     </div>
