@@ -1,11 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { MapPin } from 'lucide-react';
+import { geocodeWithCache } from '@/services/geocodeService';
 
-const StaticMap: React.FC = () => {
+interface Associacao {
+  nome: string;
+  categories: string[];
+  image_url: string;
+  cmf_url: string;
+  morada: string;
+  codigo_postal: string;
+  localidade: string;
+  email: string;
+  has_more_categories: boolean;
+}
+
+interface AssociacaoComCoordenadas extends Associacao {
+  coordenadas?: [number, number];
+}
+
+interface StaticMapProps {
+  associacoes?: Associacao[];
+}
+
+const StaticMap: React.FC<StaticMapProps> = ({ associacoes = [] }) => {
   const [useUserLocation, setUseUserLocation] = useState(false);
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [showLocationPrompt, setShowLocationPrompt] = useState(true);
+  const [associacoesComCoordenadas, setAssociacoesComCoordenadas] = useState<AssociacaoComCoordenadas[]>([]);
+  const [carregandoCoordenadas, setCarregandoCoordenadas] = useState(false);
   
   // Coordenadas de Faro
   const faroCoordinates: [number, number] = [37.0193548, -7.9304397];
@@ -36,6 +59,45 @@ const StaticMap: React.FC = () => {
     setShowLocationPrompt(false);
   };
   
+  // Geocodificar endereços das associações
+  useEffect(() => {
+    const geocodificarAssociacoes = async () => {
+      if (associacoes.length === 0) return;
+      
+      setCarregandoCoordenadas(true);
+      
+      const associacoesProcessadas: AssociacaoComCoordenadas[] = [...associacoes];
+      
+      // Processar no máximo 10 associações por vez para evitar sobrecarregar a API
+      const associacoesParaProcessar = associacoes.slice(0, 10);
+      
+      for (const associacao of associacoesParaProcessar) {
+        const enderecoCompleto = `${associacao.morada}, ${associacao.codigo_postal} ${associacao.localidade}`;
+        
+        try {
+          const resultado = await geocodeWithCache(enderecoCompleto);
+          
+          if (resultado) {
+            const index = associacoesProcessadas.findIndex(a => a.nome === associacao.nome);
+            if (index !== -1) {
+              associacoesProcessadas[index] = {
+                ...associacao,
+                coordenadas: [resultado.lat, resultado.lng]
+              };
+            }
+          }
+        } catch (error) {
+          console.error(`Erro ao geocodificar ${associacao.nome}:`, error);
+        }
+      }
+      
+      setAssociacoesComCoordenadas(associacoesProcessadas);
+      setCarregandoCoordenadas(false);
+    };
+    
+    geocodificarAssociacoes();
+  }, [associacoes]);
+
   // Coordenadas a serem usadas no mapa
   const coordinates = useUserLocation && userLocation ? userLocation : faroCoordinates;
   
@@ -47,8 +109,15 @@ const StaticMap: React.FC = () => {
     
     let url = `https://www.openstreetmap.org/export/embed.html?bbox=${faroBbox}&layer=mapnik`;
     
-    // Adicionar marcador
+    // Adicionar marcador para a localização atual
     url += `&marker=${coordinates[0]},${coordinates[1]}`;
+    
+    // Adicionar marcadores para as associações
+    associacoesComCoordenadas.forEach(associacao => {
+      if (associacao.coordenadas) {
+        url += `&marker=${associacao.coordenadas[0]},${associacao.coordenadas[1]}`;
+      }
+    });
     
     return url;
   };
@@ -64,7 +133,7 @@ const StaticMap: React.FC = () => {
         marginWidth={0}
         src={createOsmUrl()}
         style={{ border: '1px solid #ccc' }}
-        title="Mapa das Associações"
+        title="Mapa de Faro"
       ></iframe>
       
       {showLocationPrompt && (
