@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import LeafletMap from '@/components/LeafletMap';
 import entidadesData from "../entidades_faro.json";
-import { geocodeWithCache } from '@/services/geocodeService';
+import { associacoesCoordinates } from '@/data/associacoesCoordinates';
 
 interface Associacao {
   nome: string;
@@ -54,48 +54,29 @@ const MapPage = () => {
     ? associacoes
     : associacoes.filter(associacao => associacao.categories.includes(categoriaAtiva));
   
-  // Geocodificar endereços das associações e criar marcadores
+  // Criar marcadores usando coordenadas fixas
   useEffect(() => {
-    const geocodificarAssociacoes = async () => {
-      if (associacoesFiltradas.length === 0) return;
-      
-      setCarregandoMarcadores(true);
-      
-      const novosMarkers: MapMarker[] = [];
-      
-      // Processar no máximo 10 associações por vez para evitar sobrecarregar a API
-      const associacoesParaProcessar = associacoesFiltradas.slice(0, 10);
-      
-      console.log("Geocodificando associações:", associacoesParaProcessar.length);
-      
-      for (const [index, associacao] of associacoesParaProcessar.entries()) {
-        const enderecoCompleto = `${associacao.morada}, ${associacao.codigo_postal} ${associacao.localidade}`;
-        
-        try {
-          console.log("Geocodificando endereço:", enderecoCompleto);
-          const resultado = await geocodeWithCache(enderecoCompleto);
-          
-          if (resultado) {
-            console.log("Resultado da geocodificação:", resultado);
-            novosMarkers.push({
-              id: index,
-              position: [resultado.lat, resultado.lng],
-              associacao
-            });
-          } else {
-            console.log("Nenhum resultado encontrado para:", enderecoCompleto);
-          }
-        } catch (error) {
-          console.error(`Erro ao geocodificar ${associacao.nome}:`, error);
-        }
-      }
-      
-      console.log("Marcadores criados:", novosMarkers.length);
-      setMarkers(novosMarkers);
-      setCarregandoMarcadores(false);
-    };
+    if (associacoesFiltradas.length === 0) return;
     
-    geocodificarAssociacoes();
+    setCarregandoMarcadores(true);
+    
+    const novosMarkers: MapMarker[] = [];
+    
+    // Criar marcadores para as associações filtradas
+    associacoesFiltradas.forEach((associacao, index) => {
+      // Verificar se temos coordenadas para esta associação
+      if (associacoesCoordinates[associacao.nome]) {
+        novosMarkers.push({
+          id: index,
+          position: associacoesCoordinates[associacao.nome],
+          associacao
+        });
+      }
+    });
+    
+    console.log("Marcadores criados:", novosMarkers.length);
+    setMarkers(novosMarkers);
+    setCarregandoMarcadores(false);
   }, [associacoesFiltradas]);
   return (
     <div className="space-y-6">
