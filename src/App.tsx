@@ -14,6 +14,7 @@ import Dashboard from "./pages/Dashboard";
 import News from "./pages/News";
 import Events from "./pages/Events";
 import Forum from "./pages/Forum";
+import Associacoes from "./pages/Associacoes";
 import Community from "./pages/Community";
 import Marketplace from "./pages/Marketplace";
 import Volunteer from "./pages/Volunteer";
@@ -85,6 +86,11 @@ const App = () => {
               <Route path="/community" element={
                 <MainLayout>
                   <Community />
+                </MainLayout>
+              } />
+              <Route path="/associacoes" element={
+                <MainLayout>
+                  <Associacoes />
                 </MainLayout>
               } />
               <Route path="/marketplace" element={

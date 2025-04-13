@@ -1,16 +1,17 @@
 import { useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { Link, useLocation } from 'react-router-dom';
-import { 
-  LayoutDashboard, 
-  Calendar, 
-  MessageSquare, 
-  Users, 
-  ShoppingBag, 
-  Heart, 
+import {
+  LayoutDashboard,
+  Calendar,
+  MessageSquare,
+  Users,
+  ShoppingBag,
+  Heart,
   Sun,
   Moon,
-  Newspaper
+  Newspaper,
+  Building
 } from 'lucide-react';
 import { 
   SidebarProvider, 
@@ -80,6 +81,7 @@ const AppSidebar = () => {
     { name: 'Eventos', path: '/events', icon: Calendar },
     { name: 'Notícias', path: '/news', icon: Newspaper },
     { name: 'Fórum', path: '/forum', icon: MessageSquare },
+    { name: 'Associações Locais', path: '/associacoes', icon: Building },
     { name: 'Comunidade', path: '/community', icon: Users },
     { name: 'Mercado', path: '/marketplace', icon: ShoppingBag },
     { name: 'Voluntariado', path: '/volunteer', icon: Heart },

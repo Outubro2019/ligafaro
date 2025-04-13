@@ -1,71 +1,6 @@
 [
   {
     "id": 10000,
-    "title": "Barcelona Guitar Trio & Dance",
-    "description": "Evento em Teatro Lethes",
-    "date": "11 ABR 2025",
-    "time": "21:00",
-    "location": "Teatro Lethes",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1599405-36af56a8ccccbafa707c989ea6cb7fc2.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10001,
-    "title": "O Filme Francês do Mês | Un vrai bonhomme – de Benjamim Voisin",
-    "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
-    "date": "11 ABR 2025",
-    "time": "21:00",
-    "location": "Biblioteca Municipal de Faro - António Ramos Rosa",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1609345-aabe8971e62a859e87557c02a41722e2.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10002,
-    "title": "CKLAVI TRIO - III Ciclo de Recitais Musica da  UFFaro",
-    "description": "Evento em Club Farense",
-    "date": "11 ABR 2025",
-    "time": "21:30",
-    "location": "Club Farense",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1601924-92544f24df2416109f187fd224b80414.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10003,
-    "title": "Workshop: Gravura em Linóleo com Bordado à Mão por Dijanne Cevaal",
-    "description": "Evento em Gama Rama Gallery",
-    "date": "12 ABR 2025",
-    "time": "10:00",
-    "location": "Gama Rama Gallery",
-    "category": "Educação",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1605716-a52a5e333ddbdce36cc7425c293b1541.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10004,
-    "title": "Clube de Leitura Em Linha! | para Famílias",
-    "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
-    "date": "12 ABR 2025",
-    "time": "14:00",
-    "location": "Biblioteca Municipal de Faro - António Ramos Rosa",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1604980-b79ff2eeae7e2ed55d823b0989abe9c1.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 10005,
     "title": "O QUE ELES FALAM DELAS",
     "description": "Evento em IPDJ (Faro)",
     "date": "12 ABR 2025",
@@ -78,7 +13,7 @@
     "link": null
   },
   {
-    "id": 10006,
+    "id": 10001,
     "title": "REM  URASIN (piano) III Ciclo de Recitais Musica da  UFFaro",
     "description": "Evento em Club Farense",
     "date": "12 ABR 2025",
@@ -91,7 +26,7 @@
     "link": null
   },
   {
-    "id": 10007,
+    "id": 10002,
     "title": "Miguel Martins Quarteto / Glass of Jazz",
     "description": "Evento em Club Farense",
     "date": "13 ABR 2025",
@@ -104,7 +39,7 @@
     "link": null
   },
   {
-    "id": 10008,
+    "id": 10003,
     "title": "Glass of Jazz - Trio Trillar",
     "description": "Evento em Club Farense",
     "date": "13 ABR 2025",
@@ -117,7 +52,7 @@
     "link": null
   },
   {
-    "id": 10009,
+    "id": 10004,
     "title": "SOLAS",
     "description": "Evento em Teatro das Figuras",
     "date": "16 ABR 2025",
@@ -130,7 +65,7 @@
     "link": null
   },
   {
-    "id": 10010,
+    "id": 10005,
     "title": "RUÏDO Festival",
     "description": "Evento em ARCM Associação de Músicos",
     "date": "17 ABR 2025",
@@ -143,7 +78,7 @@
     "link": null
   },
   {
-    "id": 10011,
+    "id": 10006,
     "title": "FERNANDO DANIEL",
     "description": "Evento em Teatro das Figuras",
     "date": "17 ABR 2025",
@@ -156,7 +91,7 @@
     "link": null
   },
   {
-    "id": 10012,
+    "id": 10007,
     "title": "REQUIEM DE W.A. MOZART | Faro",
     "description": "Evento em Teatro das Figuras",
     "date": "18 ABR 2025",
@@ -169,7 +104,7 @@
     "link": null
   },
   {
-    "id": 10013,
+    "id": 10008,
     "title": "Oficina de Literatura Infantojuvenil",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "22 ABR 2025",
@@ -182,7 +117,7 @@
     "link": null
   },
   {
-    "id": 10014,
+    "id": 10009,
     "title": "Lethes Talk - 25 de Abril/ O dia em que mudámos o Futuro",
     "description": "Evento em Teatro Lethes",
     "date": "23 ABR 2025",
@@ -195,7 +130,7 @@
     "link": null
   },
   {
-    "id": 10015,
+    "id": 10010,
     "title": "Comemorações | 24.º Aniversário da Biblioteca Municipal de Faro",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "23 ABR 2025",
@@ -208,7 +143,7 @@
     "link": null
   },
   {
-    "id": 10016,
+    "id": 10011,
     "title": "TIVE 1 IDEIA PARA 1 DUETO REDUX",
     "description": "Evento em Teatro das Figuras",
     "date": "24 ABR 2025",
@@ -217,6 +152,71 @@
     "category": "Cultural",
     "attendees": 0,
     "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1600929-25a4612a7a77867094401aeaebe615fd.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10012,
+    "title": "Iberian Mustang Day -  61º Aniversario Ford Mustang",
+    "description": "Evento em Faro (cidade)",
+    "date": "26 ABR 2025",
+    "time": "10:00",
+    "location": "Faro (cidade)",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/23ae386a890b5db1fe5fe1cfd0ed02aa-md.jpg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10013,
+    "title": "\"Temos o baile armado\" | Sábados em Família",
+    "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
+    "date": "26 ABR 2025",
+    "time": "16:00",
+    "location": "Biblioteca Municipal de Faro - António Ramos Rosa",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1604983-1039d5d4936732d12789724402a42591.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10014,
+    "title": "Oficina literária da memória",
+    "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
+    "date": "29 ABR 2025",
+    "time": "14:00",
+    "location": "Biblioteca Municipal de Faro - António Ramos Rosa",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1604984-6d527ce2bb6b9d68bb41443763073cc0.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10015,
+    "title": "ZÉ EDUARDO E A JAZZ MISSION BIG BAND | Festival ODdJ '25",
+    "description": "Evento em Teatro das Figuras",
+    "date": "30 ABR 2025",
+    "time": "21:30",
+    "location": "Teatro das Figuras",
+    "category": "Música",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1600930-57667f3b32f932e31bd0b78e76bbf192.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 10016,
+    "title": "L’APRÈS-MIDI D’UN FOEHN VERSION 1",
+    "description": "Evento em Teatro das Figuras",
+    "date": "03 MAI 2025",
+    "time": "10:00",
+    "location": "Teatro das Figuras",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1602335-8cd7e5afd8ddd224c0a858d73a3f9f98.jpeg",
     "organizer": "Viralagenda",
     "link": null
   }

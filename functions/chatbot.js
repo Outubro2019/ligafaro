@@ -1,8 +1,14 @@
 // functions/chatbot.js
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-exports.handler = async function(event, context) {
+// Configurar __dirname para módulos ES
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Função handler para Netlify Functions
+const handler = async function(event, context) {
   // Adicionar headers CORS para todas as respostas
   const headers = {
     'Content-Type': 'application/json',
@@ -252,20 +258,121 @@ function processQuestion(question, events, news) {
   
   // Verificar se é uma pergunta sobre o tempo
   if (questionLower.includes('tempo') || questionLower.includes('clima')) {
-    return 'A temperatura atual em Faro é de aproximadamente 22°C, com céu parcialmente nublado.';
-  }
-  
-  // Verificar se é uma pergunta sobre data
-  if (questionLower.includes('que dia é hoje') || questionLower.includes('data')) {
-    const hoje = new Date().toLocaleDateString('pt-BR', {
+    // Obter a data e hora atual em Faro (Europe/Lisbon)
+    const agora = new Date();
+    const options = {
+      timeZone: 'Europe/Lisbon',
       weekday: 'long',
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
-    });
-    return `Hoje é ${hoje}.`;
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    };
+    const dataHoraFaro = agora.toLocaleString('pt-BR', options);
+    
+    return `A temperatura atual em Faro é de aproximadamente 22°C, com céu parcialmente nublado. Agora são ${dataHoraFaro} em Faro, Portugal.`;
+  }
+  
+  // Verificar se é uma pergunta sobre data ou hora
+  if (questionLower.includes('que dia é hoje') ||
+      questionLower.includes('data') ||
+      questionLower.includes('hora') ||
+      questionLower.includes('horas')) {
+    
+    const agora = new Date();
+    const options = {
+      timeZone: 'Europe/Lisbon',
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    };
+    
+    if (questionLower.includes('hora') || questionLower.includes('horas')) {
+      const horaFaro = agora.toLocaleTimeString('pt-BR', {
+        timeZone: 'Europe/Lisbon',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+      return `Agora são ${horaFaro} em Faro, Portugal.`;
+    } else {
+      const dataFaro = agora.toLocaleDateString('pt-BR', {
+        timeZone: 'Europe/Lisbon',
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      });
+      return `Hoje é ${dataFaro} em Faro, Portugal.`;
+    }
+  }
+  
+  // Perguntas sobre voluntariado
+  if (questionLower.includes('voluntariado') ||
+      questionLower.includes('voluntário') ||
+      questionLower.includes('ajudar') ||
+      questionLower.includes('contribuir')) {
+    
+    if (questionLower.includes('oportunidades') || questionLower.includes('como posso')) {
+      return `Temos várias oportunidades de voluntariado em Faro, incluindo:
+      
+  - Limpeza da Praia de Faro (Ambiente Faro)
+  - Festival de Artes para Crianças (Associação Cultural de Faro)
+  - Apoio ao Centro de Idosos (Centro Social Sénior de Faro)
+  - Distribuição de Alimentos (Banco Alimentar de Faro)
+  
+  Você pode encontrar mais detalhes e se inscrever na seção de Voluntariado do nosso site.`;
+    }
+    
+    if (questionLower.includes('benefícios') || questionLower.includes('por que')) {
+      return `O voluntariado traz diversos benefícios:
+  
+  1. Contribui para o bem-estar da comunidade
+  2. Permite conhecer novas pessoas e expandir sua rede de contatos
+  3. Desenvolve novas habilidades e experiências
+  4. Proporciona satisfação pessoal ao ajudar os outros
+  
+  Em Faro, valorizamos muito a participação dos voluntários em diversas iniciativas comunitárias.`;
+    }
+    
+    return `O LigaFaro oferece diversas oportunidades de voluntariado em áreas como ambiente, cultura, apoio social e distribuição de alimentos. Visite a seção de Voluntariado no nosso site para conhecer todas as oportunidades disponíveis e como se inscrever.`;
+  }
+  
+  // Perguntas sobre comunidade
+  if (questionLower.includes('comunidade') ||
+      questionLower.includes('membros') ||
+      questionLower.includes('pessoas') ||
+      questionLower.includes('conectar')) {
+    
+    if (questionLower.includes('como participar') || questionLower.includes('como fazer parte')) {
+      return `Para participar da comunidade LigaFaro, você pode:
+  
+  1. Criar um perfil na nossa plataforma
+  2. Participar dos eventos locais
+  3. Contribuir no fórum comunitário
+  4. Inscrever-se em oportunidades de voluntariado
+  5. Conectar-se com outros membros através da seção Comunidade`;
+    }
+    
+    if (questionLower.includes('benefícios') || questionLower.includes('vantagens')) {
+      return `Fazer parte da comunidade LigaFaro oferece várias vantagens:
+  
+  1. Acesso a informações locais relevantes
+  2. Oportunidades de networking com outros moradores
+  3. Participação em decisões comunitárias
+  4. Descontos em eventos e serviços locais
+  5. Sentimento de pertencimento e conexão com Faro`;
+    }
+    
+    return `A comunidade LigaFaro é formada por diversos membros locais, incluindo líderes comunitários, donos de negócios, artistas, estudantes, professores e muito mais. Na seção Comunidade do nosso site, você pode conhecer e se conectar com outros membros que compartilham interesses semelhantes.`;
   }
   
   // Resposta padrão
-  return `Posso ajudar com informações sobre eventos em Faro, notícias locais ou sobre o LigaFaro. Temos ${events.length} eventos e ${news.length} notícias disponíveis.`;
-}
+  return `Posso ajudar com informações sobre eventos em Faro, notícias locais, voluntariado, comunidade ou sobre o LigaFaro. Temos ${events.length} eventos e ${news.length} notícias disponíveis. Também posso informar sobre o tempo atual e a data em Faro.`;
+  }
+
+// Exportar a função processQuestion e o handler para uso em outros módulos
+export { processQuestion, handler };
