@@ -43,9 +43,14 @@ const Associacoes = () => {
     setLoading(false);
   }, []);
 
+  // Ordenar associações por nome
+  const associacoesOrdenadas = [...associacoes].sort((a, b) =>
+    a.nome.localeCompare(b.nome, 'pt-BR')
+  );
+
   // Filtrar associações com base na categoria selecionada
   const associacoesFiltradas = activeTab === "Todas"
-    ? associacoes
+    ? associacoesOrdenadas
     : associacoes.filter(associacao => associacao.categories.includes(activeTab));
 
   // Função para obter uma imagem padrão se a URL da imagem for a padrão

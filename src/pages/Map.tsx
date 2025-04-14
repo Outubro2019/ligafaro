@@ -23,8 +23,11 @@ const MapPage = () => {
   const [carregando, setCarregando] = useState(true);
 
   useEffect(() => {
-    // Carregar dados das associações
-    setAssociacoes(entidadesData);
+    // Carregar dados das associações e ordenar por nome
+    const associacoesOrdenadas = [...entidadesData].sort((a, b) =>
+      a.nome.localeCompare(b.nome, 'pt-BR')
+    );
+    setAssociacoes(associacoesOrdenadas);
     setCarregando(false);
   }, []);
 
