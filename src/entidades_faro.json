@@ -1,5 +1,22 @@
 [
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/66159cbb31621800b7420653",
+    "nome": "1ª Companhia Guias de Faro",
+    "morada": "Sub-Cave, Rua de Berlim BI 3, Nº 85",
+    "codigo_postal": "8000-278",
+    "localidade": "Faro",
+    "email": "1cguiasfaro@gmail.com",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.019992246231,
+      "lon": -7.923206267866
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66312f7fde6d3c00b85fcd7c",
     "nome": "289 Associação Cultural",
     "morada": "Rua Eng.o Rui Cruz Urbanização Quinta Santo António do Alto B2",
@@ -51,6 +68,40 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60144e11ef63af00cd1cfdd1",
+    "nome": "Academia de Judo de Faro - Associação AJF",
+    "morada": "Estrada Senhora da Saúde nº30 B, 6º Andar",
+    "codigo_postal": "8000-500",
+    "localidade": "Faro",
+    "email": "geral@ajf.pt",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60144e11ef63af00cd1cfdd1/capa/20240429124323356VYO.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022685401406,
+      "lon": -7.938733938459
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/66036885e1686f00d2ebdf18",
+    "nome": "ACADEMIA DE KARATE de FARO",
+    "morada": "rua manuel ascencao 50  5 b",
+    "codigo_postal": "8000-389",
+    "localidade": "faro",
+    "email": "cacm@live.com.pt",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022944026172,
+      "lon": -7.936783045501
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c3bfe309f9a00b611560d",
     "nome": "ACTA - A Companhia de Teatro do Algarve",
     "morada": "Rua de Portugal, 58",
@@ -66,6 +117,23 @@
       "lat": 37.018429218194,
       "lon": -7.931880322335
     }
+  },
+  {
+    "nome": "Adalgarve - Associação de Dança de Faro",
+    "morada": "Rua Dorilia Carmona Cv4, 8000-316 Faro",
+    "coordenadas": {
+      "lat": 37.023476318933,
+      "lon": -7.921785389968
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662044a8b328bb00b9c7671c",
@@ -102,275 +170,20 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660d39d94a47aa00b6f52864",
-    "nome": "AMAR - Associação Mais Algarve Rádio",
-    "morada": "Rua Sporting Clube Farense, 12-A, 3º Esquerdo",
-    "codigo_postal": "8000-434",
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661ef41118b7a800b8c95a76",
+    "nome": "ALFA - Associação Livre Fotógrafos do Algarve",
+    "morada": "R. António Mario Labóia, 1 - Cidade Velha",
+    "codigo_postal": "8000-098",
     "localidade": "Faro",
-    "email": "info@maisalgarve.pt",
+    "email": "info@alfa.pt",
     "categories": [
       "Cultura"
     ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ef41118b7a800b8c95a76/capa/20240429224202565fyW.jpg",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.023656571761,
-      "lon": -7.931825233592
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661520d23a817600b9b0afaf",
-    "nome": "AMARELARTE Associação Cultural e Recreativa",
-    "morada": "Rua Belchior Vieira nº21",
-    "codigo_postal": "8000-299",
-    "localidade": "Faro",
-    "email": "amarelarte2011@gmail.com",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661520d23a817600b9b0afaf/capa/20240430101457118QWX.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.024463371851,
-      "lon": -7.934700058743
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662bc5c6ea239e00b8433d8f",
-    "nome": "AMIC - Associação de Moradores Ilha da Culatra",
-    "morada": "Ilha da Culatra",
-    "codigo_postal": "8005-556",
-    "localidade": "Faro",
-    "email": "amic-culatra@hotmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662bc5c6ea239e00b8433d8f/capa/20240516111458175IU1.jpg",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 36.98902,
-      "lon": -7.8335
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601ac345ef63af00cd1d22e4",
-    "nome": "APATRIS 21 - Associação de Portadores de Trissomia 21 do Algarve",
-    "morada": "Rua de Berlim nº 73",
-    "codigo_postal": "8000-278",
-    "localidade": "Faro",
-    "email": "geral@apatris21.org",
-    "categories": [
-      "Não categorizado"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.017465178927,
-      "lon": -7.921578070889
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600817e1cb9a5000cd4b149d",
-    "nome": "Associação para o Planeamento da Família",
-    "morada": "Rua Monsenhor Henrique Ferreira da Silva, nº 9",
-    "codigo_postal": "8005-137",
-    "localidade": "N/A",
-    "email": "apfalgarve@gmail.com",
-    "categories": [
-      "Não categorizado"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.025657933731,
-      "lon": -7.924274214844
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60488fe33a35e000cde3391a",
-    "nome": "APPIA- Associação Pró-Partilha e Inserção do Algarve, IPSS (Banco Alimentar Contra  Fome do Algarve)",
-    "morada": "Rua Raul de Matos Lote 72, Cave",
-    "codigo_postal": "8000-536",
-    "localidade": "Faro",
-    "email": "ba.algarve@bancoalimentar.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/60488fe33a35e000cde3391a/capa/20210310121308143KgN.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.017221952194,
-      "lon": -7.91631888578
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600eeb4cef63af00cd1cc847",
-    "nome": "AREMDA - Associação Regional de Esclerose Múltipla do Algarve",
-    "morada": "Rua Ataíde de Oliveira 88",
-    "codigo_postal": "8000-223",
-    "localidade": "Faro",
-    "email": "geral@aremda.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600eeb4cef63af00cd1cc847/capa/20210219171747698mBg.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.1314345,
-      "lon": -8.5908964
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a961dc71ed800b79fd662",
-    "nome": "Artadentro - Arte Contemporânea - Associação",
-    "morada": "Rua Rasquinho 7",
-    "codigo_postal": "8000-416",
-    "localidade": "Faro",
-    "email": "N/A",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662a961dc71ed800b79fd662/capa/20240429121613976sIF.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.013935561212996,
-      "lon": -7.933557599151312
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60310733dbd15400cd297498",
-    "nome": "ASSOCIAÇÃO ANIMAIS DE RUA",
-    "morada": "RUA JOÃO DAS REGRAS N.284 Sala 105 1ºandar",
-    "codigo_postal": "4000-294",
-    "localidade": "PORTO",
-    "email": "sofia.rois@animaisderua.org",
-    "categories": [
-      "Causa Animal"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 41.155264605935,
-      "lon": -8.611055403832
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c31b8309f9a00b611555d",
-    "nome": "ASSOCIAÇÃO DOS AMIGOS DO MUSEU DO LYCEU DE FARO",
-    "morada": "Avenida 5 de Outubro, Museu do Lyceu de Faro, s/n.",
-    "codigo_postal": "8004-069",
-    "localidade": "Faro",
-    "email": "carla.anico@aamlf.pt",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660c31b8309f9a00b611555d/capa/20240429090848243Tba.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.017554658628,
-      "lon": -7.926856116624
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661f9a9c07a17500b7cf5d8d",
-    "nome": "ASSOCIAÇÃO FARENSE 1910",
-    "morada": "Praça de Tânger, Edifício Sede - 2º andar",
-    "codigo_postal": "8000-166",
-    "localidade": "Faro",
-    "email": "juridico@scfarense.pt",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.023755813494,
-      "lon": -7.937264166743
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/61c1b38a7a948c00d0e4ee77",
-    "nome": "ATREVO - Associação para o Desenvolvimento Pessoal e Comunitário",
-    "morada": "Estrada da Penha, Escola Superior de Educação e Comunicação, Gabinete n.º 101, Universidade do Algarve - Campus da Penha",
-    "codigo_postal": "8005-139",
-    "localidade": "Faro",
-    "email": "atrevo.geral@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.028148391763,
-      "lon": -7.923968875745
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600c4d1b45368c00cd5370aa",
-    "nome": "AXAL - Academia de Xadrez do Algarve",
-    "morada": "Instituto Português do Desporto e Juventude (Direção Regional Algarve) – Casa de Associações, Rua da PSP s/n",
-    "codigo_postal": "8000-408",
-    "localidade": "FARO",
-    "email": "acxalg@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/600c4d1b45368c00cd5370aa/capa/20240422132935347Yd8.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.016647582416,
-      "lon": -7.928724683788
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60144e11ef63af00cd1cfdd1",
-    "nome": "Academia de Judo de Faro - Associação AJF",
-    "morada": "Estrada Senhora da Saúde nº30 B, 6º Andar",
-    "codigo_postal": "8000-500",
-    "localidade": "Faro",
-    "email": "geral@ajf.pt",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60144e11ef63af00cd1cfdd1/capa/20240429124323356VYO.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.022685401406,
-      "lon": -7.938733938459
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/66036885e1686f00d2ebdf18",
-    "nome": "ACADEMIA DE KARATE de FARO",
-    "morada": "rua manuel ascencao 50  5 b",
-    "codigo_postal": "8000-389",
-    "localidade": "faro",
-    "email": "cacm@live.com.pt",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.022944026172,
-      "lon": -7.936783045501
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662fa39cea239e00b84694b8",
-    "nome": "Adalgarve - Associação de Dança de Faro",
-    "morada": "Rua Dorilia Carmona Cv4",
-    "codigo_postal": "8000-316",
-    "localidade": "Faro",
-    "email": "adalgarve@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662fa39cea239e00b84694b8/capa/20240626193650438QdQ.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.023476318933,
-      "lon": -7.921785389968
+      "lat": 37.0192356,
+      "lon": -7.9327939
     }
   },
   {
@@ -442,6 +255,108 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660d39d94a47aa00b6f52864",
+    "nome": "AMAR - Associação Mais Algarve Rádio",
+    "morada": "Rua Sporting Clube Farense, 12-A, 3º Esquerdo",
+    "codigo_postal": "8000-434",
+    "localidade": "Faro",
+    "email": "info@maisalgarve.pt",
+    "categories": [
+      "Cultura"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023656571761,
+      "lon": -7.931825233592
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661520d23a817600b9b0afaf",
+    "nome": "AMARELARTE Associação Cultural e Recreativa",
+    "morada": "Rua Belchior Vieira nº21",
+    "codigo_postal": "8000-299",
+    "localidade": "Faro",
+    "email": "amarelarte2011@gmail.com",
+    "categories": [
+      "Cultura"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661520d23a817600b9b0afaf/capa/20240430101457118QWX.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.024463371851,
+      "lon": -7.934700058743
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662bc5c6ea239e00b8433d8f",
+    "nome": "AMIC - Associação de Moradores Ilha da Culatra",
+    "morada": "Ilha da Culatra",
+    "codigo_postal": "8005-556",
+    "localidade": "Faro",
+    "email": "amic-culatra@hotmail.com",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662bc5c6ea239e00b8433d8f/capa/20240516111458175IU1.jpg",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 36.98902,
+      "lon": -7.8335
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601ac345ef63af00cd1d22e4",
+    "nome": "APATRIS 21 - Associação de Portadores de Trissomia 21 do Algarve",
+    "morada": "Rua de Berlim nº 73",
+    "codigo_postal": "8000-278",
+    "localidade": "Faro",
+    "email": "geral@apatris21.org",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017465178927,
+      "lon": -7.921578070889
+    }
+  },
+  {
+    "nome": "APPIA- Associação Pró-Partilha e Inserção do Algarve, IPSS (Banco Alimentar Contra Fome do Algarve)",
+    "morada": "Rua Raul de Matos Lote 72, Cave, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.017221952194,
+      "lon": -7.91631888578
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600eeb4cef63af00cd1cc847",
+    "nome": "AREMDA - Associação Regional de Esclerose Múltipla do Algarve",
+    "morada": "Rua Ataíde de Oliveira 88",
+    "codigo_postal": "8000-223",
+    "localidade": "Faro",
+    "email": "geral@aremda.pt",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600eeb4cef63af00cd1cc847/capa/20210219171747698mBg.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.1314345,
+      "lon": -8.5908964
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6617c38a2b7c4900b8c1d277",
     "nome": "ArQuente - Associação Cultural",
     "morada": "Galeria Arco, Rua António Maria Labóia, nº 1",
@@ -459,20 +374,54 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600875e9cb9a5000cd4b15a5",
-    "nome": "Associação Adversários do Mar",
-    "morada": "Rua das Hortências, lote 7",
-    "codigo_postal": "8005-194",
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a961dc71ed800b79fd662",
+    "nome": "Artadentro - Arte Contemporânea - Associação",
+    "morada": "Rua Rasquinho 7",
+    "codigo_postal": "8000-416",
     "localidade": "Faro",
-    "email": "amar@amar.org.pt",
+    "email": "N/A",
     "categories": [
-      "Desporto"
+      "Cultura"
     ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/600875e9cb9a5000cd4b15a5/capa/202405101021094231ib.png",
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662a961dc71ed800b79fd662/capa/20240429121613976sIF.jpg",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 36.993716497437,
-      "lon": -7.838295180275
+      "lat": 37.013935561212996,
+      "lon": -7.933557599151312
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a80a4c71ed800b79fcf29",
+    "nome": "Associação ~dos ucranianos no Algarve",
+    "morada": "Rua Tenente Coronel António Palermo Oliveira Lote 68 B/C",
+    "codigo_postal": "8000-536",
+    "localidade": "Faro",
+    "email": "auafaro@gmail.com",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/662a80a4c71ed800b79fcf29/capa/20240912224336843Kmn.jpg",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.016241102021,
+      "lon": -7.91667511124
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/65f03ec7e1686f00d2eb7831",
+    "nome": "Associação aeQuum - Apoio à Inclusão LGBTI+",
+    "morada": "Rua do Compromisso 72",
+    "codigo_postal": "8000-252",
+    "localidade": "Faro",
+    "email": "geral@aequum.eu",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65f03ec7e1686f00d2eb7831/capa/20240709170923225Kd6.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01708381513063,
+      "lon": -7.9347577601382095
     }
   },
   {
@@ -493,6 +442,23 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60310733dbd15400cd297498",
+    "nome": "ASSOCIAÇÃO ANIMAIS DE RUA",
+    "morada": "RUA JOÃO DAS REGRAS N.284 Sala 105 1ºandar",
+    "codigo_postal": "4000-294",
+    "localidade": "PORTO",
+    "email": "sofia.rois@animaisderua.org",
+    "categories": [
+      "Causa Animal"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 41.155264605935,
+      "lon": -8.611055403832
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63fcc1efb191f70113d04dc6",
     "nome": "Associação Busf Portugal",
     "morada": "Rua de Xabregas N 12 Torre A Sala 243",
@@ -507,23 +473,6 @@
     "coordenadas": {
       "lat": 38.728333715689,
       "lon": -9.110711081471
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/663b67eb050a2d00b75a334c",
-    "nome": "Associação CVI - Centro de Vida Independente",
-    "morada": "Rua Eng. Aboim Sande Lemos, Nº 8, B",
-    "codigo_postal": "8000-544",
-    "localidade": "Faro",
-    "email": "faro@vidaindependente.org",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/663b67eb050a2d00b75a334c/capa/20240509095515042xI1.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01435320406,
-      "lon": -7.928857704591
     }
   },
   {
@@ -578,23 +527,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662fe20e5dace700b83ac41c",
-    "nome": "Charola Amizade Estoiense",
-    "morada": "Sítio de Vale de Mouro, cx. P. 511-A, estoi",
-    "codigo_postal": "8005-411",
-    "localidade": "Estoi",
-    "email": "charola.amizade.estoiense@gmail.com",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.09006031374,
-      "lon": -7.881833551397
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65fb7a98e1686f00d2eba379",
     "nome": "Associação Clube BCF",
     "morada": "Rua das Alfarrobeiras, nr. 2",
@@ -617,467 +549,6 @@
     "morada": "Rua da Barqueta nº 16",
     "codigo_postal": "8000-227",
     "localidade": "Faro",
-    "email": "mestrebatata@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01774512003026,
-      "lon": -7.937455899090068
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c893d5ddf8400b6f720c5",
-    "nome": "Associação Cultural Música XXI",
-    "morada": "R. Infante D. Henrique, nº 101",
-    "codigo_postal": "8000-363",
-    "localidade": "FARO",
-    "email": "musicaxxi@gmail.com",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01851420451729,
-      "lon": -7.936945977291988
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/621bffb0b2c40c00d16a32ba",
-    "nome": "Associação Cultural Recreativa Desportiva Nexense",
-    "morada": "Rua Pires Laranjeira, 10",
-    "codigo_postal": "8005-491",
-    "localidade": "Santa Bárbara de Nexe",
-    "email": "acrdnexense@gmail.com",
-    "categories": [
-      "Cultura",
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/621bffb0b2c40c00d16a32ba/capa/20241007121703478aOP.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.104078990882,
-      "lon": -7.963591245021
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6011a029ef63af00cd1cddfd",
-    "nome": "Associação Desportiva Geração de Génios",
-    "morada": "Pct Júlio Rosa Bernardo, Lote 11 - Patacão",
-    "codigo_postal": "8005-331",
-    "localidade": "Faro",
-    "email": "geracaodegenios@afalgarve.pt",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.05002295,
-      "lon": -7.95180725
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660ab098a479e200b6bccad8",
-    "nome": "Associação Escola Futebol faro",
-    "morada": "Rua candido Guerreiro 7",
-    "codigo_postal": "8000-321",
-    "localidade": "Faro",
-    "email": "esc.fut.faro@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.0389225,
-      "lon": -7.8420052
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6011d2d5ef63af00cd1cde4e",
-    "nome": "Associação Filarmónica de Faro",
-    "morada": "Solar do Capitão Mor, Rua João Brito Vargas, r/c, Horta das Figuras",
-    "codigo_postal": "8005-518",
-    "localidade": "Faro",
-    "email": "geralaffaro@gmail.com",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.033062408228,
-      "lon": -7.949405772588
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661ef41118b7a800b8c95a76",
-    "nome": "ALFA - Associação Livre Fotógrafos do Algarve",
-    "morada": "R. António Mario Labóia, 1 - Cidade Velha",
-    "codigo_postal": "8000-098",
-    "localidade": "Faro",
-    "email": "info@alfa.pt",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ef41118b7a800b8c95a76/capa/20240429224202565fyW.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.0192356,
-      "lon": -7.9327939
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/65faea2de1686f00d2eba1a6",
-    "nome": "Associação Moto Quedas, Faro",
-    "morada": "Estrada Alcaria Cova, Vale Grande cxp. 289F",
-    "codigo_postal": "8005-404",
-    "localidade": "Estoi",
-    "email": "motoquedas.algarve.faro@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65faea2de1686f00d2eba1a6/capa/20240514112019506P3G.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.095216860573,
-      "lon": -7.862457860197
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/620b9750b2c40c00d166ee31",
-    "nome": "Associação Neurolândia - Atividades Terapêuticas",
-    "morada": "Praça José Afonso 11",
-    "codigo_postal": "8000-166",
-    "localidade": "Faro",
-    "email": "neurolandia.contacto@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/620b9750b2c40c00d166ee31/capa/202202281829223076k3.jpeg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.021994622207,
-      "lon": -7.930643995207
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600ee6daef63af00cd1cc819",
-    "nome": "Associação Nossa senhora dos Navegantes",
-    "morada": "Ilha da Culatra - Av. 19 de julho nº 500",
-    "codigo_postal": "8005-556",
-    "localidade": "Faro",
-    "email": "ansdn@sapo.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600ee6daef63af00cd1cc819/capa/20230215095023629xZ1.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 36.993716497437,
-      "lon": -7.838295180275
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6607c94fa479e200b6bca784",
-    "nome": "Associação Nova Meta",
-    "morada": "Rua Aboim Ascensão, Nº 62-A",
-    "codigo_postal": "8000-198",
-    "localidade": "Faro",
-    "email": "geral.novameta@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6607c94fa479e200b6bca784/logo/202404291417456161mQ.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.021267016894,
-      "lon": -7.93616932255
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/63eeb991b191f70113cd2f9c",
-    "nome": "Associação Oficina do Sentir",
-    "morada": "Rua Olimpio Passos Valente, n10, r/c.",
-    "codigo_postal": "8005-170",
-    "localidade": "Faro",
-    "email": "oficinadosentir@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/63eeb991b191f70113cd2f9c/capa/20230413213922770Arg.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.027436852002,
-      "lon": -7.929331617397
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6006b65e5d57da00cda1a011",
-    "nome": "ASSOCIAÇÃO ONCOLÓGICA DO ALGARVE",
-    "morada": "LARGO DAS MOURAS VELHAS, N.º 16",
-    "codigo_postal": "8000-139",
-    "localidade": "N/A",
-    "email": "geral@aoa.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6006b65e5d57da00cda1a011/capa/2021012915153669272L.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.018759043397,
-      "lon": -7.932435026794
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60106946ef63af00cd1cd75f",
-    "nome": "Associação PAS - Projecto Ana Sanona",
-    "morada": "Rua da Amendoeira, Edificio Jardim da Amendoeira, nº 2, Bloco B, 3º Esq.",
-    "codigo_postal": "8005-545",
-    "localidade": "Faro",
-    "email": "projectoanasanona@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/60106946ef63af00cd1cd75f/capa/20210205152009605P6Z.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.029855240616,
-      "lon": -7.926155798103
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600a24d545368c00cd535703",
-    "nome": "Associação PRAVI - Projecto de Apoio a Vítimas Indefesas",
-    "morada": "Rua do Casalão, Vila de S. João, nº21, Santana",
-    "codigo_postal": "2970-047",
-    "localidade": "Sesimbra",
-    "email": "faro.pravi@gmail.com",
-    "categories": [
-      "Não categorizado"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 38.461105976859,
-      "lon": -9.105948397175
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6010167cef63af00cd1cc8da",
-    "nome": "Associação Partilhas e Cuidados",
-    "morada": "Goldra de Cima, Rua do Barranco, nº 170 Santa Bárbara de Nexe",
-    "codigo_postal": "8005-487",
-    "localidade": "Faro",
-    "email": "associacaopartilhasecuidados@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6010167cef63af00cd1cc8da/capa/20220706095622043XkX.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.1079,
-      "lon": -7.96202
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009573dcb9a5000cd4b15ed",
-    "nome": "Associação Portuguesa de Kempo",
-    "morada": "Rua Ataíde Oliveira 103 A",
-    "codigo_postal": "8000-218",
-    "localidade": "Faro",
-    "email": "info@arenafaro.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.09723398601904,
-      "lon": -7.892459443925941
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601d6fdeef63af00cd1d27d7",
-    "nome": "Associação Portuguesa de Paralisia Cerebral de Faro",
-    "morada": "Rua da Guiné-Bissau, n.º 2",
-    "codigo_postal": "8005-203",
-    "localidade": "Faro",
-    "email": "info@appc-faro.org.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601d6fdeef63af00cd1d27d7/capa/20210223144155895Eca.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.02749751947,
-      "lon": -7.938414855835
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660d72844a47aa00b6f553ab",
-    "nome": "Associação Recreativa e Cultural de Músicos",
-    "morada": "Rua do Castelo, 4",
-    "codigo_postal": "8000-401",
-    "localidade": "Faro",
-    "email": "arcmusicos@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660d72844a47aa00b6f553ab/capa/20240426140008244GG6.png",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.196017,
-      "lon": -8.861679840225934
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661d06a418b7a800b8c8cf5f",
-    "nome": "Associação Recreativa e Cultural do Algarve",
-    "morada": "Largo do Camões, Edifício Riamar, Bloco 5, 5ºA",
-    "codigo_postal": "8000-140",
-    "localidade": "Faro",
-    "email": "associacao.arca.algarve@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/661d06a418b7a800b8c8cf5f/logo/20250228140056325Gf6.png",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.020984337209,
-      "lon": -7.93961998445
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660be045309f9a00b611395a",
-    "nome": "Associação Rádio Universitária do Algarve",
-    "morada": "Rua Teresa Ramalho Ortigão, 79B",
-    "codigo_postal": "8000-544",
-    "localidade": "Faro",
-    "email": "ruafm@rua.pt",
-    "categories": [
-      "Cultura",
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.014464380969535,
-      "lon": -7.929640357853016
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/67924f2a71fe2500b2e3c772",
-    "nome": "Associação Sorriso Estrela",
-    "morada": "Avenida 5 De Outubro, 32",
-    "codigo_postal": "8000-076",
-    "localidade": "Faro",
-    "email": "asorrisoestrela@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/67924f2a71fe2500b2e3c772/capa/20250221123115959ivg.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01830489719898,
-      "lon": -7.924133056021483
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662b6107c71ed800b7a0033d",
-    "nome": "Associação South Side",
-    "morada": "Rua Leão Penedo, Edifício Sporting Clube Farense",
-    "codigo_postal": "8000-386",
-    "localidade": "Faro",
-    "email": "ss.ultras@gmail.com",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662b6107c71ed800b7a0033d/capa/20240513170347998AGp.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.023926602774,
-      "lon": -7.928060133416
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/63efc48cb191f70113cd3682",
-    "nome": "Associação Spina Bífida e Hidrocefalia de Portugal",
-    "morada": "Rua Botelho de Vasconcelos lote 567 letra D",
-    "codigo_postal": "1950-046",
-    "localidade": "Lisboa",
-    "email": "sede@asbihp.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 38.746120899785,
-      "lon": -9.114464266457
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660dc2c54a47aa00b6f572ec",
-    "nome": "Associação Temivels d'Atalaia",
-    "morada": "Rua Dr. Joaquim Peixoto Magalhães, Lt 40, 1º esqª",
-    "codigo_postal": "8000-536",
-    "localidade": "Faro",
-    "email": "geral@temivels.pt",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660dc2c54a47aa00b6f572ec/capa/202404221646505565xh.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01636934514,
-      "lon": -7.917820917404
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/65f03ec7e1686f00d2eb7831",
-    "nome": "Associação aeQuum - Apoio à Inclusão LGBTI+",
-    "morada": "Rua do Compromisso 72",
-    "codigo_postal": "8000-252",
-    "localidade": "Faro",
-    "email": "geral@aequum.eu",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65f03ec7e1686f00d2eb7831/capa/20240709170923225Kd6.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01708381513063,
-      "lon": -7.9347577601382095
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/67c03dc0dde1e900b29a67e7",
-    "nome": "Associação da Beneficência e Refúgio Aboim Ascensão",
-    "morada": "Rua Manuel Ascensão, nº 9",
-    "codigo_postal": "8000-389",
-    "localidade": "Faro",
-    "email": "info@refugio.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/67c03dc0dde1e900b29a67e7/capa/20250228120607162pzq.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.02230498364304,
-      "lon": -7.93660664896492
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661e9167fc93ef463d7952a0",
-    "nome": "Associação dos Escoteiros de Portugal - Grupo 166",
-    "morada": "Antiga Escola Primária da Arábia , Sítio da Arábia, Montenegro",
-    "codigo_postal": "8005-408",
-    "localidade": "Faro",
     "email": "grupo166@escoteiros.pt",
     "categories": [
       "Juventude"
@@ -1090,20 +561,88 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/66159cbb31621800b7420653",
-    "nome": "1ª Companhia Guias de Faro",
-    "morada": "Sub-Cave, Rua de Berlim BI 3, Nº 85",
-    "codigo_postal": "8000-278",
-    "localidade": "Faro",
-    "email": "1cguiasfaro@gmail.com",
+    "nome": "Associação Cultural Música XXI",
+    "morada": "R. Infante D. Henrique, nº 101, 8000-363 FARO",
+    "coordenadas": {
+      "lat": 37.01851420451729,
+      "lon": -7.936945977291988
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
     "categories": [
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Cultural Recreativa Desportiva Nexense",
+    "morada": "Rua Pires Laranjeira, 10, 8005-491 Santa Bárbara de Nexe",
+    "coordenadas": {
+      "lat": 37.104078990882,
+      "lon": -7.963591245021
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação CVI - Centro de Vida Independente",
+    "morada": "Rua Eng. Aboim Sande Lemos, Nº 8, B, 8000-544 Faro",
+    "coordenadas": {
+      "lat": 37.01435320406,
+      "lon": -7.928857704591
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação da Beneficência e Refúgio Aboim Ascensão",
+    "morada": "Rua Manuel Ascensão, nº 9, 8000-389 Faro",
+    "coordenadas": {
+      "lat": 37.02230498364304,
+      "lon": -7.93660664896492
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6035522cdbd15400cd29e07d",
+    "nome": "Associação de Escoteiros de Portugal - Grupo 77 - Faro",
+    "morada": "Rua do Grupo de Teatro Lethes 3 - A",
+    "codigo_postal": "8000-387",
+    "localidade": "Faro",
+    "email": "grupo77@escoteiros.pt",
+    "categories": [
+      "Juventude"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6035522cdbd15400cd29e07d/capa/20240704103748418eJZ.jpg",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.019992246231,
-      "lon": -7.923206267866
+      "lat": 37.017835289518,
+      "lon": -7.92003457737
     }
   },
   {
@@ -1141,6 +680,40 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661fcc25b328bb00b9c73c1c",
+    "nome": "Associação Desportiva do Centro de Ténis de Faro",
+    "morada": "Rua das Hortênsias, Urbanização do Montebranco, Gambelas",
+    "codigo_postal": "8005-201",
+    "localidade": "Faro",
+    "email": "centro@tenisfaro.com",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.04180904992,
+      "lon": -7.970175290466
+    }
+  },
+  {
+    "nome": "Associação Desportiva Geração de Génios",
+    "morada": "Pct Júlio Rosa Bernardo, Lote 11 - Patacão, 8005-331 Faro",
+    "coordenadas": {
+      "lat": 37.05002295,
+      "lon": -7.95180725
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6033c5e6dbd15400cd29913d",
     "nome": "Associação do Conservatório Regional do Algarve Maria Campina",
     "morada": "Avenida Dr. Júlio Filipe Almeida Carrapato, 93",
@@ -1156,6 +729,40 @@
       "lat": 37.019353198488,
       "lon": -7.923093982058
     }
+  },
+  {
+    "nome": "ASSOCIAÇÃO DOS AMIGOS DO MUSEU DO LYCEU DE FARO",
+    "morada": "Avenida 5 de Outubro, Museu do Lyceu de Faro, s/n., 8004-069 Faro",
+    "coordenadas": {
+      "lat": 37.017554658628,
+      "lon": -7.926856116624
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação dos Escoteiros de Portugal - Grupo 166",
+    "morada": "Antiga Escola Primária da Arábia , Sítio da Arábia, Montenegro, 8005-408 Faro",
+    "coordenadas": {
+      "lat": 37.0272,
+      "lon": -7.96575
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602543aa0db2e000d61e3bf5",
@@ -1175,21 +782,157 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a80a4c71ed800b79fcf29",
-    "nome": "Associação ~dos ucranianos no Algarve",
-    "morada": "Rua Tenente Coronel António Palermo Oliveira Lote 68 B/C",
-    "codigo_postal": "8000-536",
-    "localidade": "Faro",
-    "email": "auafaro@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/662a80a4c71ed800b79fcf29/capa/20240912224336843Kmn.jpg",
-    "has_more_categories": true,
+    "nome": "Associação Escola Futebol faro",
+    "morada": "Rua candido Guerreiro 7, 8000-321 Faro",
     "coordenadas": {
-      "lat": 37.016241102021,
-      "lon": -7.91667511124
-    }
+      "lat": 37.0389225,
+      "lon": -7.8420052
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "ASSOCIAÇÃO FARENSE 1910",
+    "morada": "Praça de Tânger, Edifício Sede - 2º andar, 8000-166 Faro",
+    "coordenadas": {
+      "lat": 37.023755813494,
+      "lon": -7.937264166743
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Filarmónica de Faro",
+    "morada": "Solar do Capitão Mor, Rua João Brito Vargas, r/c, Horta das Figuras, 8005-518 Faro",
+    "coordenadas": {
+      "lat": 37.033062408228,
+      "lon": -7.949405772588
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Moto Quedas, Faro",
+    "morada": "Estrada Alcaria Cova, Vale Grande cxp. 289F, 8005-404 Estoi",
+    "coordenadas": {
+      "lat": 37.095216860573,
+      "lon": -7.862457860197
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Neurolândia - Atividades Terapêuticas",
+    "morada": "Praça José Afonso 11, 8000-166 Faro",
+    "coordenadas": {
+      "lat": 37.021994622207,
+      "lon": -7.930643995207
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Nossa senhora dos Navegantes",
+    "morada": "Ilha da Culatra - Av. 19 de julho nº 500, 8005-556 Faro",
+    "coordenadas": {
+      "lat": 36.993716497437,
+      "lon": -7.838295180275
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Nova Meta",
+    "morada": "Rua Aboim Ascensão, Nº 62-A, 8000-198 Faro",
+    "coordenadas": {
+      "lat": 37.021267016894,
+      "lon": -7.93616932255
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Oficina do Sentir",
+    "morada": "Rua Olimpio Passos Valente, n10, r/c., 8005-170 Faro",
+    "coordenadas": {
+      "lat": 37.027436852002,
+      "lon": -7.929331617397
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "ASSOCIAÇÃO ONCOLÓGICA DO ALGARVE",
+    "morada": "LARGO DAS MOURAS VELHAS, N.º 16, 8000-139 N/A",
+    "coordenadas": {
+      "lat": 37.018759043397,
+      "lon": -7.932435026794
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600878b4cb9a5000cd4b15b6",
@@ -1207,6 +950,261 @@
       "lat": 37.015952764552,
       "lon": -7.916687097362
     }
+  },
+  {
+    "nome": "Associação para o Planeamento da Família",
+    "morada": "Rua Monsenhor Henrique Ferreira da Silva, nº 9, 8005-137 N/A",
+    "coordenadas": {
+      "lat": 37.025657933731,
+      "lon": -7.924274214844
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Partilhas e Cuidados",
+    "morada": "Goldra de Cima, Rua do Barranco, nº 170 Santa Bárbara de Nexe, 8005-487 Faro",
+    "coordenadas": {
+      "lat": 37.1079,
+      "lon": -7.96202
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação PAS - Projecto Ana Sanona",
+    "morada": "Rua da Amendoeira, Edificio Jardim da Amendoeira, nº 2, Bloco B, 3º Esq., 8005-545 Faro",
+    "coordenadas": {
+      "lat": 37.029855240616,
+      "lon": -7.926155798103
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Portuguesa de Kempo",
+    "morada": "Rua Ataíde Oliveira 103 A, 8000-218 Faro",
+    "coordenadas": {
+      "lat": 37.09723398601904,
+      "lon": -7.892459443925941
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Portuguesa de Paralisia Cerebral de Faro",
+    "morada": "Rua da Guiné-Bissau, n.º 2, 8005-203 Faro",
+    "coordenadas": {
+      "lat": 37.02749751947,
+      "lon": -7.938414855835
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação PRAVI - Projecto de Apoio a Vítimas Indefesas",
+    "morada": "Rua do Casalão, Vila de S. João, nº21, Santana, 2970-047 Sesimbra",
+    "coordenadas": {
+      "lat": 38.461105976859,
+      "lon": -9.105948397175
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Rádio Universitária do Algarve",
+    "morada": "Rua Teresa Ramalho Ortigão, 79B, 8000-544 Faro",
+    "coordenadas": {
+      "lat": 37.014464380969535,
+      "lon": -7.929640357853016
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Recreativa e Cultural de Músicos",
+    "morada": "Rua do Castelo, 4, 8000-401 Faro",
+    "coordenadas": {
+      "lat": 37.196017,
+      "lon": -8.861679840225934
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Recreativa e Cultural do Algarve",
+    "morada": "Largo do Camões, Edifício Riamar, Bloco 5, 5ºA, 8000-140 Faro",
+    "coordenadas": {
+      "lat": 37.020984337209,
+      "lon": -7.93961998445
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Sorriso Estrela",
+    "morada": "Avenida 5 De Outubro, 32, 8000-076 Faro",
+    "coordenadas": {
+      "lat": 37.01830489719898,
+      "lon": -7.924133056021483
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação South Side",
+    "morada": "Rua Leão Penedo, Edifício Sporting Clube Farense, 8000-386 Faro",
+    "coordenadas": {
+      "lat": 37.023926602774,
+      "lon": -7.928060133416
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Spina Bífida e Hidrocefalia de Portugal",
+    "morada": "Rua Botelho de Vasconcelos lote 567 letra D, 1950-046 Lisboa",
+    "coordenadas": {
+      "lat": 38.746120899785,
+      "lon": -9.114464266457
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "Associação Temivels d'Atalaia",
+    "morada": "Rua Dr. Joaquim Peixoto Magalhães, Lt 40, 1º esqª, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.01636934514,
+      "lon": -7.917820917404
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "ATREVO - Associação para o Desenvolvimento Pessoal e Comunitário",
+    "morada": "Estrada da Penha, Escola Superior de Educação e Comunicação, Gabinete n.º 101, Universidade do Algarve - Campus da Penha, 8005-139 Faro",
+    "coordenadas": {
+      "lat": 37.028148391763,
+      "lon": -7.923968875745
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
+  },
+  {
+    "nome": "AXAL - Academia de Xadrez do Algarve",
+    "morada": "Instituto Português do Desporto e Juventude (Direção Regional Algarve) – Casa de Associações, Rua da PSP s/n, 8000-408 FARO",
+    "coordenadas": {
+      "lat": 37.016647582416,
+      "lon": -7.928724683788
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/651be63027462700d331a1bd",
@@ -1277,6 +1275,23 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6630032e5dace700b83b0555",
+    "nome": "CASA DE ANGOLA NO ALGARVE",
+    "morada": "URBANIZAÇÃO SANTO ANTÓNIO DO ALTO,  LOTE 54 - Nº 53A R/C",
+    "codigo_postal": "8000-536",
+    "localidade": "FARO",
+    "email": "casadeangola.algarve@gmail.com",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6630032e5dace700b83b0555/logo/20240430151311503alw.jpg",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.017636856538,
+      "lon": -7.916187955028
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661d60c318b7a800b8c9044b",
     "nome": "Casa do Benfica em Faro",
     "morada": "Rua Engenheiro Adelino Amaro da Costa, lote 22",
@@ -1311,108 +1326,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661ee40618b7a800b8c9599e",
-    "nome": "CÍVIS Associação para o Aprofundamento da CIdadania",
-    "morada": "Rua Antero de Quental, 118,",
-    "codigo_postal": "8000-210",
-    "localidade": "Faro",
-    "email": "civisadc@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ee40618b7a800b8c9599e/capa/20240429183120352fch.jpg",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.13605207133419,
-      "lon": -8.017657910179125
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660a8252a479e200b6bcb5ff",
-    "nome": "CLUBE DE PRATICANTES DE DESPORTOS DE COMBATE J F",
-    "morada": "RUA ENG.º ADELINO AMARO DA COSTA, LOTE 11 - 2 C",
-    "codigo_postal": "8000-339",
-    "localidade": "FARO",
-    "email": "kickj.f.cf@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.014451523784,
-      "lon": -7.923703001777
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660567f9a479e200b6bc7a65",
-    "nome": "CLUBE DE PRATICANTES D'ATALAIA 3 0 TRAIL CLUBE",
-    "morada": "Largo Valeriano Machado Lt. 60, 6º esq",
-    "codigo_postal": "8000-536",
-    "localidade": "FARO",
-    "email": "datalaia3.0@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660567f9a479e200b6bc7a65/capa/20240501101701614b4L.jpeg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.016824985396,
-      "lon": -7.917162686548
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662144626845f10c37ee00b1",
-    "nome": "Corpo Nacional de Escutas – Escutismo Católico Português – Agrupamento 1172 São Luís FARO",
-    "morada": "Travessa do Corpo Nacional de Escutas, n.º 2-2A",
-    "codigo_postal": "8005-248",
-    "localidade": "Faro",
-    "email": "geral.1172@escutismo.pt",
-    "categories": [
-      "Não categorizado"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.0965,
-      "lon": -8.2459
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60129beeef63af00cd1cef46",
-    "nome": "Contextos - Cooperativa para o Desenvolvimento e Coesão Social, CRL",
-    "morada": "Rua Dr. José de Matos, 17, 4º D",
-    "codigo_postal": "8000-503",
-    "localidade": "Faro",
-    "email": "info@contextos.org.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60129beeef63af00cd1cef46/capa/20240429103055246BvA.jpg",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.016104309361,
-      "lon": -7.925855977426
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6630032e5dace700b83b0555",
-    "nome": "CASA DE ANGOLA NO ALGARVE",
-    "morada": "URBANIZAÇÃO SANTO ANTÓNIO DO ALTO,  LOTE 54 - Nº 53A R/C",
-    "codigo_postal": "8000-536",
-    "localidade": "FARO",
-    "email": "casadeangola.algarve@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6630032e5dace700b83b0555/logo/20240430151311503alw.jpg",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.017636856538,
-      "lon": -7.916187955028
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6626ab4162d37300b8475346",
     "nome": "Casa do Povo de Estoi",
     "morada": "Rua de Faro nº 22 - Estoi",
@@ -1439,28 +1352,11 @@
     "categories": [
       "Cultura"
     ],
-    "image_url": "logo_catalise_global.png",
+    "image_url": "public/logo_catalise_global.png",
     "has_more_categories": false,
     "coordenadas": {
       "lat": 37.030554794255,
       "lon": -7.924276994506
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601d72eaef63af00cd1d27ed",
-    "nome": "Centro de Acção Social Cultura e Desporto dos Trabalhadores da Saúde e Segurança Social do Distrito de Faro",
-    "morada": "Sitio da Falfosa- Caminho da Falfosa Cx.Postal 603-A",
-    "codigo_postal": "8005-483",
-    "localidade": "Faro - Stª Bárbara de Nexe",
-    "email": "geral@cascd.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601d72eaef63af00cd1d27ed/capa/20210212144045386Yjv.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.088575578311,
-      "lon": -7.959505886436
     }
   },
   {
@@ -1498,6 +1394,23 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601d72eaef63af00cd1d27ed",
+    "nome": "Centro de Acção Social Cultura e Desporto dos Trabalhadores da Saúde e Segurança Social do Distrito de Faro",
+    "morada": "Sitio da Falfosa- Caminho da Falfosa Cx.Postal 603-A",
+    "codigo_postal": "8005-483",
+    "localidade": "Faro - Stª Bárbara de Nexe",
+    "email": "geral@cascd.pt",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601d72eaef63af00cd1d27ed/capa/20210212144045386Yjv.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.088575578311,
+      "lon": -7.959505886436
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600ffcf9ef63af00cd1cc86e",
     "nome": "Centro de Apoio ao Sem Abrigo - Delegação de Faro",
     "morada": "Rua Cunha e Matos, 17",
@@ -1513,6 +1426,23 @@
       "lat": 37.021876337405,
       "lon": -7.933701463669
     }
+  },
+  {
+    "nome": "Charola Amizade Estoiense",
+    "morada": "Sítio de Vale de Mouro, cx. P. 511-A, estoi, 8005-411 Estoi",
+    "coordenadas": {
+      "lat": 37.09006031374,
+      "lon": -7.881833551397
+    },
+    "cmf_url": "N/A",
+    "codigo_postal": "N/A",
+    "localidade": "N/A",
+    "email": "N/A",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60119c75ef63af00cd1cddef",
@@ -1532,71 +1462,20 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60096d7dcb9a5000cd4b167a",
-    "nome": "Clube Desportivo Montenegro",
-    "morada": "Rua Poeta António Aleixo, 7",
-    "codigo_postal": "8005-173",
-    "localidade": "Montenegro",
-    "email": "cdmontenegro@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.03226737052735,
-      "lon": -7.955551108814577
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6627a3be45533600b836ac3a",
-    "nome": "Clube Karaté Conceição de Faro",
-    "morada": "Rua das Alfarrobeiras Nº 2",
-    "codigo_postal": "8005-446",
-    "localidade": "Conceição de Faro - Faro",
-    "email": "geralckcf@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.061387101157,
-      "lon": -7.91650076847
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600992c6cb9a5000cd4b2109",
-    "nome": "Clube Natação de Faro",
-    "morada": "Avenida Cidade de Hayward, Edifício das Piscinas Municipais",
-    "codigo_postal": "8004-001",
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661ee40618b7a800b8c9599e",
+    "nome": "CÍVIS Associação para o Aprofundamento da CIdadania",
+    "morada": "Rua Antero de Quental, 118,",
+    "codigo_postal": "8000-210",
     "localidade": "Faro",
-    "email": "direcao@cnfaro.pt",
+    "email": "civisadc@gmail.com",
     "categories": [
-      "Desporto"
+      "Âmbito Social"
     ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ee40618b7a800b8c9599e/capa/20240429183120352fch.jpg",
+    "has_more_categories": true,
     "coordenadas": {
-      "lat": 37.0274,
-      "lon": -7.9195
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/63cab03a64c86f011c21e0e7",
-    "nome": "Clube Recreativo e Cultural Gorjonense",
-    "morada": "Sítio dos Gorjões, caixa postal 778",
-    "codigo_postal": "8005-488",
-    "localidade": "Gorjões",
-    "email": "crcgorjonense00@sapo.pt",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.13300802591,
-      "lon": -7.954159812639
+      "lat": 37.13605207133419,
+      "lon": -8.017657910179125
     }
   },
   {
@@ -1652,6 +1531,40 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660567f9a479e200b6bc7a65",
+    "nome": "CLUBE DE PRATICANTES D'ATALAIA 3 0 TRAIL CLUBE",
+    "morada": "Largo Valeriano Machado Lt. 60, 6º esq",
+    "codigo_postal": "8000-536",
+    "localidade": "FARO",
+    "email": "datalaia3.0@gmail.com",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660567f9a479e200b6bc7a65/capa/20240501101701614b4L.jpeg",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016824985396,
+      "lon": -7.917162686548
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/660a8252a479e200b6bcb5ff",
+    "nome": "CLUBE DE PRATICANTES DE DESPORTOS DE COMBATE J F",
+    "morada": "RUA ENG.º ADELINO AMARO DA COSTA, LOTE 11 - 2 C",
+    "codigo_postal": "8000-339",
+    "localidade": "FARO",
+    "email": "kickj.f.cf@gmail.com",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.014451523784,
+      "lon": -7.923703001777
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6602b53ce1686f00d2ebd397",
     "nome": "CLUBE DE RUGBY UNIVERSITÁRIO DO ALGARVE",
     "morada": "Sala das Associações, IPDJ-Faro, Rua da PSP n.º 1",
@@ -1666,6 +1579,40 @@
     "coordenadas": {
       "lat": 37.017276434702,
       "lon": -7.931516192822
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6603f5d3e1686f00d2ebe8a5",
+    "nome": "Clube de Surf de Faro",
+    "morada": "Casa 107 - AV. Nascente, Rua da Escola Primária, Praia de Faro",
+    "codigo_postal": "8000-520",
+    "localidade": "Faro",
+    "email": "clubesurfaro@gmail.com",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60096d7dcb9a5000cd4b167a",
+    "nome": "Clube Desportivo Montenegro",
+    "morada": "Rua Poeta António Aleixo, 7",
+    "codigo_postal": "8005-173",
+    "localidade": "Montenegro",
+    "email": "cdmontenegro@gmail.com",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.03226737052735,
+      "lon": -7.955551108814577
     }
   },
   {
@@ -1686,6 +1633,57 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6627a3be45533600b836ac3a",
+    "nome": "Clube Karaté Conceição de Faro",
+    "morada": "Rua das Alfarrobeiras Nº 2",
+    "codigo_postal": "8005-446",
+    "localidade": "Conceição de Faro - Faro",
+    "email": "geralckcf@gmail.com",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.061387101157,
+      "lon": -7.91650076847
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600992c6cb9a5000cd4b2109",
+    "nome": "Clube Natação de Faro",
+    "morada": "Avenida Cidade de Hayward, Edifício das Piscinas Municipais",
+    "codigo_postal": "8004-001",
+    "localidade": "Faro",
+    "email": "direcao@cnfaro.pt",
+    "categories": [
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0274,
+      "lon": -7.9195
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/63cab03a64c86f011c21e0e7",
+    "nome": "Clube Recreativo e Cultural Gorjonense",
+    "morada": "Sítio dos Gorjões, caixa postal 778",
+    "codigo_postal": "8005-488",
+    "localidade": "Gorjões",
+    "email": "crcgorjonense00@sapo.pt",
+    "categories": [
+      "Cultura"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.13300802591,
+      "lon": -7.954159812639
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660f08f64a47aa00b6f5a8a3",
     "nome": "Confraria Marinha da Ria Formosa",
     "morada": "Rua Reitor Teixeira Guedes 131",
@@ -1700,6 +1698,23 @@
     "coordenadas": {
       "lat": 37.02020932404695,
       "lon": -7.924960266685692
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/60129beeef63af00cd1cef46",
+    "nome": "Contextos - Cooperativa para o Desenvolvimento e Coesão Social, CRL",
+    "morada": "Rua Dr. José de Matos, 17, 4º D",
+    "codigo_postal": "8000-503",
+    "localidade": "Faro",
+    "email": "info@contextos.org.pt",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60129beeef63af00cd1cef46/capa/20240429103055246BvA.jpg",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.016104309361,
+      "lon": -7.925855977426
     }
   },
   {
@@ -1734,6 +1749,23 @@
     "coordenadas": {
       "lat": 37.02099275,
       "lon": -7.9380857
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662144626845f10c37ee00b1",
+    "nome": "Corpo Nacional de Escutas – Escutismo Católico Português – Agrupamento 1172 São Luís FARO",
+    "morada": "Travessa do Corpo Nacional de Escutas, n.º 2-2A",
+    "codigo_postal": "8005-248",
+    "localidade": "Faro",
+    "email": "geral.1172@escutismo.pt",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0965,
+      "lon": -8.2459
     }
   },
   {
@@ -1925,24 +1957,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6628c6bb29a95900b710239b",
-    "nome": "GRUPO DESPORTIVO E CULTURAL JOGRAIS ANTÓNIO ALEIXO",
-    "morada": "RUA JOÃO DEUS Nº 31",
-    "codigo_postal": "8000-455",
-    "localidade": "ESTOI",
-    "email": "jograisantonioaleixo.74@gmail.com",
-    "categories": [
-      "Cultura",
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.017877757539,
-      "lon": -7.929770805934
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66151f723a817600b9b0aef1",
     "nome": "Ginásio Clube de Faro",
     "morada": "Rua Ivens, 12, 2º",
@@ -1960,23 +1974,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6035522cdbd15400cd29e07d",
-    "nome": "Associação de Escoteiros de Portugal - Grupo 77 - Faro",
-    "morada": "Rua do Grupo de Teatro Lethes 3 - A",
-    "codigo_postal": "8000-387",
-    "localidade": "Faro",
-    "email": "grupo77@escoteiros.pt",
-    "categories": [
-      "Juventude"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6035522cdbd15400cd29e07d/capa/20240704103748418eJZ.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.017835289518,
-      "lon": -7.92003457737
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662ad37ac71ed800b79ffccf",
     "nome": "Grupo Coral Ossónoba",
     "morada": "Rua Antero de Quental nº 119",
@@ -1991,6 +1988,41 @@
     "coordenadas": {
       "lat": 37.13597423327882,
       "lon": -8.015023830562724
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/602f8e09dbd15400cd2966d6",
+    "nome": "Grupo de Apoio de Faro - Liga Portuguesa Contra o Cancro",
+    "morada": "Rua Arthur Aguedo Miranda Lote 2 BLC C Loja F",
+    "codigo_postal": "8000-138",
+    "localidade": "Faro",
+    "email": "grupoapoiofaro@ligacontracancro.pt",
+    "categories": [
+      "Não categorizado"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.026985947521,
+      "lon": -7.923949597368
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6628c6bb29a95900b710239b",
+    "nome": "GRUPO DESPORTIVO E CULTURAL JOGRAIS ANTÓNIO ALEIXO",
+    "morada": "RUA JOÃO DEUS Nº 31",
+    "codigo_postal": "8000-455",
+    "localidade": "ESTOI",
+    "email": "jograisantonioaleixo.74@gmail.com",
+    "categories": [
+      "Cultura",
+      "Desporto"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017877757539,
+      "lon": -7.929770805934
     }
   },
   {
@@ -2130,23 +2162,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/602f8e09dbd15400cd2966d6",
-    "nome": "Grupo de Apoio de Faro - Liga Portuguesa Contra o Cancro",
-    "morada": "Rua Arthur Aguedo Miranda Lote 2 BLC C Loja F",
-    "codigo_postal": "8000-138",
-    "localidade": "Faro",
-    "email": "grupoapoiofaro@ligacontracancro.pt",
-    "categories": [
-      "Não categorizado"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.026985947521,
-      "lon": -7.923949597368
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6633cbd6050a2d00b7595291",
     "nome": "Liga dos Combatentes - Núcleo de Faro",
     "morada": "Rua Dr. José de Matos, 115-B",
@@ -2181,40 +2196,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601c2b22ef63af00cd1d2671",
-    "nome": "MDM-Movimento Democrático de Mulheres",
-    "morada": "Praceta Salgueiro Maia Bloco 1, r/c",
-    "codigo_postal": "8000-189",
-    "localidade": "Faro",
-    "email": "N/A",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601c2b22ef63af00cd1d2671/capa/20250220125405995yj1.png",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.021516294694,
-      "lon": -7.934359418198
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6630c0d0de6d3c00b85e35c2",
-    "nome": "MOTO CLUBE ESTOY OSSONOBA",
-    "morada": "Porto Carro Estoi",
-    "codigo_postal": "8006-801",
-    "localidade": "ESTOI - FARO",
-    "email": "motoclubeestoy@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.0872016,
-      "lon": -7.9045665
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661feeb9b328bb00b9c7499c",
     "nome": "Martial Kombat Fit Club",
     "morada": "Rua Júdice Fialho n.º37",
@@ -2229,6 +2210,23 @@
     "coordenadas": {
       "lat": 37.034374720899,
       "lon": -7.963425008563
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/601c2b22ef63af00cd1d2671",
+    "nome": "MDM-Movimento Democrático de Mulheres",
+    "morada": "Praceta Salgueiro Maia Bloco 1, r/c",
+    "codigo_postal": "8000-189",
+    "localidade": "Faro",
+    "email": "N/A",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601c2b22ef63af00cd1d2671/capa/20250220125405995yj1.png",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.021516294694,
+      "lon": -7.934359418198
     }
   },
   {
@@ -2263,6 +2261,23 @@
     "coordenadas": {
       "lat": 37.02576228532263,
       "lon": -7.917567817264874
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6630c0d0de6d3c00b85e35c2",
+    "nome": "MOTO CLUBE ESTOY OSSONOBA",
+    "morada": "Porto Carro Estoi",
+    "codigo_postal": "8006-801",
+    "localidade": "ESTOI - FARO",
+    "email": "motoclubeestoy@gmail.com",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.0872016,
+      "lon": -7.9045665
     }
   },
   {
@@ -2436,23 +2451,6 @@
     }
   },
   {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6216b9d2b2c40c00d1682e45",
-    "nome": "SPEM - Sociedade Portuguesa de Esclerose Múltipla",
-    "morada": "Praça José Afonso 11",
-    "codigo_postal": "8000-176",
-    "localidade": "Faro",
-    "email": "faro-geral@spem.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6216b9d2b2c40c00d1682e45/capa/20230206122958652WLM.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.021994622207,
-      "lon": -7.930643995207
-    }
-  },
-  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600977d1cb9a5000cd4b1aff",
     "nome": "Santa Casa da Misericórdia de Faro",
     "morada": "Rua João Dias nº6",
@@ -2467,40 +2465,6 @@
     "coordenadas": {
       "lat": 37.01538712258379,
       "lon": -7.933964367844494
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009ba3e45368c00cd5355fc",
-    "nome": "Sociedade Recreativa Artística Farense",
-    "morada": "Rua do Montepio, 10",
-    "codigo_postal": "8000-257",
-    "localidade": "Faro",
-    "email": "sraf@sraf.pt",
-    "categories": [
-      "Cultura"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6009ba3e45368c00cd5355fc/capa/20240515134442424Ljt.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.0149881,
-      "lon": -7.9336486
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/604936cb3a35e000cde348ee",
-    "nome": "SOCIEDADE RECREATIVA BORDEIRENSE",
-    "morada": "Rua da Industria - Bordeira",
-    "codigo_postal": "8005-423",
-    "localidade": "Faro",
-    "email": "sociedaderecreativabordeirense@gmail.com",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/604936cb3a35e000cde348ee/capa/202104071605339080mM.jpg",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.12476753762235,
-      "lon": -7.922077348987774
     }
   },
   {
@@ -2555,6 +2519,57 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009ba3e45368c00cd5355fc",
+    "nome": "Sociedade Recreativa Artística Farense",
+    "morada": "Rua do Montepio, 10",
+    "codigo_postal": "8000-257",
+    "localidade": "Faro",
+    "email": "sraf@sraf.pt",
+    "categories": [
+      "Cultura"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6009ba3e45368c00cd5355fc/capa/20240515134442424Ljt.jpg",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0149881,
+      "lon": -7.9336486
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/604936cb3a35e000cde348ee",
+    "nome": "SOCIEDADE RECREATIVA BORDEIRENSE",
+    "morada": "Rua da Industria - Bordeira",
+    "codigo_postal": "8005-423",
+    "localidade": "Faro",
+    "email": "sociedaderecreativabordeirense@gmail.com",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/604936cb3a35e000cde348ee/capa/202104071605339080mM.jpg",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.12476753762235,
+      "lon": -7.922077348987774
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6216b9d2b2c40c00d1682e45",
+    "nome": "SPEM - Sociedade Portuguesa de Esclerose Múltipla",
+    "morada": "Praça José Afonso 11",
+    "codigo_postal": "8000-176",
+    "localidade": "Faro",
+    "email": "faro-geral@spem.pt",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6216b9d2b2c40c00d1682e45/capa/20230206122958652WLM.jpg",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021994622207,
+      "lon": -7.930643995207
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63dcf08bb191f70113cc61a7",
     "nome": "Teste",
     "morada": "Teste",
@@ -2586,40 +2601,6 @@
     "coordenadas": {
       "lat": 37.033376184773,
       "lon": -7.958892326783
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600708769994ef00cd0a6421",
-    "nome": "URIPSS ALGARVE - União Regional das Instituições Particulares de Solidariedade Social do Algarve",
-    "morada": "Rua Conselheiro Sebastião Teles nº 6",
-    "codigo_postal": "8000-256",
-    "localidade": "Faro",
-    "email": "geral@uripssalgarve.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600708769994ef00cd0a6421/logo/20210222173206269BhC.jpg",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.01976114696879,
-      "lon": -7.9388615026925615
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662ea3e8ea239e00b84523e3",
-    "nome": "Universidade do Algarve para a Terceira Idade",
-    "morada": "Praceta Salgueiro Maia - Bloco J - r/c",
-    "codigo_postal": "8000-189",
-    "localidade": "Faro",
-    "email": "uati-faro.dir@sapo.pt",
-    "categories": [
-      "Âmbito Social"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true,
-    "coordenadas": {
-      "lat": 37.022238348484,
-      "lon": -7.930998348324
     }
   },
   {
@@ -2657,6 +2638,40 @@
     }
   },
   {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/662ea3e8ea239e00b84523e3",
+    "nome": "Universidade do Algarve para a Terceira Idade",
+    "morada": "Praceta Salgueiro Maia - Bloco J - r/c",
+    "codigo_postal": "8000-189",
+    "localidade": "Faro",
+    "email": "uati-faro.dir@sapo.pt",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.022238348484,
+      "lon": -7.930998348324
+    }
+  },
+  {
+    "cmf_url": "https://associativismo.cm-faro.pt/entidades/600708769994ef00cd0a6421",
+    "nome": "URIPSS ALGARVE - União Regional das Instituições Particulares de Solidariedade Social do Algarve",
+    "morada": "Rua Conselheiro Sebastião Teles nº 6",
+    "codigo_postal": "8000-256",
+    "localidade": "Faro",
+    "email": "geral@uripssalgarve.pt",
+    "categories": [
+      "Âmbito Social"
+    ],
+    "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600708769994ef00cd0a6421/logo/20210222173206269BhC.jpg",
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01976114696879,
+      "lon": -7.9388615026925615
+    }
+  },
+  {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660fcfde4a47aa00b6f5af8d",
     "nome": "Wildpack Associação Desportiva",
     "morada": "Sitio da Sambada c253s",
@@ -2688,40 +2703,6 @@
     "coordenadas": {
       "lat": 37.039251312166,
       "lon": -7.958434758689
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/661fcc25b328bb00b9c73c1c",
-    "nome": "Associação Desportiva do Centro de Ténis de Faro",
-    "morada": "Rua das Hortênsias, Urbanização do Montebranco, Gambelas",
-    "codigo_postal": "8005-201",
-    "localidade": "Faro",
-    "email": "centro@tenisfaro.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.04180904992,
-      "lon": -7.970175290466
-    }
-  },
-  {
-    "cmf_url": "https://associativismo.cm-faro.pt/entidades/6603f5d3e1686f00d2ebe8a5",
-    "nome": "Clube de Surf de Faro",
-    "morada": "Casa 107 - AV. Nascente, Rua da Escola Primária, Praia de Faro",
-    "codigo_postal": "8000-520",
-    "localidade": "Faro",
-    "email": "clubesurfaro@gmail.com",
-    "categories": [
-      "Desporto"
-    ],
-    "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false,
-    "coordenadas": {
-      "lat": 37.0192356,
-      "lon": -7.9327939
     }
   }
 ]
