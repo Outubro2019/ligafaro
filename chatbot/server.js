@@ -166,12 +166,12 @@ app.use(bodyParser.json());
 
 // Rota principal para a interface web
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'chatbot_interface.html'));
+  res.sendFile(path.join(__dirname, 'interface.html'));
 });
 
 // Rota específica para /chatbot
 app.get('/chatbot', (req, res) => {
-  res.sendFile(path.join(__dirname, 'chatbot_interface.html'));
+  res.sendFile(path.join(__dirname, 'interface.html'));
 });
 
 // Endpoint da API do chatbot (para compatibilidade com a interface web existente)
@@ -191,8 +191,8 @@ app.post('/api/chatbot', async (req, res) => {
     
     try {
       // Caminho para os arquivos JSON
-      const eventsPath = path.join(__dirname, 'public/events_data.json');
-      const newsPath = path.join(__dirname, 'public/noticias_faro.json');
+      const eventsPath = path.join(__dirname, '../public/events_data.json');
+      const newsPath = path.join(__dirname, '../public/noticias_faro.json');
       
       // Verificar se os arquivos existem
       if (fs.existsSync(eventsPath)) {

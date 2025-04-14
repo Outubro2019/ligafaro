@@ -2,9 +2,9 @@
   "name": "ligafaro-chatbot",
   "version": "1.0.0",
   "description": "Chatbot local para a plataforma Liga Faro",
-  "main": "chatbot_server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node chatbot_server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
