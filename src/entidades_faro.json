@@ -10,7 +10,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/66312f7fde6d3c00b85fcd7c/capa/20240514120251262q0y.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.041615062729,
+      "lon": -7.84436318363
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/603f6885c868e600d1701927",
@@ -23,7 +27,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.093414012413,
+      "lon": -7.938599822989
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63ea8e81b191f70113ccd354",
@@ -36,7 +44,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/63ea8e81b191f70113ccd354/capa/202404181436416493Ii.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.035359217336,
+      "lon": -7.958814542721
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c3bfe309f9a00b611560d",
@@ -49,7 +61,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.018429218194,
+      "lon": -7.931880322335
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662044a8b328bb00b9c7671c",
@@ -62,7 +78,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016939076128,
+      "lon": -7.932435351052
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6012d799ef63af00cd1cf3d3",
@@ -75,7 +95,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.025604150065,
+      "lon": -7.924236551182
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660d39d94a47aa00b6f52864",
@@ -88,7 +112,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023656571761,
+      "lon": -7.931825233592
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661520d23a817600b9b0afaf",
@@ -101,7 +129,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661520d23a817600b9b0afaf/capa/20240430101457118QWX.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.024463371851,
+      "lon": -7.934700058743
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662bc5c6ea239e00b8433d8f",
@@ -114,7 +146,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662bc5c6ea239e00b8433d8f/capa/20240516111458175IU1.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 36.98902,
+      "lon": -7.8335
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/601ac345ef63af00cd1d22e4",
@@ -127,7 +163,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017465178927,
+      "lon": -7.921578070889
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600817e1cb9a5000cd4b149d",
@@ -140,7 +180,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.025657933731,
+      "lon": -7.924274214844
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60488fe33a35e000cde3391a",
@@ -153,7 +197,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/60488fe33a35e000cde3391a/capa/20210310121308143KgN.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017221952194,
+      "lon": -7.91631888578
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600eeb4cef63af00cd1cc847",
@@ -166,7 +214,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600eeb4cef63af00cd1cc847/capa/20210219171747698mBg.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.1314345,
+      "lon": -8.5908964
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a961dc71ed800b79fd662",
@@ -179,7 +231,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662a961dc71ed800b79fd662/capa/20240429121613976sIF.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.013935561212996,
+      "lon": -7.933557599151312
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60310733dbd15400cd297498",
@@ -192,7 +248,11 @@
       "Causa Animal"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 41.155264605935,
+      "lon": -8.611055403832
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c31b8309f9a00b611555d",
@@ -205,7 +265,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660c31b8309f9a00b611555d/capa/20240429090848243Tba.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017554658628,
+      "lon": -7.926856116624
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661f9a9c07a17500b7cf5d8d",
@@ -218,7 +282,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023755813494,
+      "lon": -7.937264166743
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/61c1b38a7a948c00d0e4ee77",
@@ -231,7 +299,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.028148391763,
+      "lon": -7.923968875745
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600c4d1b45368c00cd5370aa",
@@ -244,7 +316,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/600c4d1b45368c00cd5370aa/capa/20240422132935347Yd8.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016647582416,
+      "lon": -7.928724683788
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60144e11ef63af00cd1cfdd1",
@@ -257,7 +333,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60144e11ef63af00cd1cfdd1/capa/20240429124323356VYO.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022685401406,
+      "lon": -7.938733938459
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66036885e1686f00d2ebdf18",
@@ -270,7 +350,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022944026172,
+      "lon": -7.936783045501
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662fa39cea239e00b84694b8",
@@ -283,7 +367,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662fa39cea239e00b84694b8/capa/20240626193650438QdQ.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023476318933,
+      "lon": -7.921785389968
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65d34d14e1686f00d2eb3340",
@@ -296,7 +384,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02106234999782,
+      "lon": -7.936744261332522
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/604932e53a35e000cde348de",
@@ -309,7 +401,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/604932e53a35e000cde348de/capa/20240412124841230sPP.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.138952064348,
+      "lon": -7.947537938631
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661524283a817600b9b0b315",
@@ -322,7 +418,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01679892979819,
+      "lon": -7.934632553633798
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c96fc5ddf8400b6f7224e",
@@ -335,7 +435,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.072589954861,
+      "lon": -8.104129502598
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6617c38a2b7c4900b8c1d277",
@@ -348,7 +452,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600875e9cb9a5000cd4b15a5",
@@ -361,7 +469,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/600875e9cb9a5000cd4b15a5/capa/202405101021094231ib.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 36.993716497437,
+      "lon": -7.838295180275
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600814a2cb9a5000cd4b1472",
@@ -374,7 +486,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600814a2cb9a5000cd4b1472/capa/20210803110308258eWn.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01789309747828,
+      "lon": -7.935029478087142
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63fcc1efb191f70113d04dc6",
@@ -387,7 +503,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 38.728333715689,
+      "lon": -9.110711081471
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/663b67eb050a2d00b75a334c",
@@ -400,7 +520,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/663b67eb050a2d00b75a334c/capa/20240509095515042xI1.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01435320406,
+      "lon": -7.928857704591
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60367a79dbd15400cd2a0315",
@@ -413,7 +537,11 @@
       "Causa Animal"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02761927229265,
+      "lon": -7.930737499011682
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/626c6428b2c40c00d16cb55e",
@@ -426,7 +554,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/626c6428b2c40c00d16cb55e/capa/202405100942004038EF.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023276117175,
+      "lon": -7.941490825238
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65d3868be1686f00d2eb34d9",
@@ -439,7 +571,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.13300802591,
+      "lon": -7.954159812639
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662fe20e5dace700b83ac41c",
@@ -452,7 +588,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.09006031374,
+      "lon": -7.881833551397
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65fb7a98e1686f00d2eba379",
@@ -465,7 +605,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65fb7a98e1686f00d2eba379/capa/20240603234430880NVT.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.061387101157,
+      "lon": -7.91650076847
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6626aa4062d37300b84752ef",
@@ -478,7 +622,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01774512003026,
+      "lon": -7.937455899090068
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660c893d5ddf8400b6f720c5",
@@ -491,7 +639,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01851420451729,
+      "lon": -7.936945977291988
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/621bffb0b2c40c00d16a32ba",
@@ -505,7 +657,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/621bffb0b2c40c00d16a32ba/capa/20241007121703478aOP.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.104078990882,
+      "lon": -7.963591245021
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6011a029ef63af00cd1cddfd",
@@ -518,7 +674,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.05002295,
+      "lon": -7.95180725
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660ab098a479e200b6bccad8",
@@ -531,7 +691,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0389225,
+      "lon": -7.8420052
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6011d2d5ef63af00cd1cde4e",
@@ -544,7 +708,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.033062408228,
+      "lon": -7.949405772588
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661ef41118b7a800b8c95a76",
@@ -557,7 +725,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ef41118b7a800b8c95a76/capa/20240429224202565fyW.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65faea2de1686f00d2eba1a6",
@@ -570,7 +742,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65faea2de1686f00d2eba1a6/capa/20240514112019506P3G.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.095216860573,
+      "lon": -7.862457860197
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/620b9750b2c40c00d166ee31",
@@ -583,7 +759,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/620b9750b2c40c00d166ee31/capa/202202281829223076k3.jpeg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021994622207,
+      "lon": -7.930643995207
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600ee6daef63af00cd1cc819",
@@ -596,7 +776,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600ee6daef63af00cd1cc819/capa/20230215095023629xZ1.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 36.993716497437,
+      "lon": -7.838295180275
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6607c94fa479e200b6bca784",
@@ -609,7 +793,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6607c94fa479e200b6bca784/logo/202404291417456161mQ.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021267016894,
+      "lon": -7.93616932255
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63eeb991b191f70113cd2f9c",
@@ -622,7 +810,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/63eeb991b191f70113cd2f9c/capa/20230413213922770Arg.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.027436852002,
+      "lon": -7.929331617397
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6006b65e5d57da00cda1a011",
@@ -635,7 +827,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6006b65e5d57da00cda1a011/capa/2021012915153669272L.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.018759043397,
+      "lon": -7.932435026794
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60106946ef63af00cd1cd75f",
@@ -648,7 +844,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/60106946ef63af00cd1cd75f/capa/20210205152009605P6Z.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.029855240616,
+      "lon": -7.926155798103
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600a24d545368c00cd535703",
@@ -661,7 +861,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 38.461105976859,
+      "lon": -9.105948397175
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6010167cef63af00cd1cc8da",
@@ -674,7 +878,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6010167cef63af00cd1cc8da/capa/20220706095622043XkX.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.1079,
+      "lon": -7.96202
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009573dcb9a5000cd4b15ed",
@@ -687,7 +895,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.09723398601904,
+      "lon": -7.892459443925941
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/601d6fdeef63af00cd1d27d7",
@@ -700,7 +912,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601d6fdeef63af00cd1d27d7/capa/20210223144155895Eca.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02749751947,
+      "lon": -7.938414855835
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660d72844a47aa00b6f553ab",
@@ -713,7 +929,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660d72844a47aa00b6f553ab/capa/20240426140008244GG6.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.196017,
+      "lon": -8.861679840225934
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661d06a418b7a800b8c8cf5f",
@@ -726,7 +946,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/661d06a418b7a800b8c8cf5f/logo/20250228140056325Gf6.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.020984337209,
+      "lon": -7.93961998445
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660be045309f9a00b611395a",
@@ -740,7 +964,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.014464380969535,
+      "lon": -7.929640357853016
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/67924f2a71fe2500b2e3c772",
@@ -753,7 +981,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/67924f2a71fe2500b2e3c772/capa/20250221123115959ivg.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01830489719898,
+      "lon": -7.924133056021483
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662b6107c71ed800b7a0033d",
@@ -766,7 +998,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662b6107c71ed800b7a0033d/capa/20240513170347998AGp.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023926602774,
+      "lon": -7.928060133416
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63efc48cb191f70113cd3682",
@@ -779,7 +1015,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 38.746120899785,
+      "lon": -9.114464266457
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660dc2c54a47aa00b6f572ec",
@@ -792,7 +1032,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660dc2c54a47aa00b6f572ec/capa/202404221646505565xh.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01636934514,
+      "lon": -7.917820917404
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65f03ec7e1686f00d2eb7831",
@@ -805,7 +1049,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65f03ec7e1686f00d2eb7831/capa/20240709170923225Kd6.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01708381513063,
+      "lon": -7.9347577601382095
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/67c03dc0dde1e900b29a67e7",
@@ -818,7 +1066,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/67c03dc0dde1e900b29a67e7/capa/20250228120607162pzq.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02230498364304,
+      "lon": -7.93660664896492
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661e9167fc93ef463d7952a0",
@@ -831,7 +1083,11 @@
       "Juventude"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0272,
+      "lon": -7.96575
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66159cbb31621800b7420653",
@@ -844,7 +1100,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.019992246231,
+      "lon": -7.923206267866
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6012d4c8ef63af00cd1cf3c3",
@@ -857,7 +1117,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6012d4c8ef63af00cd1cf3c3/capa/20210226170536159NMv.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.140170096951,
+      "lon": -8.016459740706
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6048f2fc3a35e000cde344f0",
@@ -870,7 +1134,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.021724715114175,
+      "lon": -7.9634684940382385
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6033c5e6dbd15400cd29913d",
@@ -883,7 +1151,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6033c5e6dbd15400cd29913d/capa/20240502082140870lec.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.019353198488,
+      "lon": -7.923093982058
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602543aa0db2e000d61e3bf5",
@@ -896,7 +1168,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/602543aa0db2e000d61e3bf5/capa/20210306105217354Ehr.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.024054602705,
+      "lon": -7.935905425669
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a80a4c71ed800b79fcf29",
@@ -909,7 +1185,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/662a80a4c71ed800b79fcf29/capa/20240912224336843Kmn.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.016241102021,
+      "lon": -7.91667511124
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600878b4cb9a5000cd4b15b6",
@@ -922,7 +1202,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600878b4cb9a5000cd4b15b6/capa/20210127165148878ZqY.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.015952764552,
+      "lon": -7.916687097362
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/651be63027462700d331a1bd",
@@ -935,7 +1219,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.020113164103,
+      "lon": -7.930542299492
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6615415f3a817600b9b0d1cb",
@@ -948,7 +1236,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6615415f3a817600b9b0d1cb/capa/20240429112112506efl.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023722995382435,
+      "lon": -7.934436277233995
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66293b2ac71ed800b79f8715",
@@ -961,7 +1253,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.025986950391,
+      "lon": -7.940618688213
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602fa5b6dbd15400cd2968e9",
@@ -974,7 +1270,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01583056970567,
+      "lon": -7.929656364453804
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661d60c318b7a800b8c9044b",
@@ -987,7 +1287,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661d60c318b7a800b8c9044b/capa/202405132304034690Um.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.014702195913145,
+      "lon": -7.923702691513671
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662f5384ea239e00b8457e1a",
@@ -1000,7 +1304,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662f5384ea239e00b8457e1a/capa/20240516191308582A9N.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.1476822,
+      "lon": -7.6036261
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661ee40618b7a800b8c9599e",
@@ -1013,7 +1321,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ee40618b7a800b8c9599e/capa/20240429183120352fch.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.13605207133419,
+      "lon": -8.017657910179125
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660a8252a479e200b6bcb5ff",
@@ -1026,7 +1338,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.014451523784,
+      "lon": -7.923703001777
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660567f9a479e200b6bc7a65",
@@ -1039,7 +1355,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660567f9a479e200b6bc7a65/capa/20240501101701614b4L.jpeg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016824985396,
+      "lon": -7.917162686548
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662144626845f10c37ee00b1",
@@ -1052,7 +1372,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0965,
+      "lon": -8.2459
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60129beeef63af00cd1cef46",
@@ -1065,7 +1389,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60129beeef63af00cd1cef46/capa/20240429103055246BvA.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.016104309361,
+      "lon": -7.925855977426
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6630032e5dace700b83b0555",
@@ -1078,7 +1406,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6630032e5dace700b83b0555/logo/20240430151311503alw.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.017636856538,
+      "lon": -7.916187955028
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6626ab4162d37300b8475346",
@@ -1091,7 +1423,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.094055859036914,
+      "lon": -7.89541886207227
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a826ec71ed800b79fcf73",
@@ -1104,7 +1440,11 @@
       "Cultura"
     ],
     "image_url": "logo_catalise_global.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.030554794255,
+      "lon": -7.924276994506
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/601d72eaef63af00cd1d27ed",
@@ -1117,7 +1457,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601d72eaef63af00cd1d27ed/capa/20210212144045386Yjv.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.088575578311,
+      "lon": -7.959505886436
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/620cdd60b2c40c00d167033a",
@@ -1130,7 +1474,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/620cdd60b2c40c00d167033a/logo/20240422142246749yVr.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.1079,
+      "lon": -7.96202
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60080893cb9a5000cd4b1201",
@@ -1143,7 +1491,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/60080893cb9a5000cd4b1201/capa/20210313220114347kyV.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.100528411998,
+      "lon": -7.924223462671
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600ffcf9ef63af00cd1cc86e",
@@ -1156,7 +1508,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600ffcf9ef63af00cd1cc86e/logo/20210208163615202otZ.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021876337405,
+      "lon": -7.933701463669
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60119c75ef63af00cd1cddef",
@@ -1169,7 +1525,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60119c75ef63af00cd1cddef/logo/20240417112529423P8M.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.024321801506,
+      "lon": -7.930901966957
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60096d7dcb9a5000cd4b167a",
@@ -1182,7 +1542,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.03226737052735,
+      "lon": -7.955551108814577
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6627a3be45533600b836ac3a",
@@ -1195,7 +1559,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.061387101157,
+      "lon": -7.91650076847
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600992c6cb9a5000cd4b2109",
@@ -1208,7 +1576,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0274,
+      "lon": -7.9195
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63cab03a64c86f011c21e0e7",
@@ -1221,7 +1593,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.13300802591,
+      "lon": -7.954159812639
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6623cfad62d37300b84607b8",
@@ -1235,7 +1611,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6623cfad62d37300b84607b8/logo/20250227130004996AGy.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021657906948,
+      "lon": -7.92891579118
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6628e9e629a95900b71073cf",
@@ -1248,7 +1628,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6628e9e629a95900b71073cf/capa/20240430154223940NFi.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01717778860198,
+      "lon": -7.9267279537235975
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66154f043a817600b9b0d947",
@@ -1261,7 +1645,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022238348484,
+      "lon": -7.930998348324
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6602b53ce1686f00d2ebd397",
@@ -1274,7 +1662,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6602b53ce1686f00d2ebd397/capa/20240502160543573cxO.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017276434702,
+      "lon": -7.931516192822
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662fc1945dace700b83a285e",
@@ -1287,7 +1679,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/662fc1945dace700b83a285e/capa/20250110101854978KDa.jpeg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.015520174529,
+      "lon": -7.921632504054
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660f08f64a47aa00b6f5a8a3",
@@ -1300,7 +1696,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02020932404695,
+      "lon": -7.924960266685692
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65eefb0ae1686f00d2eb73ce",
@@ -1313,7 +1713,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.027676852458,
+      "lon": -7.937222132509
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/67c17b40c71ef800b2327c85",
@@ -1326,7 +1730,11 @@
       "Juventude"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02099275,
+      "lon": -7.9380857
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600d6a1045368c00cd5370be",
@@ -1339,7 +1747,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600d6a1045368c00cd5370be/capa/20210311102835548wAC.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0183655,
+      "lon": -7.931473
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6006f6fa5d57da00cda1a024",
@@ -1352,7 +1764,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02415349289,
+      "lon": -7.92220423367
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63fb918bb191f70113cf6b2a",
@@ -1365,7 +1781,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01932740259,
+      "lon": -7.93479209204
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/601bf571ef63af00cd1d238f",
@@ -1378,7 +1798,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601bf571ef63af00cd1d238f/capa/20220405135437203QLH.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.020405811924,
+      "lon": -7.93054174437
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/67b9d6aa421fc700b1418594",
@@ -1391,7 +1815,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.020658197357,
+      "lon": -7.927855145153
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662ec10dea239e00b8454222",
@@ -1404,7 +1832,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02020932404695,
+      "lon": -7.924960266685692
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600706a59994ef00cd0a6410",
@@ -1417,7 +1849,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/600706a59994ef00cd0a6410/logo/20240416150411529CVZ.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016849297257,
+      "lon": -7.918095291259
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63d27763b191f70113cc2878",
@@ -1430,7 +1866,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/63d27763b191f70113cc2878/capa/20240514090820317AYD.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 38.762783212011,
+      "lon": -9.185009277046
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66264a5562d37300b8465ab0",
@@ -1443,7 +1883,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0249151,
+      "lon": -7.935935743003094
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6602f98fe1686f00d2ebdd72",
@@ -1457,7 +1901,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022949566685,
+      "lon": -7.926445476456
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009c1af45368c00cd5356f0",
@@ -1470,7 +1918,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6009c1af45368c00cd5356f0/capa/20210125134942874IF1.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.015527328854,
+      "lon": -7.932927852927
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6628c6bb29a95900b710239b",
@@ -1484,7 +1936,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017877757539,
+      "lon": -7.929770805934
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66151f723a817600b9b0aef1",
@@ -1497,7 +1953,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.016418610368,
+      "lon": -7.934190837259
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6035522cdbd15400cd29e07d",
@@ -1510,7 +1970,11 @@
       "Juventude"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6035522cdbd15400cd29e07d/capa/20240704103748418eJZ.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017835289518,
+      "lon": -7.92003457737
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662ad37ac71ed800b79ffccf",
@@ -1523,7 +1987,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.13597423327882,
+      "lon": -8.015023830562724
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6616ff1d09693700b9a3b566",
@@ -1536,7 +2004,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6616ff1d09693700b9a3b566/logo/20240716190300462MQ0.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.053595765984,
+      "lon": -7.900335093914
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6602e532e1686f00d2ebd704",
@@ -1549,7 +2021,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6602e532e1686f00d2ebd704/capa/20240403114453310tbf.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02586926847,
+      "lon": -7.945912195344
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6628cdde29a95900b710336a",
@@ -1562,7 +2038,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6628cdde29a95900b710336a/capa/20240430181927591kay.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017874396962,
+      "lon": -7.927199634318
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660edec44a47aa00b6f5a4b8",
@@ -1575,7 +2055,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660edec44a47aa00b6f5a4b8/capa/20240506124028261m6S.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.027425866646,
+      "lon": -7.940763586157
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009663acb9a5000cd4b1607",
@@ -1588,7 +2072,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6009663acb9a5000cd4b1607/logo/20210211091717083gAT.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01545900648847,
+      "lon": -7.922124435216229
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6033f473dbd15400cd29b460",
@@ -1601,7 +2089,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023565963387,
+      "lon": -7.921171918475
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/65e9d894e1686f00d2eb5a3e",
@@ -1614,7 +2106,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/65e9d894e1686f00d2eb5a3e/capa/20240430185525788Ajb.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.019969791649,
+      "lon": -7.928001241725
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661548683a817600b9b0d4d3",
@@ -1627,7 +2123,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023053949733,
+      "lon": -7.921612508485
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602f8e09dbd15400cd2966d6",
@@ -1640,7 +2140,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.026985947521,
+      "lon": -7.923949597368
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6633cbd6050a2d00b7595291",
@@ -1653,7 +2157,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6633cbd6050a2d00b7595291/capa/20240514091559339Yov.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01545900648847,
+      "lon": -7.922124435216229
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009bd0645368c00cd5356e0",
@@ -1666,7 +2174,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6009bd0645368c00cd5356e0/capa/20210306103245367bqK.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.024765497551,
+      "lon": -7.921786731073
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/601c2b22ef63af00cd1d2671",
@@ -1679,7 +2191,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/601c2b22ef63af00cd1d2671/capa/20250220125405995yj1.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.021516294694,
+      "lon": -7.934359418198
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6630c0d0de6d3c00b85e35c2",
@@ -1692,7 +2208,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.0872016,
+      "lon": -7.9045665
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661feeb9b328bb00b9c7499c",
@@ -1705,7 +2225,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661feeb9b328bb00b9c7499c/capa/20240527091036899IPv.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.034374720899,
+      "lon": -7.963425008563
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/67b9d5a7421fc700b1418553",
@@ -1718,7 +2242,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02593799939881,
+      "lon": -7.942041391958796
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660eb7514a47aa00b6f58661",
@@ -1731,7 +2259,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660eb7514a47aa00b6f58661/logo/20240426152600802oQ5.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02576228532263,
+      "lon": -7.917567817264874
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660e72bd4a47aa00b6f57716",
@@ -1744,7 +2276,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.052566670389,
+      "lon": -7.930206693686
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602d0a87dbd15400cd293716",
@@ -1757,7 +2293,11 @@
       "Causa Animal"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/602d0a87dbd15400cd293716/capa/20210224153130851kKe.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023392374173,
+      "lon": -7.935467086702
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66190b992d3e0c00b876d46f",
@@ -1770,7 +2310,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/66190b992d3e0c00b876d46f/capa/20240430082430881ZHh.jpeg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016868194107,
+      "lon": -7.929910387811
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660db6eb4a47aa00b6f571e0",
@@ -1783,7 +2327,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/660db6eb4a47aa00b6f571e0/capa/20240604184018701ooV.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.02020932404695,
+      "lon": -7.924960266685692
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/67b765595e0c8a00b1ab6c60",
@@ -1796,7 +2344,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.015878836166,
+      "lon": -7.925755478407
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602d8eb4dbd15400cd293bd5",
@@ -1809,7 +2361,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/602d8eb4dbd15400cd293bd5/capa/20240513172127073urf.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.088244793512,
+      "lon": -7.925901658799
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/60096761cb9a5000cd4b1615",
@@ -1822,7 +2378,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/60096761cb9a5000cd4b1615/capa/20240418223040256f5O.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.022496000000004,
+      "lon": -7.929546941955582
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/602ef0d8dbd15400cd2965c9",
@@ -1835,7 +2395,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/602ef0d8dbd15400cd2965c9/capa/202102241657334391fd.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017156808173,
+      "lon": -7.916988814295
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600b1db045368c00cd537094",
@@ -1848,7 +2412,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021013925327,
+      "lon": -7.941193100038
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009b58245368c00cd5355dc",
@@ -1861,7 +2429,11 @@
       "Não categorizado"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.016005067628,
+      "lon": -7.925788838382
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6216b9d2b2c40c00d1682e45",
@@ -1874,7 +2446,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/6216b9d2b2c40c00d1682e45/capa/20230206122958652WLM.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.021994622207,
+      "lon": -7.930643995207
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600977d1cb9a5000cd4b1aff",
@@ -1887,7 +2463,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600977d1cb9a5000cd4b1aff/capa/202102231542038414ap.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01538712258379,
+      "lon": -7.933964367844494
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6009ba3e45368c00cd5355fc",
@@ -1900,7 +2480,11 @@
       "Cultura"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6009ba3e45368c00cd5355fc/capa/20240515134442424Ljt.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0149881,
+      "lon": -7.9336486
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/604936cb3a35e000cde348ee",
@@ -1913,7 +2497,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/604936cb3a35e000cde348ee/capa/202104071605339080mM.jpg",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.12476753762235,
+      "lon": -7.922077348987774
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/66053ba8a3eebc00b7bd0b58",
@@ -1926,7 +2514,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/66053ba8a3eebc00b7bd0b58/logo/20240422112112192aJH.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01465555,
+      "lon": -7.9302564
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/61edada67a948c00d0e527e0",
@@ -1939,7 +2531,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.017308720937,
+      "lon": -7.926801127282
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6008143fcb9a5000cd4b1462",
@@ -1952,7 +2548,11 @@
       "Juventude"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6008143fcb9a5000cd4b1462/capa/20240510102309057TSh.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023890678316,
+      "lon": -7.921362103858
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/63dcf08bb191f70113cc61a7",
@@ -1965,7 +2565,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6628e6dd29a95900b7106ed7",
@@ -1978,7 +2582,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6628e6dd29a95900b7106ed7/capa/20240429113036203RoA.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.033376184773,
+      "lon": -7.958892326783
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/600708769994ef00cd0a6421",
@@ -1991,7 +2599,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600708769994ef00cd0a6421/logo/20210222173206269BhC.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.01976114696879,
+      "lon": -7.9388615026925615
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662ea3e8ea239e00b84523e3",
@@ -2004,7 +2616,11 @@
       "Âmbito Social"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": true
+    "has_more_categories": true,
+    "coordenadas": {
+      "lat": 37.022238348484,
+      "lon": -7.930998348324
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6618638e2b7c4900b8c208af",
@@ -2017,7 +2633,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/6618638e2b7c4900b8c208af/capa/20240422141413533hyT.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.025608276955786,
+      "lon": -7.924146230230179
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/601b4ce5ef63af00cd1d2377",
@@ -2030,7 +2650,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/601b4ce5ef63af00cd1d2377/logo/202405130958230478Ab.jpg",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.023668334129425,
+      "lon": -7.937963276090831
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/660fcfde4a47aa00b6f5af8d",
@@ -2043,7 +2667,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.097198209739,
+      "lon": -7.906176283478
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6616d81009693700b9a39f44",
@@ -2056,7 +2684,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.039251312166,
+      "lon": -7.958434758689
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/661fcc25b328bb00b9c73c1c",
@@ -2069,7 +2701,11 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.04180904992,
+      "lon": -7.970175290466
+    }
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/6603f5d3e1686f00d2ebe8a5",
@@ -2082,6 +2718,10 @@
       "Desporto"
     ],
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
-    "has_more_categories": false
+    "has_more_categories": false,
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
   }
 ]

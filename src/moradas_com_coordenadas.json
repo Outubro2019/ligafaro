@@ -1,0 +1,1274 @@
+[
+  {
+    "nome": "1ª Companhia Guias de Faro",
+    "morada": "Sub-Cave, Rua de Berlim BI 3, Nº 85, 8000-278 Faro",
+    "coordenadas": {
+      "lat": 37.019992246231,
+      "lon": -7.923206267866
+    }
+  },
+  {
+    "nome": "289 Associação Cultural",
+    "morada": "Rua Eng.o Rui Cruz Urbanização Quinta Santo António do Alto B2, 8000-539 Faro",
+    "coordenadas": {
+      "lat": 37.041615062729,
+      "lon": -7.84436318363
+    }
+  },
+  {
+    "nome": "A.S.S.V.I.D.A.S. Associação de Solidariedade Social de Voluntariado ao Idoso e Desenvolvimento de Atividades Seniores",
+    "morada": "Sítio do Medronhal, 8005-502 Santa Bárbara de Nexe",
+    "coordenadas": {
+      "lat": 37.093414012413,
+      "lon": -7.938599822989
+    }
+  },
+  {
+    "nome": "A3 - Associação Algarve Alternativo",
+    "morada": "Urb. Monte da Ria, R. João Batista Severino, Lote 24, 8005-237 Faro",
+    "coordenadas": {
+      "lat": 37.035359217336,
+      "lon": -7.958814542721
+    }
+  },
+  {
+    "nome": "ACADEMIA DE KARATE de FARO",
+    "morada": "rua manuel ascencao 50 5 b, 8000-389 faro",
+    "coordenadas": {
+      "lat": 37.022944026172,
+      "lon": -7.936783045501
+    }
+  },
+  {
+    "nome": "ACTA - A Companhia de Teatro do Algarve",
+    "morada": "Rua de Portugal, 58, 8000-281 Faro",
+    "coordenadas": {
+      "lat": 37.018429218194,
+      "lon": -7.931880322335
+    }
+  },
+  {
+    "nome": "AFA - Associação de Fado do Algarve",
+    "morada": "Rua Baptista Lopes, n.º 5 - Faro, 8000-156 Faro",
+    "coordenadas": {
+      "lat": 37.016939076128,
+      "lon": -7.932435351052
+    }
+  },
+  {
+    "nome": "AIPAR - Associação de Proteção à Rapariga e à Família",
+    "morada": "Rua Monsenhor Henrique Ferreira da Silva, 10, 8005-137 Faro",
+    "coordenadas": {
+      "lat": 37.025604150065,
+      "lon": -7.924236551182
+    }
+  },
+  {
+    "nome": "ALFA - Associação Livre Fotógrafos do Algarve",
+    "morada": "R. António Mario Labóia, 1 - Cidade Velha, 8000-098 Faro",
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
+  },
+  {
+    "nome": "AMAR - Associação Mais Algarve Rádio",
+    "morada": "Rua Sporting Clube Farense, 12-A, 3º Esquerdo, 8000-434 Faro",
+    "coordenadas": {
+      "lat": 37.023656571761,
+      "lon": -7.931825233592
+    }
+  },
+  {
+    "nome": "AMARELARTE Associação Cultural e Recreativa",
+    "morada": "Rua Belchior Vieira nº21, 8000-299 Faro",
+    "coordenadas": {
+      "lat": 37.024463371851,
+      "lon": -7.934700058743
+    }
+  },
+  {
+    "nome": "AMIC - Associação de Moradores Ilha da Culatra",
+    "morada": "Ilha da Culatra, 8005-556 Faro",
+    "coordenadas": {
+      "lat": 36.98902,
+      "lon": -7.8335
+    }
+  },
+  {
+    "nome": "APATRIS 21 - Associação de Portadores de Trissomia 21 do Algarve",
+    "morada": "Rua de Berlim nº 73, 8000-278 Faro",
+    "coordenadas": {
+      "lat": 37.017465178927,
+      "lon": -7.921578070889
+    }
+  },
+  {
+    "nome": "APPIA- Associação Pró-Partilha e Inserção do Algarve, IPSS (Banco Alimentar Contra Fome do Algarve)",
+    "morada": "Rua Raul de Matos Lote 72, Cave, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.017221952194,
+      "lon": -7.91631888578
+    }
+  },
+  {
+    "nome": "AREMDA - Associação Regional de Esclerose Múltipla do Algarve",
+    "morada": "Rua Ataíde de Oliveira 88, 8000-223 Faro",
+    "coordenadas": {
+      "lat": 37.1314345,
+      "lon": -8.5908964
+    }
+  },
+  {
+    "nome": "ASSOCIAÇÃO ANIMAIS DE RUA",
+    "morada": "RUA JOÃO DAS REGRAS N.284 Sala 105 1ºandar, 4000-294 PORTO",
+    "coordenadas": {
+      "lat": 41.155264605935,
+      "lon": -8.611055403832
+    }
+  },
+  {
+    "nome": "ASSOCIAÇÃO CARLOTA CSC28",
+    "morada": "Rua Luís de Camões, lote 27 - 2º esquerdo, 8000-388 Faro",
+    "coordenadas": {
+      "lat": 37.023276117175,
+      "lon": -7.941490825238
+    }
+  },
+  {
+    "nome": "ASSOCIAÇÃO DOS AMIGOS DO MUSEU DO LYCEU DE FARO",
+    "morada": "Avenida 5 de Outubro, Museu do Lyceu de Faro, s/n., 8004-069 Faro",
+    "coordenadas": {
+      "lat": 37.017554658628,
+      "lon": -7.926856116624
+    }
+  },
+  {
+    "nome": "ASSOCIAÇÃO FARENSE 1910",
+    "morada": "Praça de Tânger, Edifício Sede - 2º andar, 8000-166 Faro",
+    "coordenadas": {
+      "lat": 37.023755813494,
+      "lon": -7.937264166743
+    }
+  },
+  {
+    "nome": "ASSOCIAÇÃO ONCOLÓGICA DO ALGARVE",
+    "morada": "LARGO DAS MOURAS VELHAS, N.º 16, 8000-139 N/A",
+    "coordenadas": {
+      "lat": 37.018759043397,
+      "lon": -7.932435026794
+    }
+  },
+  {
+    "nome": "ATREVO - Associação para o Desenvolvimento Pessoal e Comunitário",
+    "morada": "Estrada da Penha, Escola Superior de Educação e Comunicação, Gabinete n.º 101, Universidade do Algarve - Campus da Penha, 8005-139 Faro",
+    "coordenadas": {
+      "lat": 37.028148391763,
+      "lon": -7.923968875745
+    }
+  },
+  {
+    "nome": "AXAL - Academia de Xadrez do Algarve",
+    "morada": "Instituto Português do Desporto e Juventude (Direção Regional Algarve) – Casa de Associações, Rua da PSP s/n, 8000-408 FARO",
+    "coordenadas": {
+      "lat": 37.016647582416,
+      "lon": -7.928724683788
+    }
+  },
+  {
+    "nome": "Academia de Judo de Faro - Associação AJF",
+    "morada": "Estrada Senhora da Saúde nº30 B, 6º Andar, 8000-500 Faro",
+    "coordenadas": {
+      "lat": 37.022685401406,
+      "lon": -7.938733938459
+    }
+  },
+  {
+    "nome": "Adalgarve - Associação de Dança de Faro",
+    "morada": "Rua Dorilia Carmona Cv4, 8000-316 Faro",
+    "coordenadas": {
+      "lat": 37.023476318933,
+      "lon": -7.921785389968
+    }
+  },
+  {
+    "nome": "Algarshow-Associação Americancars Algarve",
+    "morada": "Rua Mascarenhas Manuel, n.29,Faro (Sé e São Pedro), 8000-392 Faro",
+    "coordenadas": {
+      "lat": 37.02106234999782,
+      "lon": -7.936744261332522
+    }
+  },
+  {
+    "nome": "Algarviana Team - Associação Cultural e Desportiva",
+    "morada": "Estrada da Fonte da Murta Caixa Postal 771-Z - Gorjões - Santa Bárbara de Nexe, 8005-488 Faro",
+    "coordenadas": {
+      "lat": 37.138952064348,
+      "lon": -7.947537938631
+    }
+  },
+  {
+    "nome": "Alliance Française de l'Algarve",
+    "morada": "Rua Primeiro de Maio, nº 15, 8000-411 FARO",
+    "coordenadas": {
+      "lat": 37.01679892979819,
+      "lon": -7.934632553633798
+    }
+  },
+  {
+    "nome": "Altimetria Associação Desportiva",
+    "morada": "Rua Parque Ribeirinho, Parque Ribeirinho, 8000-504 Faro",
+    "coordenadas": {
+      "lat": 37.072589954861,
+      "lon": -8.104129502598
+    }
+  },
+  {
+    "nome": "ArQuente - Associação Cultural",
+    "morada": "Galeria Arco, Rua António Maria Labóia, nº 1, 8000-098 Faro",
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
+  },
+  {
+    "nome": "Artadentro - Arte Contemporânea - Associação",
+    "morada": "Rua Rasquinho 7, 8000-416 Faro",
+    "coordenadas": {
+      "lat": 37.013935561212996,
+      "lon": -7.933557599151312
+    }
+  },
+  {
+    "nome": "Associação Algarvia de Pais e Amigos de Crianças Diminuídas Mentais",
+    "morada": "Rua do Compromisso nº 50, 8000-252 Faro",
+    "coordenadas": {
+      "lat": 37.01789309747828,
+      "lon": -7.935029478087142
+    }
+  },
+  {
+    "nome": "Associação Busf Portugal",
+    "morada": "Rua de Xabregas N 12 Torre A Sala 243, 1900-440 Lisboa",
+    "coordenadas": {
+      "lat": 38.728333715689,
+      "lon": -9.110711081471
+    }
+  },
+  {
+    "nome": "Associação CVI - Centro de Vida Independente",
+    "morada": "Rua Eng. Aboim Sande Lemos, Nº 8, B, 8000-544 Faro",
+    "coordenadas": {
+      "lat": 37.01435320406,
+      "lon": -7.928857704591
+    }
+  },
+  {
+    "nome": "Associação Cabana da Meia-Noite",
+    "morada": "Rua Vale Carneiros nº40, 8005-304 Faro",
+    "coordenadas": {
+      "lat": 37.02761927229265,
+      "lon": -7.930737499011682
+    }
+  },
+  {
+    "nome": "Associação Casa-Museu José Pinto Contreiras",
+    "morada": "Lugar do Alto, Gorjões, 8005-488 Faro, 8005-488 Gorjões",
+    "coordenadas": {
+      "lat": 37.13300802591,
+      "lon": -7.954159812639
+    }
+  },
+  {
+    "nome": "Associação Clube BCF",
+    "morada": "Rua das Alfarrobeiras, nr. 2, 8005-446 Conceição de Faro",
+    "coordenadas": {
+      "lat": 37.061387101157,
+      "lon": -7.91650076847
+    }
+  },
+  {
+    "nome": "Associação Companhia de Capoeira Contemporânea",
+    "morada": "Rua da Barqueta nº 16, 8000-227 Faro",
+    "coordenadas": {
+      "lat": 37.01774512003026,
+      "lon": -7.937455899090068
+    }
+  },
+  {
+    "nome": "Associação Cultural Música XXI",
+    "morada": "R. Infante D. Henrique, nº 101, 8000-363 FARO",
+    "coordenadas": {
+      "lat": 37.01851420451729,
+      "lon": -7.936945977291988
+    }
+  },
+  {
+    "nome": "Associação Cultural Recreativa Desportiva Nexense",
+    "morada": "Rua Pires Laranjeira, 10, 8005-491 Santa Bárbara de Nexe",
+    "coordenadas": {
+      "lat": 37.104078990882,
+      "lon": -7.963591245021
+    }
+  },
+  {
+    "nome": "Associação Desportiva Geração de Génios",
+    "morada": "Pct Júlio Rosa Bernardo, Lote 11 - Patacão, 8005-331 Faro",
+    "coordenadas": {
+      "lat": 37.05002295,
+      "lon": -7.95180725
+    }
+  },
+  {
+    "nome": "Associação Desportiva do Centro de Ténis de Faro",
+    "morada": "Rua das Hortênsias, Urbanização do Montebranco, Gambelas, 8005-201 Faro",
+    "coordenadas": {
+      "lat": 37.04180904992,
+      "lon": -7.970175290466
+    }
+  },
+  {
+    "nome": "Associação Escola Futebol faro",
+    "morada": "Rua candido Guerreiro 7, 8000-321 Faro",
+    "coordenadas": {
+      "lat": 37.0389225,
+      "lon": -7.8420052
+    }
+  },
+  {
+    "nome": "Associação Filarmónica de Faro",
+    "morada": "Solar do Capitão Mor, Rua João Brito Vargas, r/c, Horta das Figuras, 8005-518 Faro",
+    "coordenadas": {
+      "lat": 37.033062408228,
+      "lon": -7.949405772588
+    }
+  },
+  {
+    "nome": "Associação Moto Quedas, Faro",
+    "morada": "Estrada Alcaria Cova, Vale Grande cxp. 289F, 8005-404 Estoi",
+    "coordenadas": {
+      "lat": 37.095216860573,
+      "lon": -7.862457860197
+    }
+  },
+  {
+    "nome": "Associação Neurolândia - Atividades Terapêuticas",
+    "morada": "Praça José Afonso 11, 8000-166 Faro",
+    "coordenadas": {
+      "lat": 37.021994622207,
+      "lon": -7.930643995207
+    }
+  },
+  {
+    "nome": "Associação Nossa senhora dos Navegantes",
+    "morada": "Ilha da Culatra - Av. 19 de julho nº 500, 8005-556 Faro",
+    "coordenadas": {
+      "lat": 36.993716497437,
+      "lon": -7.838295180275
+    }
+  },
+  {
+    "nome": "Associação Nova Meta",
+    "morada": "Rua Aboim Ascensão, Nº 62-A, 8000-198 Faro",
+    "coordenadas": {
+      "lat": 37.021267016894,
+      "lon": -7.93616932255
+    }
+  },
+  {
+    "nome": "Associação Oficina do Sentir",
+    "morada": "Rua Olimpio Passos Valente, n10, r/c., 8005-170 Faro",
+    "coordenadas": {
+      "lat": 37.027436852002,
+      "lon": -7.929331617397
+    }
+  },
+  {
+    "nome": "Associação PAS - Projecto Ana Sanona",
+    "morada": "Rua da Amendoeira, Edificio Jardim da Amendoeira, nº 2, Bloco B, 3º Esq., 8005-545 Faro",
+    "coordenadas": {
+      "lat": 37.029855240616,
+      "lon": -7.926155798103
+    }
+  },
+  {
+    "nome": "Associação PRAVI - Projecto de Apoio a Vítimas Indefesas",
+    "morada": "Rua do Casalão, Vila de S. João, nº21, Santana, 2970-047 Sesimbra",
+    "coordenadas": {
+      "lat": 38.461105976859,
+      "lon": -9.105948397175
+    }
+  },
+  {
+    "nome": "Associação Partilhas e Cuidados",
+    "morada": "Goldra de Cima, Rua do Barranco, nº 170 Santa Bárbara de Nexe, 8005-487 Faro",
+    "coordenadas": {
+      "lat": 37.1079,
+      "lon": -7.96202
+    }
+  },
+  {
+    "nome": "Associação Portuguesa de Kempo",
+    "morada": "Rua Ataíde Oliveira 103 A, 8000-218 Faro",
+    "coordenadas": {
+      "lat": 37.09723398601904,
+      "lon": -7.892459443925941
+    }
+  },
+  {
+    "nome": "Associação Portuguesa de Paralisia Cerebral de Faro",
+    "morada": "Rua da Guiné-Bissau, n.º 2, 8005-203 Faro",
+    "coordenadas": {
+      "lat": 37.02749751947,
+      "lon": -7.938414855835
+    }
+  },
+  {
+    "nome": "Associação Recreativa e Cultural de Músicos",
+    "morada": "Rua do Castelo, 4, 8000-401 Faro",
+    "coordenadas": {
+      "lat": 37.196017,
+      "lon": -8.861679840225934
+    }
+  },
+  {
+    "nome": "Associação Recreativa e Cultural do Algarve",
+    "morada": "Largo do Camões, Edifício Riamar, Bloco 5, 5ºA, 8000-140 Faro",
+    "coordenadas": {
+      "lat": 37.020984337209,
+      "lon": -7.93961998445
+    }
+  },
+  {
+    "nome": "Associação Rádio Universitária do Algarve",
+    "morada": "Rua Teresa Ramalho Ortigão, 79B, 8000-544 Faro",
+    "coordenadas": {
+      "lat": 37.014464380969535,
+      "lon": -7.929640357853016
+    }
+  },
+  {
+    "nome": "Associação Sorriso Estrela",
+    "morada": "Avenida 5 De Outubro, 32, 8000-076 Faro",
+    "coordenadas": {
+      "lat": 37.01830489719898,
+      "lon": -7.924133056021483
+    }
+  },
+  {
+    "nome": "Associação South Side",
+    "morada": "Rua Leão Penedo, Edifício Sporting Clube Farense, 8000-386 Faro",
+    "coordenadas": {
+      "lat": 37.023926602774,
+      "lon": -7.928060133416
+    }
+  },
+  {
+    "nome": "Associação Spina Bífida e Hidrocefalia de Portugal",
+    "morada": "Rua Botelho de Vasconcelos lote 567 letra D, 1950-046 Lisboa",
+    "coordenadas": {
+      "lat": 38.746120899785,
+      "lon": -9.114464266457
+    }
+  },
+  {
+    "nome": "Associação Temivels d'Atalaia",
+    "morada": "Rua Dr. Joaquim Peixoto Magalhães, Lt 40, 1º esqª, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.01636934514,
+      "lon": -7.917820917404
+    }
+  },
+  {
+    "nome": "Associação aeQuum - Apoio à Inclusão LGBTI+",
+    "morada": "Rua do Compromisso 72, 8000-252 Faro",
+    "coordenadas": {
+      "lat": 37.01708381513063,
+      "lon": -7.9347577601382095
+    }
+  },
+  {
+    "nome": "Associação da Beneficência e Refúgio Aboim Ascensão",
+    "morada": "Rua Manuel Ascensão, nº 9, 8000-389 Faro",
+    "coordenadas": {
+      "lat": 37.02230498364304,
+      "lon": -7.93660664896492
+    }
+  },
+  {
+    "nome": "Associação de Escoteiros de Portugal - Grupo 77 - Faro",
+    "morada": "Rua do Grupo de Teatro Lethes 3 - A, 8000-387 Faro",
+    "coordenadas": {
+      "lat": 37.017835289518,
+      "lon": -7.92003457737
+    }
+  },
+  {
+    "nome": "Associação de Saúde Mental do Algarve",
+    "morada": "Loteamento Industrial de Loulé, Lote 6., 8100-272 Loulé",
+    "coordenadas": {
+      "lat": 37.140170096951,
+      "lon": -8.016459740706
+    }
+  },
+  {
+    "nome": "Associação de Solidariedade Sócio Cultural de Montenegro",
+    "morada": "Rua Professor Egas Moniz, 36 C, 8005-276 Montenegro",
+    "coordenadas": {
+      "lat": 37.021724715114175,
+      "lon": -7.9634684940382385
+    }
+  },
+  {
+    "nome": "Associação do Conservatório Regional do Algarve Maria Campina",
+    "morada": "Avenida Dr. Júlio Filipe Almeida Carrapato, 93, 8000-081 Faro",
+    "coordenadas": {
+      "lat": 37.019353198488,
+      "lon": -7.923093982058
+    }
+  },
+  {
+    "nome": "Associação dos Escoteiros de Portugal - Grupo 166",
+    "morada": "Antiga Escola Primária da Arábia , Sítio da Arábia, Montenegro, 8005-408 Faro",
+    "coordenadas": {
+      "lat": 37.0272,
+      "lon": -7.96575
+    }
+  },
+  {
+    "nome": "Associação dos Reformados, Pensionistas e Idosos do Concelho de Faro (A.R.P.I.)",
+    "morada": "Praceta de São Tomé e Príncipe, Edifício António Justo, 8000-190 Faro",
+    "coordenadas": {
+      "lat": 37.024054602705,
+      "lon": -7.935905425669
+    }
+  },
+  {
+    "nome": "Associação para o Estudo da Diabetes Mellitus e Apoio ao Diabético do Algarve",
+    "morada": "Rua Raul Matos nº 84 RC, 8000-074 Faro",
+    "coordenadas": {
+      "lat": 37.015952764552,
+      "lon": -7.916687097362
+    }
+  },
+  {
+    "nome": "Associação para o Planeamento da Família",
+    "morada": "Rua Monsenhor Henrique Ferreira da Silva, nº 9, 8005-137 N/A",
+    "coordenadas": {
+      "lat": 37.025657933731,
+      "lon": -7.924274214844
+    }
+  },
+  {
+    "nome": "Associação ~dos ucranianos no Algarve",
+    "morada": "Rua Tenente Coronel António Palermo Oliveira Lote 68 B/C, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.016241102021,
+      "lon": -7.91667511124
+    }
+  },
+  {
+    "nome": "Beliaev Centro Cultural Associação - BCC",
+    "morada": "Rua de S. Luís, 7 - 2º esq., 8000-285 Faro",
+    "coordenadas": {
+      "lat": 37.020113164103,
+      "lon": -7.930542299492
+    }
+  },
+  {
+    "nome": "Blues a Sul - Associação de Blues do Algarve",
+    "morada": "Rua Dom Frei João de Faro - Nº 71, 8000-348 Faro",
+    "coordenadas": {
+      "lat": 37.023722995382435,
+      "lon": -7.934436277233995
+    }
+  },
+  {
+    "nome": "CAMADA - Centro Coreográfico Associação",
+    "morada": "Praceta Agostinho Ferreira Chaves, nº6, 6º esq., 8005-328 Faro",
+    "coordenadas": {
+      "lat": 37.025986950391,
+      "lon": -7.940618688213
+    }
+  },
+  {
+    "nome": "CASA DE ANGOLA NO ALGARVE",
+    "morada": "URBANIZAÇÃO SANTO ANTÓNIO DO ALTO, LOTE 54 - Nº 53A R/C, 8000-536 FARO",
+    "coordenadas": {
+      "lat": 37.017636856538,
+      "lon": -7.916187955028
+    }
+  },
+  {
+    "nome": "CASA DO POVO DA CONCEIÇÃO DE FARO",
+    "morada": "RUA 25 DE ABRIL, 16, 8005-446 FARO",
+    "coordenadas": {
+      "lat": 37.1476822,
+      "lon": -7.6036261
+    }
+  },
+  {
+    "nome": "CLUBE DE PRATICANTES D'ATALAIA 3 0 TRAIL CLUBE",
+    "morada": "Largo Valeriano Machado Lt. 60, 6º esq, 8000-536 FARO",
+    "coordenadas": {
+      "lat": 37.016824985396,
+      "lon": -7.917162686548
+    }
+  },
+  {
+    "nome": "CLUBE DE PRATICANTES DE DESPORTOS DE COMBATE J F",
+    "morada": "RUA ENG.º ADELINO AMARO DA COSTA, LOTE 11 - 2 C, 8000-339 FARO",
+    "coordenadas": {
+      "lat": 37.014451523784,
+      "lon": -7.923703001777
+    }
+  },
+  {
+    "nome": "CLUBE DE RUGBY UNIVERSITÁRIO DO ALGARVE",
+    "morada": "Sala das Associações, IPDJ-Faro, Rua da PSP n.º 1, 8000-118 Faro",
+    "coordenadas": {
+      "lat": 37.017276434702,
+      "lon": -7.931516192822
+    }
+  },
+  {
+    "nome": "COOPPOFA - COOPERATIVA DE CONSUMO POPULAR DE FARO CRL",
+    "morada": "RUA DA COOPPOFA, 8005-218 FARO",
+    "coordenadas": {
+      "lat": 37.027676852458,
+      "lon": -7.937222132509
+    }
+  },
+  {
+    "nome": "Casa do Benfica em Faro",
+    "morada": "Rua Engenheiro Adelino Amaro da Costa, lote 22, 8000-339 Faro",
+    "coordenadas": {
+      "lat": 37.014702195913145,
+      "lon": -7.923702691513671
+    }
+  },
+  {
+    "nome": "Casa do Povo de Estoi",
+    "morada": "Rua de Faro nº 22 - Estoi, 8005-463 Estoi",
+    "coordenadas": {
+      "lat": 37.094055859036914,
+      "lon": -7.89541886207227
+    }
+  },
+  {
+    "nome": "Catalise Global",
+    "morada": "Estrada da penha, nrº 167, 3 Esquerdo, 8005-134 Faro",
+    "coordenadas": {
+      "lat": 37.030554794255,
+      "lon": -7.924276994506
+    }
+  },
+  {
+    "nome": "Centro Cultural e Social da Paróquia de Santa Bárbara de Nexe",
+    "morada": "Rua Pe. Júlio Tropa Mendes, nº 9 e 11, 8005-491 Santa Bárbara de Nexe",
+    "coordenadas": {
+      "lat": 37.1079,
+      "lon": -7.96202
+    }
+  },
+  {
+    "nome": "Centro Cultural e Social da Paróquia de São Martinho de Estoi",
+    "morada": "Rua da Torre, Sítio do Guilhim, 8005-489 Faro",
+    "coordenadas": {
+      "lat": 37.100528411998,
+      "lon": -7.924223462671
+    }
+  },
+  {
+    "nome": "Centro de Acção Social Cultura e Desporto dos Trabalhadores da Saúde e Segurança Social do Distrito de Faro",
+    "morada": "Sitio da Falfosa- Caminho da Falfosa Cx.Postal 603-A, 8005-483 Faro - Stª Bárbara de Nexe",
+    "coordenadas": {
+      "lat": 37.088575578311,
+      "lon": -7.959505886436
+    }
+  },
+  {
+    "nome": "Centro de Apoio ao Sem Abrigo - Delegação de Faro",
+    "morada": "Rua Cunha e Matos, 17, 8000-262 Faro",
+    "coordenadas": {
+      "lat": 37.021876337405,
+      "lon": -7.933701463669
+    }
+  },
+  {
+    "nome": "Charola Amizade Estoiense",
+    "morada": "Sítio de Vale de Mouro, cx. P. 511-A, estoi, 8005-411 Estoi",
+    "coordenadas": {
+      "lat": 37.09006031374,
+      "lon": -7.881833551397
+    }
+  },
+  {
+    "nome": "Cineclube de Faro",
+    "morada": "Rua Dr. Francisco de Sousa Vaz, nº 28A, 8000-327 Faro",
+    "coordenadas": {
+      "lat": 37.024321801506,
+      "lon": -7.930901966957
+    }
+  },
+  {
+    "nome": "Clube Desportivo Montenegro",
+    "morada": "Rua Poeta António Aleixo, 7, 8005-173 Montenegro",
+    "coordenadas": {
+      "lat": 37.03226737052735,
+      "lon": -7.955551108814577
+    }
+  },
+  {
+    "nome": "Clube Karaté Conceição de Faro",
+    "morada": "Rua das Alfarrobeiras Nº 2, 8005-446 Conceição de Faro - Faro",
+    "coordenadas": {
+      "lat": 37.061387101157,
+      "lon": -7.91650076847
+    }
+  },
+  {
+    "nome": "Clube Natação de Faro",
+    "morada": "Avenida Cidade de Hayward, Edifício das Piscinas Municipais, 8004-001 Faro",
+    "coordenadas": {
+      "lat": 37.0274,
+      "lon": -7.9195
+    }
+  },
+  {
+    "nome": "Clube Recreativo e Cultural Gorjonense",
+    "morada": "Sítio dos Gorjões, caixa postal 778, 8005-488 Gorjões",
+    "coordenadas": {
+      "lat": 37.13300802591,
+      "lon": -7.954159812639
+    }
+  },
+  {
+    "nome": "Clube de Danças João de Deus",
+    "morada": "Rua São Luís Bloco 93, 2º esquerdo, 8000-285 Faro",
+    "coordenadas": {
+      "lat": 37.021657906948,
+      "lon": -7.92891579118
+    }
+  },
+  {
+    "nome": "Clube de Futebol \"Os Bonjoanenses\" de Faro",
+    "morada": "Rua Dr. José de Matos, nº 89, 8000-503 Faro",
+    "coordenadas": {
+      "lat": 37.01717778860198,
+      "lon": -7.9267279537235975
+    }
+  },
+  {
+    "nome": "Clube de Petanca de Faro",
+    "morada": "Praceta Salgueiro Maia, Bloco J Nº1B, 8000-189 Faro",
+    "coordenadas": {
+      "lat": 37.022238348484,
+      "lon": -7.930998348324
+    }
+  },
+  {
+    "nome": "Clube de Surf de Faro",
+    "morada": "Casa 107 - AV. Nascente, Rua da Escola Primária, Praia de Faro, 8000-520 Faro",
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
+  },
+  {
+    "nome": "Clube dos Amadores de Pesca de Faro",
+    "morada": "R DR JOSÉ DE MATOS N 115 A, 8000-501 Faro",
+    "coordenadas": {
+      "lat": 37.015520174529,
+      "lon": -7.921632504054
+    }
+  },
+  {
+    "nome": "Confraria Marinha da Ria Formosa",
+    "morada": "Rua Reitor Teixeira Guedes 131, 8000-424 Faro",
+    "coordenadas": {
+      "lat": 37.02020932404695,
+      "lon": -7.924960266685692
+    }
+  },
+  {
+    "nome": "Contextos - Cooperativa para o Desenvolvimento e Coesão Social, CRL",
+    "morada": "Rua Dr. José de Matos, 17, 4º D, 8000-503 Faro",
+    "coordenadas": {
+      "lat": 37.016104309361,
+      "lon": -7.925855977426
+    }
+  },
+  {
+    "nome": "Corpo Nacional de Escutas - Agrupamento 98 Faro",
+    "morada": "Travessa da Saúde, nº11, 8000-275 Faro",
+    "coordenadas": {
+      "lat": 37.02099275,
+      "lon": -7.9380857
+    }
+  },
+  {
+    "nome": "Corpo Nacional de Escutas – Escutismo Católico Português – Agrupamento 1172 São Luís FARO",
+    "morada": "Travessa do Corpo Nacional de Escutas, n.º 2-2A, 8005-248 Faro",
+    "coordenadas": {
+      "lat": 37.0965,
+      "lon": -8.2459
+    }
+  },
+  {
+    "nome": "Cruz Vermelha Portuguesa Delegação de Faro - Loulé",
+    "morada": "Rua Dr. Justino Cúmano, 1, 8000-333 Faro",
+    "coordenadas": {
+      "lat": 37.0183655,
+      "lon": -7.931473
+    }
+  },
+  {
+    "nome": "CÁRITAS DIOCESANA DO ALGARVE",
+    "morada": "Rua Brites de Almeida, 17, 8000-234 Faro",
+    "coordenadas": {
+      "lat": 37.01583056970567,
+      "lon": -7.929656364453804
+    }
+  },
+  {
+    "nome": "CÍVIS Associação para o Aprofundamento da CIdadania",
+    "morada": "Rua Antero de Quental, 118,, 8000-210 Faro",
+    "coordenadas": {
+      "lat": 37.13605207133419,
+      "lon": -8.017657910179125
+    }
+  },
+  {
+    "nome": "Delegação do Algarve da ACAPO",
+    "morada": "Rua António Bernardo Cruz, nº 15 - loja, 8000-316 Faro",
+    "coordenadas": {
+      "lat": 37.02415349289,
+      "lon": -7.92220423367
+    }
+  },
+  {
+    "nome": "Divineglow, Associação Artes e Espectáculo",
+    "morada": "Largo do Carmo, n.º 6, 1º Esq, 8000-148 Faro",
+    "coordenadas": {
+      "lat": 37.01932740259,
+      "lon": -7.93479209204
+    }
+  },
+  {
+    "nome": "ECOS - Cooperativa de Educação, Cooperação e Desenvolvimento, CRL",
+    "morada": "Praça da Paz nr.24 R/C LJ4, 8000-165 Faro",
+    "coordenadas": {
+      "lat": 37.020405811924,
+      "lon": -7.93054174437
+    }
+  },
+  {
+    "nome": "Em Papel Perfumado - Associação Cultural",
+    "morada": "Largo Dr. Francisco Sá Carneiro, 42 2ºD, 8000-151 Faro",
+    "coordenadas": {
+      "lat": 37.020658197357,
+      "lon": -7.927855145153
+    }
+  },
+  {
+    "nome": "FARO 1540 - Associação de Defesa e Promoção do Património Ambiental e Cultural de Faro",
+    "morada": "Rua Reitor Teixeira Guedes, n. 133, 8000-424 Faro",
+    "coordenadas": {
+      "lat": 37.02020932404695,
+      "lon": -7.924960266685692
+    }
+  },
+  {
+    "nome": "Fundação Algarvia de Desenvolvimento Social",
+    "morada": "Rua Almirante António Ramalho Ortigão, 38, R/C, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.016849297257,
+      "lon": -7.918095291259
+    }
+  },
+  {
+    "nome": "Fundação Vitor Reis Morais",
+    "morada": "Largo da Luz, nº1, 1600-498 Carnide, Lisboa",
+    "coordenadas": {
+      "lat": 38.762783212011,
+      "lon": -9.185009277046
+    }
+  },
+  {
+    "nome": "Futebol Clube \"Os 11 Esperanças\"",
+    "morada": "Praçeta Cabo Verde, 8000-177 Faro",
+    "coordenadas": {
+      "lat": 37.0249151,
+      "lon": -7.935935743003094
+    }
+  },
+  {
+    "nome": "Futebol Clube São Luís",
+    "morada": "Estrada de São Luís Mº 33, 8000-123 Faro",
+    "coordenadas": {
+      "lat": 37.022949566685,
+      "lon": -7.926445476456
+    }
+  },
+  {
+    "nome": "G.A.TO. - Grupo de Ajuda a Toxicodependentes",
+    "morada": "Rua Castilho nº9 - 2º, 8000-244 Faro",
+    "coordenadas": {
+      "lat": 37.015527328854,
+      "lon": -7.932927852927
+    }
+  },
+  {
+    "nome": "GRUPO DESPORTIVO E CULTURAL JOGRAIS ANTÓNIO ALEIXO",
+    "morada": "RUA JOÃO DEUS Nº 31, 8000-455 ESTOI",
+    "coordenadas": {
+      "lat": 37.017877757539,
+      "lon": -7.929770805934
+    }
+  },
+  {
+    "nome": "Ginásio Clube de Faro",
+    "morada": "Rua Ivens, 12, 2º, 8000-364 Faro",
+    "coordenadas": {
+      "lat": 37.016418610368,
+      "lon": -7.934190837259
+    }
+  },
+  {
+    "nome": "Grupo Coral Ossónoba",
+    "morada": "Rua Antero de Quental nº 119, 8000-210 Faro",
+    "coordenadas": {
+      "lat": 37.13597423327882,
+      "lon": -8.015023830562724
+    }
+  },
+  {
+    "nome": "Grupo Desportivo Torre Natal",
+    "morada": "Torre De Natal, Conceição de Faro, 8005-533 Torre De Natal",
+    "coordenadas": {
+      "lat": 37.053595765984,
+      "lon": -7.900335093914
+    }
+  },
+  {
+    "nome": "Grupo Folclórico de Faro",
+    "morada": "Solar do Capitão-Mor, 1º - Horta das Figuras Apartado 271, 8001-904 FARO",
+    "coordenadas": {
+      "lat": 37.02586926847,
+      "lon": -7.945912195344
+    }
+  },
+  {
+    "nome": "Grupo Motard Ryde Away",
+    "morada": "Rua Dr Guerreiro Ascensão, 3, 2º Esquerdo, 8005-175 Faro",
+    "coordenadas": {
+      "lat": 37.017874396962,
+      "lon": -7.927199634318
+    }
+  },
+  {
+    "nome": "Grupo de Apoio de Faro - Liga Portuguesa Contra o Cancro",
+    "morada": "Rua Arthur Aguedo Miranda Lote 2 BLC C Loja F, 8000-138 Faro",
+    "coordenadas": {
+      "lat": 37.026985947521,
+      "lon": -7.923949597368
+    }
+  },
+  {
+    "nome": "Iceshow Associação Freestyle",
+    "morada": "Praceta Agostinho Ferreira Chaves, 2, 1ºesq., 8005-328 Faro",
+    "coordenadas": {
+      "lat": 37.027425866646,
+      "lon": -7.940763586157
+    }
+  },
+  {
+    "nome": "Instituto D. Francisco Gomes",
+    "morada": "Rua Dr. José de Matos, 8000-501 Faro",
+    "coordenadas": {
+      "lat": 37.01545900648847,
+      "lon": -7.922124435216229
+    }
+  },
+  {
+    "nome": "JAT - COLECTIVO JANELA ABERTA TEATRO - ASSOCIAÇÃO CULTURAL",
+    "morada": "RUA Dorília Carmona, n.º 5 - 1º andar dto., 8000-316 Faro",
+    "coordenadas": {
+      "lat": 37.023565963387,
+      "lon": -7.921171918475
+    }
+  },
+  {
+    "nome": "Judo Clube do Algarve",
+    "morada": "Ginásio do Mercado Municipal de Faro, 1º andar - Largo Dr. Francisco Sá Carneiro, 8000-151 Faro",
+    "coordenadas": {
+      "lat": 37.019969791649,
+      "lon": -7.928001241725
+    }
+  },
+  {
+    "nome": "Karate Clube de Faro",
+    "morada": "Rua Dr. António da Cruz nº 3 Dto., 8000-316 Faro",
+    "coordenadas": {
+      "lat": 37.023053949733,
+      "lon": -7.921612508485
+    }
+  },
+  {
+    "nome": "Liga dos Combatentes - Núcleo de Faro",
+    "morada": "Rua Dr. José de Matos, 115-B, 8000-501 Faro",
+    "coordenadas": {
+      "lat": 37.01545900648847,
+      "lon": -7.922124435216229
+    }
+  },
+  {
+    "nome": "MAPS - Movimento de Apoio à Problemática da Sida",
+    "morada": "Av. Cidade de Hayward Bloco B1/C2 Caves, 8000-074 N/A",
+    "coordenadas": {
+      "lat": 37.024765497551,
+      "lon": -7.921786731073
+    }
+  },
+  {
+    "nome": "MDM-Movimento Democrático de Mulheres",
+    "morada": "Praceta Salgueiro Maia Bloco 1, r/c, 8000-189 Faro",
+    "coordenadas": {
+      "lat": 37.021516294694,
+      "lon": -7.934359418198
+    }
+  },
+  {
+    "nome": "MOTO CLUBE ESTOY OSSONOBA",
+    "morada": "Porto Carro Estoi, 8006-801 ESTOI - FARO",
+    "coordenadas": {
+      "lat": 37.0872016,
+      "lon": -7.9045665
+    }
+  },
+  {
+    "nome": "Martial Kombat Fit Club",
+    "morada": "Rua Júdice Fialho n.º37, 8005-254 Montenegro",
+    "coordenadas": {
+      "lat": 37.034374720899,
+      "lon": -7.963425008563
+    }
+  },
+  {
+    "nome": "Modos e Olhares - associação cultural",
+    "morada": "Rua José Ramos Bandeira, nº85, 8005-328 Faro",
+    "coordenadas": {
+      "lat": 37.02593799939881,
+      "lon": -7.942041391958796
+    }
+  },
+  {
+    "nome": "Moto Clube de Faro",
+    "morada": "Av. Cidade Hayward, 3, 8000-074 Faro",
+    "coordenadas": {
+      "lat": 37.02576228532263,
+      "lon": -7.917567817264874
+    }
+  },
+  {
+    "nome": "Moto Malta Faro",
+    "morada": "Estrada de Mar e Guerra antiga escola primária cx postal 330 8005 500 Faro, 8005-500 Faro",
+    "coordenadas": {
+      "lat": 37.052566670389,
+      "lon": -7.930206693686
+    }
+  },
+  {
+    "nome": "Movimento pró Animal de Faro",
+    "morada": "Rua Frei D. João de Faro, 3.º, 8000-349 FARO",
+    "coordenadas": {
+      "lat": 37.023392374173,
+      "lon": -7.935467086702
+    }
+  },
+  {
+    "nome": "Na Mouche - Associação Cultural",
+    "morada": "Rua de Santo António 133, 2º Esquerdo, 8000-284 Faro",
+    "coordenadas": {
+      "lat": 37.016868194107,
+      "lon": -7.929910387811
+    }
+  },
+  {
+    "nome": "Núcleo do Sporting Clube de Portugal de Faro",
+    "morada": "Rua Reitor Teixeira Guedes nº 185, 8000-424 Faro",
+    "coordenadas": {
+      "lat": 37.02020932404695,
+      "lon": -7.924960266685692
+    }
+  },
+  {
+    "nome": "PAS – Peace and Art Society",
+    "morada": "Sede - Casa do Jardim, Jardim da Alameda, Rua José de Matos,, 8000-504 Faro",
+    "coordenadas": {
+      "lat": 37.015878836166,
+      "lon": -7.925755478407
+    }
+  },
+  {
+    "nome": "Pink Riders Motard Club",
+    "morada": "MARF, Mercado Abastecedor de Faro, Sítio do Guilhim, Edif.1, Loja 1, CP 52M, 8009-021 Estoi",
+    "coordenadas": {
+      "lat": 37.088244793512,
+      "lon": -7.925901658799
+    }
+  },
+  {
+    "nome": "Provectus - Associação em Prol da Terceira Idade",
+    "morada": "Bairro dos Centenários nº 2 C, 8000-163 Faro",
+    "coordenadas": {
+      "lat": 37.022496000000004,
+      "lon": -7.929546941955582
+    }
+  },
+  {
+    "nome": "Re-food Faro",
+    "morada": "Rua Almirante António Ramalho Ortigão, loja E, 8000-536 Faro",
+    "coordenadas": {
+      "lat": 37.017156808173,
+      "lon": -7.916988814295
+    }
+  },
+  {
+    "nome": "Real Amizade Farense",
+    "morada": "Rua Miguel Bombarda, Bloco D, Loja Direita, 8000-394 Faro",
+    "coordenadas": {
+      "lat": 37.021013925327,
+      "lon": -7.941193100038
+    }
+  },
+  {
+    "nome": "Red Seagull - Associação desportiva, recreativa e de salvamento aquático",
+    "morada": "Rua Drº Jose de Matos, nº23, 1ºesq, 8000-503 Faro",
+    "coordenadas": {
+      "lat": 37.016005067628,
+      "lon": -7.925788838382
+    }
+  },
+  {
+    "nome": "SOCIEDADE RECREATIVA BORDEIRENSE",
+    "morada": "Rua da Industria - Bordeira, 8005-423 Faro",
+    "coordenadas": {
+      "lat": 37.12476753762235,
+      "lon": -7.922077348987774
+    }
+  },
+  {
+    "nome": "SPEM - Sociedade Portuguesa de Esclerose Múltipla",
+    "morada": "Praça José Afonso 11, 8000-176 Faro",
+    "coordenadas": {
+      "lat": 37.021994622207,
+      "lon": -7.930643995207
+    }
+  },
+  {
+    "nome": "Santa Casa da Misericórdia de Faro",
+    "morada": "Rua João Dias nº6, 8000-369 Faro",
+    "coordenadas": {
+      "lat": 37.01538712258379,
+      "lon": -7.933964367844494
+    }
+  },
+  {
+    "nome": "Sociedade Recreativa Artística Farense",
+    "morada": "Rua do Montepio, 10, 8000-257 Faro",
+    "coordenadas": {
+      "lat": 37.0149881,
+      "lon": -7.9336486
+    }
+  },
+  {
+    "nome": "São Francisco Associação Desportiva",
+    "morada": "Rua Manuel Penteado, 15, 8000-391 Faro",
+    "coordenadas": {
+      "lat": 37.01465555,
+      "lon": -7.9302564
+    }
+  },
+  {
+    "nome": "São Pedro Futsal Clube de Faro",
+    "morada": "Rua Doutor José de Matos Polidesportivo da Alameda, 8000-504 Faro",
+    "coordenadas": {
+      "lat": 37.017308720937,
+      "lon": -7.926801127282
+    }
+  },
+  {
+    "nome": "Sê Mais Sê Melhor - Associação para a Promoção do Potencial Humano",
+    "morada": "Rua Dorilia Carmona, nº10 1ºT, 8000-316 Faro",
+    "coordenadas": {
+      "lat": 37.023890678316,
+      "lon": -7.921362103858
+    }
+  },
+  {
+    "nome": "Teste",
+    "morada": "Teste, 8000-000 Faro",
+    "coordenadas": {
+      "lat": 37.0192356,
+      "lon": -7.9327939
+    }
+  },
+  {
+    "nome": "Tugas On Tour Associação Desportiva",
+    "morada": "Rua Simão Sousa Franco Lote 5, 8005-217 FARO",
+    "coordenadas": {
+      "lat": 37.033376184773,
+      "lon": -7.958892326783
+    }
+  },
+  {
+    "nome": "U.K.A. UNIÃO DE KARATE DO ALGARVE",
+    "morada": "Rua Monsenhor Henrique Ferreira da Silva nº9, 8005-137 Faro",
+    "coordenadas": {
+      "lat": 37.025608276955786,
+      "lon": -7.924146230230179
+    }
+  },
+  {
+    "nome": "URIPSS ALGARVE - União Regional das Instituições Particulares de Solidariedade Social do Algarve",
+    "morada": "Rua Conselheiro Sebastião Teles nº 6, 8000-256 Faro",
+    "coordenadas": {
+      "lat": 37.01976114696879,
+      "lon": -7.9388615026925615
+    }
+  },
+  {
+    "nome": "Universidade do Algarve para a Terceira Idade",
+    "morada": "Praceta Salgueiro Maia - Bloco J - r/c, 8000-189 Faro",
+    "coordenadas": {
+      "lat": 37.022238348484,
+      "lon": -7.930998348324
+    }
+  },
+  {
+    "nome": "União Dos Amigos Da Pesca (UAP)",
+    "morada": "Rua Carvalho Araújo Nº 37, 8000-242 Faro",
+    "coordenadas": {
+      "lat": 37.023668334129425,
+      "lon": -7.937963276090831
+    }
+  },
+  {
+    "nome": "Wildpack Associação Desportiva",
+    "morada": "Sitio da Sambada c253s, 8005-530 Estoi-Faro",
+    "coordenadas": {
+      "lat": 37.097198209739,
+      "lon": -7.906176283478
+    }
+  },
+  {
+    "nome": "Wise&rebel associação",
+    "morada": "Rua Amália Rodrigues nº13 3ºQ Faro, 8005-294 Faro",
+    "coordenadas": {
+      "lat": 37.039251312166,
+      "lon": -7.958434758689
+    }
+  }
+]

@@ -66,32 +66,6 @@
   },
   {
     "id": 6,
-    "title": "Miguel Martins Quarteto / Glass of Jazz",
-    "description": "Evento em Club Farense",
-    "date": "13 ABR 2025",
-    "time": "10:00",
-    "location": "Club Farense",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1595892-37f668a275853ca2a21d17401ce9568e.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 7,
-    "title": "Glass of Jazz - Trio Trillar",
-    "description": "Evento em Club Farense",
-    "date": "13 ABR 2025",
-    "time": "18:00",
-    "location": "Club Farense",
-    "category": "Cultural",
-    "attendees": 0,
-    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1593840-4b34e28a83a9652d65aa5dc1e0439be3.jpeg",
-    "organizer": "Viralagenda",
-    "link": null
-  },
-  {
-    "id": 8,
     "title": "Solas",
     "description": "Dança| Teatro das Figuras | 21h30\r\nEspetáculo integrado no Festival Verão AzulCoreografia e criação cénica: Candela CapitánInterpretação: Rocío Begines, Laia Camps, Mariona Moranta, Vera Palomino, Julia  ...",
     "date": "16 abr 2025",
@@ -104,7 +78,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80457/solas.aspx"
   },
   {
-    "id": 9,
+    "id": 7,
     "title": "SOLAS",
     "description": "Evento em Teatro das Figuras",
     "date": "16 ABR 2025",
@@ -117,7 +91,7 @@
     "link": null
   },
   {
-    "id": 10,
+    "id": 8,
     "title": "RUÏDO Festival",
     "description": "Evento em ARCM Associação de Músicos",
     "date": "17 ABR 2025",
@@ -130,7 +104,7 @@
     "link": null
   },
   {
-    "id": 11,
+    "id": 9,
     "title": "FERNANDO DANIEL",
     "description": "Evento em Teatro das Figuras",
     "date": "17 ABR 2025",
@@ -143,7 +117,7 @@
     "link": null
   },
   {
-    "id": 12,
+    "id": 10,
     "title": "Procissão do Enterro do Senhor- Estoi",
     "description": "Estoi| 21h00»23h00\r\n \r\nOrg.: Paróquia de São Martinho de Estoi",
     "date": "18 abr 2025",
@@ -156,7 +130,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80474/procissao-do-enterro-do-senhor--estoi.aspx"
   },
   {
-    "id": 13,
+    "id": 11,
     "title": "Procissão do Enterro do Senhor",
     "description": "21h00\r\nItinerário: Praça Dom Francisco Gomes- Rua 1.º de Maio- Praça Ferreira de Almeida (Largo da Palmeira)- Rua Lethes- Rua de Portugal- Rua de Santo António- Rua D. Francisco Gomes- Igreja da Misericórdia\r\nOrg.: Santa Casa da Misericórdia de  ...",
     "date": "18 abr 2025",
@@ -169,7 +143,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80460/procissao-do-enterro-do-senhor.aspx"
   },
   {
-    "id": 14,
+    "id": 12,
     "title": "Requiem, de W. A. Mozart",
     "description": "Música| Teatro das Figuras | 18h00\r\nOrquestra do AlgarveMaestro: Pedro NevesSoprano: Sofia MarafonaContralto: Mariana SousaTenor: Leonel PinheiroBaixo: André HenriquesCoro Comunitário da Orquestra do Algarve\r\nOrg.: Teatro Municipal de Faro\r\nInf.: 289870077- chamada para a  ...",
     "date": "18 abr 2025",
@@ -182,7 +156,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80458/requiem-de-w-a-mozart.aspx"
   },
   {
-    "id": 15,
+    "id": 13,
     "title": "REQUIEM DE W.A. MOZART | Faro",
     "description": "Evento em Teatro das Figuras",
     "date": "18 ABR 2025",
@@ -195,7 +169,7 @@
     "link": null
   },
   {
-    "id": 16,
+    "id": 14,
     "title": "Oficina de Literatura Infantojuvenil",
     "description": "Literatura Infantojuvenil e Sociedade- como os livros para os mais novos acompanham e antecipam os momentos de viragem histórica\r\nFormação, por Carla Maia de Almeida\r\nBiblioteca Municipal de Faro| 9h30 às 12h30 e das 14h00 às 17h00\r\nDestinatários:  ...",
     "date": "22 abr 2025",
@@ -208,7 +182,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80445/oficina-de-literatura-infantojuvenil.aspx"
   },
   {
-    "id": 17,
+    "id": 15,
     "title": "Oficina de Literatura Infantojuvenil",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "22 ABR 2025",
@@ -221,7 +195,7 @@
     "link": null
   },
   {
-    "id": 18,
+    "id": 16,
     "title": "Lethes Talk",
     "description": "Teatro Lethes| 10h30Orador convidado: José Pedro Soares (militante político/ex-prisioneiro da PIDE/DES)\r\nEntrada livre (sujeita à lotação da sala)\r\nPromotor: ACTA\r\nInf.: 289878908- chamada para a rede fixa nacional",
     "date": "23 abr 2025",
@@ -234,7 +208,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80461/lethes-talk.aspx"
   },
   {
-    "id": 19,
+    "id": 17,
     "title": "24.º Aniversário da Biblioteca Municipal de Faro",
     "description": "Biblioteca Municipal de Faro| 21h30 \"Nos Olhos da Noite\" por Tiago Marcos e Alfaro\r\nUm espetáculo intimista proporcionando um momento de poesia dita e acompanhada por sonoridades envolventes.\r\nEntrada livre\r\nOrg.: CMFaro\r\nInf. : 289870000- chamada para a rede fixa nacional",
     "date": "23 abr 2025",
@@ -247,7 +221,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80444/24-aniversario-da-biblioteca-municipal-de-faro.aspx"
   },
   {
-    "id": 20,
+    "id": 18,
     "title": "Do lado da melancolia com as árvores das estrelas",
     "description": "Exposição Exposição- obras artísticas a partir de um poema de António Ramos Rosa\r\nBiblioteca Municipal de Faro| Até 9 maio\r\nEntrada Livre\r\nOrg.: CMFaro/PAS - Peace and Arte Society\r\n \r\nInf. : 289870000- chamada para a rede fixa nacional",
     "date": "23 abr 2025 - 09 mai 2025",
@@ -260,7 +234,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80437/do-lado-da-melancolia-com-as-arvores-das-estrelas.aspx"
   },
   {
-    "id": 21,
+    "id": 19,
     "title": "Lethes Talk - 25 de Abril/ O dia em que mudámos o Futuro",
     "description": "Evento em Teatro Lethes",
     "date": "23 ABR 2025",
@@ -273,7 +247,7 @@
     "link": null
   },
   {
-    "id": 22,
+    "id": 20,
     "title": "Comemorações | 24.º Aniversário da Biblioteca Municipal de Faro",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "23 ABR 2025",
@@ -286,7 +260,7 @@
     "link": null
   },
   {
-    "id": 23,
+    "id": 21,
     "title": "Concerto com Luís Galrito",
     "description": "Apresentação do álbum \"Nós e os Outros\"\r\nBaixa de Faro| 21h30\r\n \r\nEntrada livre\r\n \r\nOrg.: CMFaro/Assembleia Municipal de Faro",
     "date": "24 abr 2025",
@@ -299,7 +273,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80466/concerto-com-luis-galrito.aspx"
   },
   {
-    "id": 24,
+    "id": 22,
     "title": "TIVE 1 IDEIA PARA 1 DUETO REDUX",
     "description": "Evento em Teatro das Figuras",
     "date": "24 ABR 2025",
@@ -312,7 +286,7 @@
     "link": null
   },
   {
-    "id": 25,
+    "id": 23,
     "title": "Sessão solene comemorativa do 25 de Abril",
     "description": "Palácio de Estoi| 15h00\r\nEntrada livre\r\nOrg.: Assembleia Municipal de Faro/CMFaro",
     "date": "25 abr 2025",
@@ -325,7 +299,7 @@
     "link": "https://www.cm-faro.pt/pt/agenda/80462/sessao-solene-comemorativa-do-25-de-abril.aspx"
   },
   {
-    "id": 26,
+    "id": 24,
     "title": "Iberian Mustang Day -  61º Aniversario Ford Mustang",
     "description": "Evento em Faro (cidade)",
     "date": "26 ABR 2025",
@@ -338,7 +312,7 @@
     "link": null
   },
   {
-    "id": 27,
+    "id": 25,
     "title": "\"Temos o baile armado\" | Sábados em Família",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "26 ABR 2025",
@@ -351,7 +325,7 @@
     "link": null
   },
   {
-    "id": 28,
+    "id": 26,
     "title": "Oficina literária da memória",
     "description": "Evento em Biblioteca Municipal de Faro - António Ramos Rosa",
     "date": "29 ABR 2025",
@@ -364,7 +338,7 @@
     "link": null
   },
   {
-    "id": 29,
+    "id": 27,
     "title": "ZÉ EDUARDO E A JAZZ MISSION BIG BAND | Festival ODdJ '25",
     "description": "Evento em Teatro das Figuras",
     "date": "30 ABR 2025",
@@ -377,7 +351,7 @@
     "link": null
   },
   {
-    "id": 30,
+    "id": 28,
     "title": "L’APRÈS-MIDI D’UN FOEHN VERSION 1",
     "description": "Evento em Teatro das Figuras",
     "date": "03 MAI 2025",
@@ -390,7 +364,7 @@
     "link": null
   },
   {
-    "id": 31,
+    "id": 29,
     "title": "A anunciar | Faro",
     "description": "Evento em Teatro das Figuras",
     "date": "03 MAI 2025",
@@ -403,7 +377,7 @@
     "link": null
   },
   {
-    "id": 32,
+    "id": 30,
     "title": "Brasa Doirada",
     "description": "Evento em Teatro Lethes",
     "date": "03 MAI 2025",
@@ -412,6 +386,45 @@
     "category": "Cultural",
     "attendees": 0,
     "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1599408-4bd4d4a66edc85f5aedac0cb0a542183.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 31,
+    "title": "AMARO FREITAS & ORQUESTRA DE JAZZ DO ALGARVE | Festival ODdJ '25",
+    "description": "Evento em Teatro das Figuras",
+    "date": "04 MAI 2025",
+    "time": "19:00",
+    "location": "Teatro das Figuras",
+    "category": "Música",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1600854-65eacf5a9bc7461b6536834267ae123e.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 32,
+    "title": "Bichos, de Rui Lopes Graça",
+    "description": "Evento em Teatro Lethes",
+    "date": "09 MAI 2025",
+    "time": "10:30",
+    "location": "Teatro Lethes",
+    "category": "Cultural",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1602991-ccb02f80880d6cc138826238dc529a61.jpeg",
+    "organizer": "Viralagenda",
+    "link": null
+  },
+  {
+    "id": 33,
+    "title": "WAX & BOOGIE - RHYTHM & BLUES PROJECT | Festival ODdJ '25",
+    "description": "Evento em Teatro Lethes",
+    "date": "10 MAI 2025",
+    "time": "21:00",
+    "location": "Teatro Lethes",
+    "category": "Música",
+    "attendees": 0,
+    "imageUrl": "https://cdn.viralagenda.com/images/events/ext/1600934-2408650cd7a5e9810a542478928a3c9b.jpeg",
     "organizer": "Viralagenda",
     "link": null
   }

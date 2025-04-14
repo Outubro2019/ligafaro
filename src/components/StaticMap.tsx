@@ -71,13 +71,17 @@ const StaticMap: React.FC<StaticMapProps> = ({ associacoes = [] }) => {
       // Processar no máximo 10 associações por vez para evitar sobrecarregar a API
       const associacoesParaProcessar = associacoes.slice(0, 10);
       
+      console.log("Geocodificando associações:", associacoesParaProcessar.length);
+      
       for (const associacao of associacoesParaProcessar) {
         const enderecoCompleto = `${associacao.morada}, ${associacao.codigo_postal} ${associacao.localidade}`;
         
         try {
+          console.log("Geocodificando endereço:", enderecoCompleto);
           const resultado = await geocodeWithCache(enderecoCompleto);
           
           if (resultado) {
+            console.log("Resultado da geocodificação:", resultado);
             const index = associacoesProcessadas.findIndex(a => a.nome === associacao.nome);
             if (index !== -1) {
               associacoesProcessadas[index] = {
@@ -85,12 +89,15 @@ const StaticMap: React.FC<StaticMapProps> = ({ associacoes = [] }) => {
                 coordenadas: [resultado.lat, resultado.lng]
               };
             }
+          } else {
+            console.log("Nenhum resultado encontrado para:", enderecoCompleto);
           }
         } catch (error) {
           console.error(`Erro ao geocodificar ${associacao.nome}:`, error);
         }
       }
       
+      console.log("Associações processadas:", associacoesProcessadas.filter(a => a.coordenadas).length);
       setAssociacoesComCoordenadas(associacoesProcessadas);
       setCarregandoCoordenadas(false);
     };
@@ -113,11 +120,13 @@ const StaticMap: React.FC<StaticMapProps> = ({ associacoes = [] }) => {
     url += `&marker=${coordinates[0]},${coordinates[1]}`;
     
     // Adicionar marcadores para as associações
-    associacoesComCoordenadas.forEach(associacao => {
-      if (associacao.coordenadas) {
-        url += `&marker=${associacao.coordenadas[0]},${associacao.coordenadas[1]}`;
-      }
-    });
+    // O OpenStreetMap só suporta um parâmetro marker na URL, então vamos usar uma abordagem diferente
+    // Vamos criar um iframe com JavaScript que adiciona múltiplos marcadores
+    const associacoesComCoordenadasValidas = associacoesComCoordenadas.filter(a => a.coordenadas);
+    
+    if (associacoesComCoordenadasValidas.length > 0) {
+      console.log("Adicionando marcadores para associações:", associacoesComCoordenadasValidas.length);
+    }
     
     return url;
   };
