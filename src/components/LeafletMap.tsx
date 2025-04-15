@@ -52,6 +52,7 @@ const LeafletMap: React.FC<LeafletMapProps> = ({ markers }) => {
       center={center}
       zoom={13}
       style={{ height: '600px', width: '100%' }}
+      className="z-0" // Garantir que o mapa tenha um z-index menor que o menu lateral
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

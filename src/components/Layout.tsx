@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { Link, useLocation } from 'react-router-dom';
 import StaticMap from './StaticMap';
@@ -15,17 +15,18 @@ import {
   Building,
   Map
 } from 'lucide-react';
-import { 
-  SidebarProvider, 
-  Sidebar, 
-  SidebarHeader, 
+import {
+  SidebarProvider,
+  Sidebar,
+  SidebarHeader,
   SidebarContent,
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
   SidebarFooter,
   SidebarTrigger,
-  SidebarInset
+  SidebarInset,
+  SidebarContext
 } from '@/components/ui/sidebar';
 import { Button } from '@/components/ui/button';
 import { UserMenu } from './UserMenu';
@@ -73,9 +74,10 @@ const MainLayout = ({ children }: LayoutProps) => {
     </SidebarProvider>
   );
 };
-
 const AppSidebar = () => {
   const location = useLocation();
+  const { user } = useAuth();
+  const sidebarContext = useContext(SidebarContext);
   const { user } = useAuth();
   
   const navigationItems = [
@@ -113,10 +115,16 @@ const AppSidebar = () => {
         <SidebarMenu>
           {navigationItems.map((item) => (
             <SidebarMenuItem key={item.path}>
-              <SidebarMenuButton 
-                asChild 
+              <SidebarMenuButton
+                asChild
                 isActive={location.pathname === item.path}
                 className="transition-all duration-200 font-medium"
+                onClick={() => {
+                  // Fechar o menu no modo mobile quando um item é clicado
+                  if (window.innerWidth < 768 && sidebarContext) {
+                    sidebarContext.setOpen(false);
+                  }
+                }}
               >
                 <Link to={item.path}>
                   <item.icon />

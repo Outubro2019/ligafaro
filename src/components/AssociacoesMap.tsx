@@ -122,7 +122,7 @@ const AssociacoesMap = ({ associacoes }: AssociacoesMapProps) => {
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
         </div>
       ) : (
-        <div className="h-[500px] rounded-lg overflow-hidden border border-gray-200">
+        <div className="h-[500px] rounded-lg overflow-hidden border border-gray-200 relative z-0">
           <LeafletMap markers={markers} />
         </div>
       )}
