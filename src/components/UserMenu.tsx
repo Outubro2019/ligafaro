@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -10,20 +9,22 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/contexts/AuthContext";
 import { LogOut, User } from "lucide-react";
+import { AuthDialog } from "@/components/auth/AuthDialog";
 
 export const UserMenu = () => {
-  const { user, login, logout } = useAuth();
+  const { user, logout } = useAuth();
 
   if (!user) {
     return (
-      <Button 
-        variant="outline" 
-        size="sm" 
-        className="font-medium rounded-full"
-        onClick={login}
-      >
-        Entrar com Google
-      </Button>
+      <AuthDialog>
+        <Button
+          variant="outline"
+          size="sm"
+          className="font-medium rounded-full"
+        >
+          Entrar
+        </Button>
+      </AuthDialog>
     );
   }
 
@@ -32,7 +33,7 @@ export const UserMenu = () => {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="relative h-8 w-8 rounded-full">
           <Avatar className="h-8 w-8">
-            <AvatarImage src={user.photoURL || undefined} alt={user.displayName || "Avatar do utilizador"} />
+            <AvatarImage src="/Logo_Liga_Faro.png" alt="Logo Liga Faro" />
             <AvatarFallback>{user.displayName?.charAt(0) || user.email?.charAt(0) || "U"}</AvatarFallback>
           </Avatar>
         </Button>

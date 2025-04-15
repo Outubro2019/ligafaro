@@ -1,12 +1,15 @@
 import { initializeApp } from "firebase/app";
-import { 
-  getAuth, 
-  GoogleAuthProvider, 
-  signInWithPopup, 
-  signOut, 
-  onAuthStateChanged, 
+import {
+  getAuth,
+  GoogleAuthProvider,
+  signInWithPopup,
+  signOut,
+  onAuthStateChanged,
   User as FirebaseUser,
-  signInAnonymously
+  signInAnonymously,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  sendPasswordResetEmail
 } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
@@ -74,6 +77,38 @@ export const signInWithGoogle = async (): Promise<AuthUser | null> => {
       console.error("Erro no login anônimo:", anonError);
       return null;
     }
+  }
+};
+
+// Sign in with email and password
+export const signInWithEmail = async (email: string, password: string): Promise<AuthUser | null> => {
+  try {
+    const result = await signInWithEmailAndPassword(auth, email, password);
+    return formatUser(result.user);
+  } catch (error) {
+    console.error("Erro ao fazer login com email:", error);
+    throw error;
+  }
+};
+
+// Register with email and password
+export const registerWithEmail = async (email: string, password: string): Promise<AuthUser | null> => {
+  try {
+    const result = await createUserWithEmailAndPassword(auth, email, password);
+    return formatUser(result.user);
+  } catch (error) {
+    console.error("Erro ao registrar com email:", error);
+    throw error;
+  }
+};
+
+// Reset password
+export const resetPassword = async (email: string): Promise<void> => {
+  try {
+    await sendPasswordResetEmail(auth, email);
+  } catch (error) {
+    console.error("Erro ao enviar email de redefinição de senha:", error);
+    throw error;
   }
 };
 
