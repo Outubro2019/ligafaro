@@ -15,7 +15,7 @@ def process_question(question):
     
     # Carregar eventos
     try:
-        events_path = os.path.join(base_dir, 'public', 'events_data.json')
+        events_path = os.path.join(base_dir, 'src', 'events_data.json')
         print(f"Tentando carregar eventos de: {events_path}", file=sys.stderr)
         
         if os.path.exists(events_path):
@@ -29,7 +29,7 @@ def process_question(question):
     
     # Carregar notícias
     try:
-        news_path = os.path.join(base_dir, 'public', 'noticias_faro.json')
+        news_path = os.path.join(base_dir, 'src', 'noticias_faro.json')
         print(f"Tentando carregar notícias de: {news_path}", file=sys.stderr)
         
         if os.path.exists(news_path):

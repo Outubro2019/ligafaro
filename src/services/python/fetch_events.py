@@ -379,8 +379,9 @@ def fetch_events():
         evento["id"] = i + 1
     
     # Salvar em um arquivo JSON
-    output_dir = os.path.dirname(os.path.abspath(__file__))
-    output_path = os.path.join(output_dir, JSON_OUTPUT_FILENAME)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    src_dir = os.path.abspath(os.path.join(script_dir, "../.."))  # Subir dois níveis para chegar à pasta src
+    output_path = os.path.join(src_dir, JSON_OUTPUT_FILENAME)
     
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(combined_events, f, ensure_ascii=False, indent=2)

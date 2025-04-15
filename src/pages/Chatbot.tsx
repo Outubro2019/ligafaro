@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import eventsData from '../../public/events_data.json';
-import noticiasData from '../../public/noticias_faro.json';
+import eventsData from '../events_data.json';
+import noticiasData from '../noticias_faro.json';
 
 interface Message {
   text: string;
