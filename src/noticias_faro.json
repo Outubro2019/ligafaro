@@ -1,0 +1,44 @@
+[
+  {
+    "source": {
+      "id": null,
+      "name": "Barlavento"
+    },
+    "author": "Barlavento",
+    "title": "Farense ganha ao Estrela da Amadora e relança luta pela manutenção",
+    "description": "Farense ganha ao Estrela da Amadora e relança luta pela manutenção  Barlavento",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNejJTRXRWWlJTbHhETFlRVUEwMHRCZGNYci1lNWJWd1JZaHdjejVneXBBaTExajhVNGNpYUpQSFA5V1dGREIza0RPbWJlMFQxWDJULXlfQUtNck5ya1BkYk9DWjNZdmNGa2xTWTdRNmU1NE1ZT0s5MklEZi1RVHhhMUNTU3dVWVdnVnBOMUFNNXNjQkozQWZmTw?oc=5",
+    "urlToImage": null,
+    "publishedAt": "2023-04-14T10:00:00Z",
+    "content": "O Farense venceu o Estrela da Amadora por 2-1 e relançou a luta pela manutenção na I Liga portuguesa de futebol.",
+    "origem_busca": "Google News"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Diário de Notícias"
+    },
+    "author": "Diário de Notícias",
+    "title": "Faro recebe festival de gastronomia mediterrânica",
+    "description": "Faro recebe festival de gastronomia mediterrânica com chefs internacionais",
+    "url": "https://www.dn.pt/local/faro-recebe-festival-gastronomia-mediterranica-15821234.html",
+    "urlToImage": "https://static.globalnoticias.pt/dn/image.jpg",
+    "publishedAt": "2023-04-12T14:30:00Z",
+    "content": "A cidade de Faro vai receber em maio um festival dedicado à gastronomia mediterrânica, com a presença de chefs internacionais.",
+    "origem_busca": "Google News"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Público"
+    },
+    "author": "Público",
+    "title": "Universidade do Algarve inaugura novo centro de investigação em Faro",
+    "description": "Universidade do Algarve inaugura novo centro de investigação em Faro dedicado às ciências do mar",
+    "url": "https://www.publico.pt/2023/04/10/local/noticia/universidade-algarve-inaugura-novo-centro-investigacao-faro-2043567",
+    "urlToImage": "https://imagens.publico.pt/imagens.aspx/1728542",
+    "publishedAt": "2023-04-10T09:15:00Z",
+    "content": "A Universidade do Algarve inaugurou um novo centro de investigação em Faro dedicado às ciências do mar e biotecnologia.",
+    "origem_busca": "Google News"
+  }
+]
