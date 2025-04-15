@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { Link, useLocation } from 'react-router-dom';
 import StaticMap from './StaticMap';
@@ -26,7 +26,7 @@ import {
   SidebarFooter,
   SidebarTrigger,
   SidebarInset,
-  SidebarContext
+  useSidebar
 } from '@/components/ui/sidebar';
 import { Button } from '@/components/ui/button';
 import { UserMenu } from './UserMenu';
@@ -77,8 +77,7 @@ const MainLayout = ({ children }: LayoutProps) => {
 const AppSidebar = () => {
   const location = useLocation();
   const { user } = useAuth();
-  const sidebarContext = useContext(SidebarContext);
-  const { user } = useAuth();
+  const sidebarContext = useSidebar();
   
   const navigationItems = [
     { name: 'Painel Principal', path: '/', icon: LayoutDashboard },
@@ -121,8 +120,8 @@ const AppSidebar = () => {
                 className="transition-all duration-200 font-medium"
                 onClick={() => {
                   // Fechar o menu no modo mobile quando um item é clicado
-                  if (window.innerWidth < 768 && sidebarContext) {
-                    sidebarContext.setOpen(false);
+                  if (window.innerWidth < 768) {
+                    sidebarContext.setOpenMobile(false);
                   }
                 }}
               >
