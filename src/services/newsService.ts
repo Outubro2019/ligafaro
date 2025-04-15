@@ -46,7 +46,7 @@ export const fetchNews = async (query = 'Faro', pageSize = 10): Promise<NewsItem
     // Primeiro, tenta carregar o arquivo JSON local
     try {
       console.log('Tentando carregar notícias do arquivo JSON local...');
-      const response = await fetch('/src/noticias_faro.json');
+      const response = await fetch('/noticias_faro.json?url');
       
       if (response.ok) {
         const newsData = await response.json();
@@ -66,31 +66,9 @@ export const fetchNews = async (query = 'Faro', pageSize = 10): Promise<NewsItem
     
     // Se não conseguir carregar do arquivo local, tenta usar a API
     console.log('Tentando carregar notícias da API...');
-    
-    // Tentar usar o endpoint local primeiro
-    try {
-      const localApiUrl = `/api/news-local`;
-      console.log('Tentando carregar notícias do endpoint local:', localApiUrl);
-      
-      const localResponse = await fetch(localApiUrl);
-      
-      if (localResponse.ok) {
-        const localData = await localResponse.json();
-        console.log('Notícias carregadas com sucesso do endpoint local');
-        
-        if (localData.articles && localData.articles.length > 0) {
-          console.log('Número de notícias do endpoint local:', localData.articles.length);
-          console.log('Primeira notícia do endpoint local:', localData.articles[0].title);
-          return sortNewsByDate(localData.articles);
-        } else {
-          console.warn('Nenhuma notícia encontrada no endpoint local');
-        }
-      } else {
-        console.warn('Falha ao carregar notícias do endpoint local:', localResponse.status);
-      }
-    } catch (localApiError) {
-      console.warn('Erro ao acessar endpoint local de notícias:', localApiError);
-    }
+    // Pular a tentativa de usar o endpoint local, pois ele não está disponível
+    // e está causando erros de conexão recusada
+    console.log('Pulando tentativa de carregar notícias do endpoint local (não configurado)');
     
     // Se não conseguir carregar do endpoint local, tenta usar a função serverless
     const apiUrl = `/api/news?query=${encodeURIComponent(query)}&pageSize=${pageSize}`;
