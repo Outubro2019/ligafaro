@@ -26,9 +26,9 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
 
-# Bloquear especificamente o script gptengineer.js
+# Substituir o script gptengineer.js com nosso script personalizado
 [[redirects]]
   from = "https://cdn.gpteng.co/gptengineer.js"
   to = "/blocked-script.js"
-  status = 404
+  status = 200
   force = true

@@ -1,2 +1,2 @@
-# Bloquear o carregamento do script gptengineer.js
-https://cdn.gpteng.co/gptengineer.js /blocked-script.js 404
+# Substituir o script gptengineer.js com nosso script personalizado
+https://cdn.gpteng.co/gptengineer.js /blocked-script.js 200
