@@ -7,11 +7,15 @@
   self.S = self.S || {};
   
   // Garantir que a variável S seja definida e não possa ser sobrescrita
-  Object.defineProperty(window, 'S', {
-    value: window.S,
-    writable: true,
-    configurable: true
-  });
+  // Verificar se já foi definida antes
+  if (!Object.getOwnPropertyDescriptor(window, 'S') ||
+      Object.getOwnPropertyDescriptor(window, 'S').configurable) {
+    Object.defineProperty(window, 'S', {
+      value: window.S || {},
+      writable: true,
+      configurable: true
+    });
+  }
   
   // Interceptar erros relacionados à variável S
   window.addEventListener('error', function(event) {

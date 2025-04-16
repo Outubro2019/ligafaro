@@ -14,11 +14,15 @@
   
   // Garantir que a variável S seja definida antes de qualquer script ser executado
   // Isso é importante para scripts que tentam acessar S antes de sua inicialização
-  Object.defineProperty(window, 'S', {
-    value: window.S || {},
-    writable: true,
-    configurable: true
-  });
+  // Verificar se já foi definida antes
+  if (!Object.getOwnPropertyDescriptor(window, 'S') ||
+      Object.getOwnPropertyDescriptor(window, 'S').configurable) {
+    Object.defineProperty(window, 'S', {
+      value: window.S || {},
+      writable: true,
+      configurable: true
+    });
+  }
   
   // Interceptar e modificar scripts que tentam declarar 'S'
   const originalCreateElement = document.createElement;
