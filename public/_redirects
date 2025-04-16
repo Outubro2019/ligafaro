@@ -1,7 +1,2 @@
-# Redirecionamentos para o Netlify
-
-# Redirecionar todas as chamadas de API para a função Netlify
-/api/*  /.netlify/functions/server/:splat  200
-
-# Redirecionar rotas SPA para o index.html
-/*    /index.html   200
+# Bloquear o carregamento do script gptengineer.js
+https://cdn.gpteng.co/gptengineer.js /blocked-script.js 404
