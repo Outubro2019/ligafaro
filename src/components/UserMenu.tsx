@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -10,9 +11,11 @@ import {
 import { useAuth } from "@/contexts/AuthContext";
 import { LogOut, User } from "lucide-react";
 import { AuthDialog } from "@/components/auth/AuthDialog";
+import { ProfileDialog } from "@/components/auth/ProfileDialog";
 
 export const UserMenu = () => {
   const { user, logout } = useAuth();
+  const [profileOpen, setProfileOpen] = useState(false);
 
   if (!user) {
     return (
@@ -52,10 +55,15 @@ export const UserMenu = () => {
           </div>
         </div>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
+        <DropdownMenuItem onSelect={(e) => {
+          e.preventDefault();
+          setProfileOpen(true);
+        }}>
           <User className="mr-2 h-4 w-4" />
           <span>Perfil</span>
         </DropdownMenuItem>
+        
+        <ProfileDialog isOpen={profileOpen} onOpenChange={setProfileOpen} children={null} />
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={logout}>
           <LogOut className="mr-2 h-4 w-4" />

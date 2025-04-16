@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import LeafletMap from './LeafletMap';
+import LazyLeafletMap from './LazyLeafletMap';
 import { associacoesCoordinates } from '@/data/associacoesCoordinates';
 
 interface Associacao {
@@ -123,7 +123,7 @@ const AssociacoesMap = ({ associacoes }: AssociacoesMapProps) => {
         </div>
       ) : (
         <div className="h-[500px] rounded-lg overflow-hidden border border-gray-200 relative z-0">
-          <LeafletMap markers={markers} />
+          <LazyLeafletMap markers={markers} />
         </div>
       )}
     </div>

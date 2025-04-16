@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import AssociacoesMap from '@/components/AssociacoesMap';
+import LazyAssociacoesMap from '@/components/LazyAssociacoesMap';
 import entidadesData from "../entidades_faro.json";
 
 interface Associacao {
@@ -43,7 +43,7 @@ const MapPage = () => {
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
         </div>
       ) : (
-        <AssociacoesMap associacoes={associacoes} />
+        <LazyAssociacoesMap associacoes={associacoes} />
       )}
     </div>
   );

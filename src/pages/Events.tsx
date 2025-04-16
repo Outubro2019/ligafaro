@@ -1,10 +1,30 @@
-import { useState, useEffect } from "react";
 import EventList from "@/components/events/EventList";
 import useEvents from "@/hooks/useEvents";
 import { Skeleton } from "@/components/ui/skeleton";
 
+// Função para converter a primeira data do campo date
+function parseEventDate(dateString: string): string | null {
+  const firstDate = dateString.split('-')[0].trim();
+  const match = firstDate.match(/^(\d{1,2}) (\w{3}) (\d{4})$/i);
+  if (!match) return null;
+  const [_, day, monthStr, year] = match;
+  const months = {
+    jan: "01", fev: "02", mar: "03", abr: "04", mai: "05", jun: "06",
+    jul: "07", ago: "08", set: "09", out: "10", nov: "11", dez: "12"
+  };
+  const month = months[monthStr.toLowerCase()];
+  if (!month) return null;
+  return `${year}-${month}-${day.padStart(2, "0")}`;
+}
+
 const Events = () => {
-  const { events, loading, error } = useEvents();
+  const { events = [], loading, error } = useEvents();
+
+  // Aplica o parsing de datas a todos os eventos
+  const parsedEvents = events.map(ev => ({
+    ...ev,
+    date: parseEventDate(ev.date) || ev.date // substitui pelo formato ISO se possível
+  }));
 
   return (
     <div className="space-y-6">
@@ -29,7 +49,7 @@ const Events = () => {
           {error}
         </div>
       ) : (
-        <EventList initialEvents={events} />
+        <EventList initialEvents={parsedEvents} />
       )}
     </div>
   );

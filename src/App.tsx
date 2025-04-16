@@ -1,26 +1,28 @@
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster as Sonner } from "sonner";
-import { 
-  QueryClient, 
+import {
+  QueryClient,
   QueryClientProvider,
   focusManager
 } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/contexts/AuthContext";
-import Chatbot from "./pages/Chatbot";
 import MainLayout from "./components/Layout";
-import Dashboard from "./pages/Dashboard";
-import News from "./pages/News";
-import Events from "./pages/Events";
-import Forum from "./pages/Forum";
-import Associacoes from "./pages/Associacoes";
-import Community from "./pages/Community";
-import Marketplace from "./pages/Marketplace";
-import Volunteer from "./pages/Volunteer";
-import MapPage from "./pages/Map";
-import NotFound from "./pages/NotFound";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
+
+// Importação dinâmica das páginas
+const Dashboard = lazy(() => import("./pages/Dashboard"));
+const News = lazy(() => import("./pages/News"));
+const Events = lazy(() => import("./pages/Events"));
+const Forum = lazy(() => import("./pages/Forum"));
+const Associacoes = lazy(() => import("./pages/Associacoes"));
+const Community = lazy(() => import("./pages/Community"));
+const Marketplace = lazy(() => import("./pages/Marketplace"));
+const Volunteer = lazy(() => import("./pages/Volunteer"));
+const Chatbot = lazy(() => import("./pages/LazyChatbot"));
+const MapPage = lazy(() => import("./pages/Map"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Configuração para detectar quando a janela está em foco
 function onFocus() {
@@ -56,6 +58,13 @@ const App = () => {
     };
   }, []);
 
+  // Componente de loading para Suspense
+  const PageLoading = () => (
+    <div className="flex items-center justify-center w-full h-[70vh]">
+      <div className="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-primary"></div>
+    </div>
+  );
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
@@ -63,60 +72,86 @@ const App = () => {
           <Toaster />
           <Sonner />
           <BrowserRouter>
-            <Routes>
-              <Route path="/" element={
-                <MainLayout>
-                  <Dashboard />
-                </MainLayout>
-              } />
-              <Route path="/events" element={
-                <MainLayout>
-                  <Events />
-                </MainLayout>
-              } />
-              <Route path="/news" element={
-                <MainLayout>
-                  <News />
-                </MainLayout>
-              } />
-              <Route path="/forum" element={
-                <MainLayout>
-                  <Forum />
-                </MainLayout>
-              } />
-              <Route path="/community" element={
-                <MainLayout>
-                  <Community />
-                </MainLayout>
-              } />
-              <Route path="/associacoes" element={
-                <MainLayout>
-                  <Associacoes />
-                </MainLayout>
-              } />
-              <Route path="/marketplace" element={
-                <MainLayout>
-                  <Marketplace />
-                </MainLayout>
-              } />
-              <Route path="/volunteer" element={
-                <MainLayout>
-                  <Volunteer />
-                </MainLayout>
-              } />
-               <Route path="/chatbot" element={
-                 <MainLayout>
-                   <Chatbot />
-                 </MainLayout>
-               } />
-               <Route path="/map" element={
-                 <MainLayout>
-                   <MapPage />
-                 </MainLayout>
-               } />
-              {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA CATCH-ALL "*" */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
+            <Suspense fallback={<PageLoading />}>
+              <Routes>
+                <Route path="/" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Dashboard />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/events" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Events />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/news" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <News />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/forum" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Forum />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/community" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Community />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/associacoes" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Associacoes />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/marketplace" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Marketplace />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/volunteer" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Volunteer />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/chatbot" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <Chatbot />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                <Route path="/map" element={
+                  <MainLayout>
+                    <Suspense fallback={<PageLoading />}>
+                      <MapPage />
+                    </Suspense>
+                  </MainLayout>
+                } />
+                {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA CATCH-ALL "*" */}
+                <Route path="*" element={
+                  <Suspense fallback={<PageLoading />}>
+                    <NotFound />
+                  </Suspense>
+                } />
+              </Routes>
+            </Suspense>
           </BrowserRouter>
         </AuthProvider>
       </TooltipProvider>
