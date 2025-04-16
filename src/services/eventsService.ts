@@ -25,10 +25,12 @@ export const eventsService = {
           }
         }
         
-        // Tenta carregar o arquivo JSON gerado
+        // Tenta carregar o arquivo JSON diretamente
         try {
           // Adiciona timestamp para evitar cache
           const timestamp = new Date().getTime();
+          
+          // Tenta carregar o arquivo JSON da pasta public
           const response = await fetch(`/events_data.json?t=${timestamp}`, {
             headers: {
               'Cache-Control': 'no-cache, no-store, must-revalidate',
@@ -36,6 +38,7 @@ export const eventsService = {
               'Expires': '0'
             }
           });
+          
           if (response.ok) {
             events = await response.json();
             console.log('Eventos carregados com sucesso do JSON:', events.length);
@@ -67,11 +70,17 @@ export const eventsService = {
    * Executa o script Python para obter eventos atualizados
    */
   async fetchEventsFromPython(): Promise<void> {
+    // Em ambiente de produção, não tenta executar o script Python
+    if (!import.meta.env.DEV) {
+      console.log('Ambiente de produção: não executando script Python');
+      return;
+    }
+    
     try {
       // Adiciona timestamp para evitar cache
       const timestamp = new Date().getTime();
       
-      // Primeiro, tenta usar o endpoint específico para eventos
+      // Apenas em ambiente de desenvolvimento, tenta usar a API
       try {
         const response = await fetch(`/api/events?t=${timestamp}`, {
           headers: {
@@ -92,7 +101,7 @@ export const eventsService = {
         console.warn('Erro ao acessar API de eventos:', apiError);
       }
       
-      // Fallback para o endpoint genérico
+      // Fallback para o endpoint genérico (apenas em desenvolvimento)
       const response = await fetch(`/api/fetch-events?t=${timestamp}`, {
         headers: {
           'Cache-Control': 'no-cache, no-store, must-revalidate',
