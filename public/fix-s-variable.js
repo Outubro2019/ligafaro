@@ -1,65 +1,73 @@
-// Script para prevenir o erro "Cannot access 'S' before initialization"
+// Solução radical para o erro "Cannot access 'S' before initialization"
 (function() {
-  // 1. Definir S como uma variável global
-  window.S = window.S || {};
+  // Definir S globalmente antes de qualquer outro script
+  window.S = {};
+  globalThis.S = {};
+  self.S = {};
   
-  // 2. Interceptar Object.defineProperty para evitar problemas com a variável S
-  const originalDefineProperty = Object.defineProperty;
-  Object.defineProperty = function(obj, prop, descriptor) {
-    // Se alguém tentar definir a propriedade 'S' no objeto global
-    if ((obj === window || obj === globalThis) && prop === 'S') {
-      console.log("Interceptada tentativa de definir 'S' via Object.defineProperty");
+  // Criar uma variável S no escopo global
+  try {
+    eval('var S = window.S;');
+  } catch (e) {
+    console.error("Erro ao definir var S:", e);
+  }
+  
+  // Interceptar e modificar scripts que tentam declarar 'S'
+  const originalCreateElement = document.createElement;
+  document.createElement = function(tagName) {
+    const element = originalCreateElement.call(document, tagName);
+    
+    if (tagName.toLowerCase() === 'script') {
+      const originalSetAttribute = element.setAttribute;
+      element.setAttribute = function(name, value) {
+        if (name === 'src' && value.includes('gptengineer')) {
+          console.log("Bloqueando script gptengineer:", value);
+          // Não carrega o script problemático
+          return element;
+        }
+        return originalSetAttribute.call(this, name, value);
+      };
       
-      // Se a propriedade S já existir, não faça nada
-      if (window.S) {
-        return obj;
-      }
-      
-      // Caso contrário, defina S como um objeto vazio
-      window.S = {};
-      return obj;
+      // Interceptar conteúdo inline do script
+      const originalAppendChild = element.appendChild;
+      element.appendChild = function(child) {
+        if (child && child.nodeType === Node.TEXT_NODE) {
+          // Substituir declarações de 'S' problemáticas
+          let content = child.textContent || '';
+          if (content.includes('const S =') || content.includes('let S =')) {
+            console.log("Modificando declaração de 'S' em script inline");
+            content = content.replace(/const\s+S\s*=/, 'const S_renamed =')
+                             .replace(/let\s+S\s*=/, 'let S_renamed =');
+            child.textContent = content;
+          }
+        }
+        return originalAppendChild.call(this, child);
+      };
     }
     
-    // Para todas as outras propriedades, use o comportamento original
-    return originalDefineProperty.call(this, obj, prop, descriptor);
+    return element;
   };
   
-  // 3. Interceptar Reflect.defineProperty também
-  if (typeof Reflect !== 'undefined' && Reflect.defineProperty) {
-    const originalReflectDefineProperty = Reflect.defineProperty;
-    Reflect.defineProperty = function(obj, prop, descriptor) {
-      // Se alguém tentar definir a propriedade 'S' no objeto global
-      if ((obj === window || obj === globalThis) && prop === 'S') {
-        console.log("Interceptada tentativa de definir 'S' via Reflect.defineProperty");
-        
-        // Se a propriedade S já existir, não faça nada
-        if (window.S) {
-          return true;
+  // Interceptar carregamento de scripts
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      mutation.addedNodes.forEach(node => {
+        if (node.tagName === 'SCRIPT') {
+          const src = node.getAttribute('src');
+          if (src && src.includes('gptengineer')) {
+            console.log("Removendo script problemático:", src);
+            node.parentNode.removeChild(node);
+          }
         }
-        
-        // Caso contrário, defina S como um objeto vazio
-        window.S = {};
-        return true;
-      }
-      
-      // Para todas as outras propriedades, use o comportamento original
-      return originalReflectDefineProperty.call(this, obj, prop, descriptor);
-    };
-  }
+      });
+    });
+  });
   
-  // 4. Definir S como uma variável no escopo global
-  if (typeof S === 'undefined') {
-    window.S = {};
-  }
+  // Observar mudanças no DOM
+  observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true
+  });
   
-  // 5. Definir S como uma constante no escopo global
-  try {
-    if (typeof globalThis !== 'undefined') {
-      globalThis.S = globalThis.S || {};
-    }
-  } catch (e) {
-    console.error("Erro ao definir S no globalThis:", e);
-  }
-  
-  console.log("Proteção contra erro 'Cannot access S before initialization' ativada");
+  console.log("Proteção avançada contra erro 'Cannot access S before initialization' ativada");
 })();
