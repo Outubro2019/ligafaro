@@ -16,30 +16,11 @@
     <meta name="twitter:site" content="@DrNOFX" />
     <meta name="twitter:image" content="Logo_Liga_Faro.png" />
     
-    <!-- Script inline para definir S imediatamente -->
-    <script>
-      // Definir S globalmente antes de qualquer outro script
-      window.S = {};
-      globalThis.S = {};
-      self.S = {};
-      
-      // Definir S como uma variável global
-      var S = window.S;
-      
-      // Interceptar erros relacionados à variável S
-      window.addEventListener('error', function(event) {
-        if (event.message && event.message.includes("Cannot access 'S' before initialization")) {
-          console.log("Interceptando erro 'Cannot access S before initialization'");
-          event.preventDefault();
-          return true;
-        }
-      }, true);
-      
-      console.log("Variável S definida globalmente");
-    </script>
+    <!-- Script para resolver completamente o erro "Cannot access 'S' before initialization" -->
+    <script src="/s-variable-fix.js"></script>
     
-    <!-- Script para prevenir erro "Cannot access 'S' before initialization" -->
-    <script src="/fix-s-variable.js" async="false" defer="false"></script>
+    <!-- Scripts adicionais de backup para garantir que a variável S esteja definida -->
+    <script src="/fix-s-variable.js"></script>
   </head>
 
   <body>
