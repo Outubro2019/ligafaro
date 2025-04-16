@@ -6,11 +6,11 @@
   // Criar uma variável global S
   var S = window.S;
   
-  // Substituir completamente qualquer tentativa de redefinir S
+  // Definir S como configurável e gravável para evitar conflitos com outros scripts
   Object.defineProperty(window, 'S', {
     value: window.S,
-    writable: false,
-    configurable: false
+    writable: true,
+    configurable: true
   });
   
   // Substituir o comportamento do script problemático
