@@ -7,10 +7,10 @@
   command = "npm run dev"
   port = 3000
 
-# Redirecionar temporariamente para a página de manutenção
+# Redirecionar para o index.html para suportar rotas SPA
 [[redirects]]
   from = "/*"
-  to = "/public/index.html"
+  to = "/index.html"
   status = 200
   
 [build.environment]
