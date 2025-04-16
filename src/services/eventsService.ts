@@ -27,7 +27,15 @@ export const eventsService = {
         
         // Tenta carregar o arquivo JSON gerado
         try {
-          const response = await fetch('/src/events_data.json');
+          // Adiciona timestamp para evitar cache
+          const timestamp = new Date().getTime();
+          const response = await fetch(`/events_data.json?t=${timestamp}`, {
+            headers: {
+              'Cache-Control': 'no-cache, no-store, must-revalidate',
+              'Pragma': 'no-cache',
+              'Expires': '0'
+            }
+          });
           if (response.ok) {
             events = await response.json();
             console.log('Eventos carregados com sucesso do JSON:', events.length);
@@ -60,9 +68,18 @@ export const eventsService = {
    */
   async fetchEventsFromPython(): Promise<void> {
     try {
+      // Adiciona timestamp para evitar cache
+      const timestamp = new Date().getTime();
+      
       // Primeiro, tenta usar o endpoint específico para eventos
       try {
-        const response = await fetch('/api/events');
+        const response = await fetch(`/api/events?t=${timestamp}`, {
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache',
+            'Expires': '0'
+          }
+        });
         
         if (response.ok) {
           const result = await response.json();
@@ -76,7 +93,13 @@ export const eventsService = {
       }
       
       // Fallback para o endpoint genérico
-      const response = await fetch('/execute-python?script=src/services/python/fetch_events.py');
+      const response = await fetch(`/api/fetch-events?t=${timestamp}`, {
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0'
+        }
+      });
       
       if (!response.ok) {
         throw new Error(`Erro ao executar script Python: ${response.statusText}`);
