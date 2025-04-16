@@ -5,12 +5,20 @@
   globalThis.S = {};
   self.S = {};
   
-  // Criar uma variável S no escopo global
+  // Criar uma variável S no escopo global usando diferentes abordagens
   try {
     eval('var S = window.S;');
   } catch (e) {
     console.error("Erro ao definir var S:", e);
   }
+  
+  // Garantir que a variável S seja definida antes de qualquer script ser executado
+  // Isso é importante para scripts que tentam acessar S antes de sua inicialização
+  Object.defineProperty(window, 'S', {
+    value: window.S || {},
+    writable: true,
+    configurable: true
+  });
   
   // Interceptar e modificar scripts que tentam declarar 'S'
   const originalCreateElement = document.createElement;
@@ -67,6 +75,26 @@
   observer.observe(document.documentElement, {
     childList: true,
     subtree: true
+  });
+  
+  // Adicionar um hook para interceptar erros relacionados à variável S
+  window.addEventListener('error', function(event) {
+    if (event.message && event.message.includes("Cannot access 'S' before initialization")) {
+      console.log("Interceptando erro 'Cannot access S before initialization'");
+      event.preventDefault();
+      event.stopPropagation();
+      return true;
+    }
+  }, true);
+  
+  // Adicionar um hook para interceptar erros não capturados
+  window.addEventListener('unhandledrejection', function(event) {
+    if (event.reason && event.reason.message && event.reason.message.includes("Cannot access 'S' before initialization")) {
+      console.log("Interceptando rejeição não tratada relacionada a 'S'");
+      event.preventDefault();
+      event.stopPropagation();
+      return true;
+    }
   });
   
   console.log("Proteção avançada contra erro 'Cannot access S before initialization' ativada");

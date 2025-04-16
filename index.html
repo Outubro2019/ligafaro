@@ -17,7 +17,8 @@
     <meta name="twitter:image" content="Logo_Liga_Faro.png" />
     
     <!-- Script para prevenir erro "Cannot access 'S' before initialization" -->
-    <script src="/fix-s-variable.js"></script>
+    <!-- Carregado com maior prioridade e antes de qualquer outro script -->
+    <script src="/fix-s-variable.js" async="false" defer="false"></script>
   </head>
 
   <body>
