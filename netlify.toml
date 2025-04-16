@@ -15,13 +15,20 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# Adicionar cabeçalhos de segurança para bloquear scripts externos
+# Adicionar cabeçalhos de segurança para bloquear scripts específicos e permitir fontes do Google
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://api.example.com; font-src 'self'; object-src 'none'; media-src 'self'; frame-src 'self';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://*.netlify.app; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.netlify.app https://www.cm-faro.pt https://cdn.viralagenda.com; connect-src 'self' https://*.netlify.app; object-src 'none'; media-src 'self'; frame-src 'self'; block-all-mixed-content; upgrade-insecure-requests; base-uri 'self'; manifest-src 'self'; report-uri /csp-report"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+
+# Bloquear especificamente o script gptengineer.js
+[[redirects]]
+  from = "https://cdn.gpteng.co/gptengineer.js"
+  to = "/blocked-script.js"
+  status = 404
+  force = true
