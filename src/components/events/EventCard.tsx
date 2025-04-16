@@ -37,7 +37,7 @@ const EventCard = ({ event, onInterestClick }: EventCardProps) => {
         <div className="space-y-2 text-sm">
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4 text-muted-foreground" />
-            <span>{event.date}</span>
+            <span dangerouslySetInnerHTML={{ __html: event.date }} />
           </div>
           <div className="flex items-center gap-2">
             <Clock className="h-4 w-4 text-muted-foreground" />
