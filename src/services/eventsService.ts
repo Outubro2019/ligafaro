@@ -15,7 +15,9 @@ export const eventsService = {
       let events: EventData[] = [];
       
       try {
+        // Comentado para usar diretamente o arquivo JSON como no Netlify
         // Em ambiente de desenvolvimento, executa o script Python para obter dados atualizados
+        /*
         if (import.meta.env.DEV) {
           try {
             await this.fetchEventsFromPython();
@@ -24,27 +26,55 @@ export const eventsService = {
             // Continuar mesmo com erro, pois o arquivo JSON pode já existir
           }
         }
+        */
         
-        // Tenta carregar o arquivo JSON diretamente
+        // Tenta carregar o arquivo JSON diretamente (mesmo método usado no Netlify)
         try {
+          console.log('Tentando carregar eventos do arquivo JSON...');
+          
           // Adiciona timestamp para evitar cache
           const timestamp = new Date().getTime();
           
-          // Tenta carregar o arquivo JSON da pasta public
-          const response = await fetch(`/events_data.json?t=${timestamp}`, {
-            headers: {
-              'Cache-Control': 'no-cache, no-store, must-revalidate',
-              'Pragma': 'no-cache',
-              'Expires': '0'
-            }
-          });
+          // Tenta várias URLs possíveis para o arquivo JSON
+          const urls = [
+            `/events_data.json?url&t=${timestamp}`,
+            `/public/events_data.json?url&t=${timestamp}`,
+            `./events_data.json?url&t=${timestamp}`,
+            `./public/events_data.json?url&t=${timestamp}`
+          ];
           
-          if (response.ok) {
-            events = await response.json();
-            console.log('Eventos carregados com sucesso do JSON:', events.length);
-          } else {
-            console.warn('Resposta não ok ao carregar eventos:', response.status);
-            throw new Error('Falha ao carregar eventos');
+          let loaded = false;
+          let lastError = null;
+          
+          // Tenta cada URL até encontrar uma que funcione
+          for (const url of urls) {
+            try {
+              console.log(`Tentando carregar eventos de: ${url}`);
+              
+              const response = await fetch(url, {
+                headers: {
+                  'Cache-Control': 'no-cache, no-store, must-revalidate',
+                  'Pragma': 'no-cache',
+                  'Expires': '0'
+                }
+              });
+              
+              if (response.ok) {
+                events = await response.json();
+                console.log(`Eventos carregados com sucesso de ${url}: ${events.length} eventos`);
+                loaded = true;
+                break;
+              } else {
+                console.warn(`Resposta não ok ao carregar eventos de ${url}: ${response.status}`);
+              }
+            } catch (urlError) {
+              console.warn(`Erro ao carregar arquivo JSON de ${url}:`, urlError);
+              lastError = urlError;
+            }
+          }
+          
+          if (!loaded) {
+            throw lastError || new Error('Falha ao carregar eventos de todas as URLs tentadas');
           }
         } catch (fetchError) {
           console.warn('Erro ao carregar arquivo JSON:', fetchError);
@@ -68,6 +98,7 @@ export const eventsService = {
   
   /**
    * Executa o script Python para obter eventos atualizados
+   * Nota: Esta função está mantida apenas para referência, mas não é mais chamada
    */
   async fetchEventsFromPython(): Promise<void> {
     // Em ambiente de produção, não tenta executar o script Python
