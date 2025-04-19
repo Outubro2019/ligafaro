@@ -19,6 +19,7 @@ import Community from "./pages/Community";
 import Marketplace from "./pages/Marketplace";
 import Volunteer from "./pages/Volunteer";
 import MapPage from "./pages/Map";
+import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import { useEffect } from "react";
 
@@ -112,6 +113,11 @@ const App = () => {
                <Route path="/map" element={
                  <MainLayout>
                    <MapPage />
+                 </MainLayout>
+               } />
+               <Route path="/profile" element={
+                 <MainLayout>
+                   <Profile />
                  </MainLayout>
                } />
               {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA CATCH-ALL "*" */}

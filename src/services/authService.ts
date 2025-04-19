@@ -9,7 +9,8 @@ import {
   signInAnonymously,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-  sendPasswordResetEmail
+  sendPasswordResetEmail,
+  updateProfile
 } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
@@ -172,4 +173,38 @@ export const getCurrentUser = (): AuthUser | null => {
   }
   
   return user ? formatUser(user) : null;
+};
+
+// Update user profile
+export const updateUserProfile = async (displayName?: string, photoURL?: string): Promise<AuthUser | null> => {
+  const user = auth.currentUser;
+  
+  if (!user) return null;
+  
+  try {
+    const updateData: {displayName?: string, photoURL?: string} = {};
+    
+    if (displayName) updateData.displayName = displayName;
+    if (photoURL) updateData.photoURL = photoURL;
+    
+    await updateProfile(user, updateData);
+    
+    // If user is anonymous, update the cached mock data
+    if (user.isAnonymous) {
+      const mockUserJSON = localStorage.getItem(`mockUser_${user.uid}`);
+      if (mockUserJSON) {
+        const mockUser = JSON.parse(mockUserJSON);
+        const updatedMockUser = {
+          ...mockUser,
+          ...updateData
+        };
+        localStorage.setItem(`mockUser_${user.uid}`, JSON.stringify(updatedMockUser));
+      }
+    }
+    
+    return formatUser(user);
+  } catch (error) {
+    console.error("Erro ao atualizar perfil:", error);
+    throw error;
+  }
 };

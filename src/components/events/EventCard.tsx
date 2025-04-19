@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, Clock, Users, Heart } from "lucide-react";
+import { Calendar, MapPin, Clock, Users, Heart, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { EventData } from "@/types/EventTypes";
 import { getCategoryColor } from "@/utils/eventUtils";
@@ -9,9 +9,10 @@ import { getCategoryColor } from "@/utils/eventUtils";
 interface EventCardProps {
   event: EventData;
   onInterestClick: (eventId: number) => void;
+  onParticipateClick?: (eventId: number) => void;
 }
 
-const EventCard = ({ event, onInterestClick }: EventCardProps) => {
+const EventCard = ({ event, onInterestClick, onParticipateClick }: EventCardProps) => {
   return (
     <Card className="overflow-hidden border-none shadow-md hover:shadow-xl transition-all duration-300">
       {event.imageUrl && (
@@ -58,15 +59,27 @@ const EventCard = ({ event, onInterestClick }: EventCardProps) => {
           )}
         </div>
         
-        <div className="mt-4 flex justify-end">
-          <Button 
-            onClick={() => onInterestClick(event.id)} 
+        <div className="mt-4 flex justify-end gap-2">
+          <Button
+            onClick={() => onInterestClick(event.id)}
             className="gap-2"
             size="sm"
+            variant="outline"
           >
             <Heart className="h-4 w-4" />
             Tenho interesse
           </Button>
+          
+          {onParticipateClick && (
+            <Button
+              onClick={() => onParticipateClick(event.id)}
+              className="gap-2"
+              size="sm"
+            >
+              <CheckCircle className="h-4 w-4" />
+              Participar
+            </Button>
+          )}
         </div>
       </CardContent>
     </Card>

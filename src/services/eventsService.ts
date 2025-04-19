@@ -1,6 +1,7 @@
 import { EventData } from "@/types/EventTypes";
 import { EventResponse } from "./types/eventTypes";
 import { upcomingEvents } from "@/data/eventsData";
+import eventsDataJson from "@/events_data.json";
 
 /**
  * Serviço para gerenciar eventos
@@ -11,41 +12,32 @@ export const eventsService = {
    */
   async getEvents(): Promise<EventResponse> {
     try {
-      // Tenta carregar os eventos do arquivo JSON gerado pelo script Python
+      // Tenta carregar os eventos do arquivo JSON
       let events: EventData[] = [];
       
       try {
-        // Em ambiente de desenvolvimento, executa o script Python para obter dados atualizados
-        if (import.meta.env.DEV) {
-          try {
-            await this.fetchEventsFromPython();
-          } catch (pythonError) {
-            console.warn('Erro ao executar script Python:', pythonError);
-            // Continuar mesmo com erro, pois o arquivo JSON pode já existir
-          }
-        }
+        console.log('Carregando eventos do arquivo JSON importado...');
         
-        // Tenta carregar o arquivo JSON gerado
-        try {
-          const response = await fetch('/events_data.json?url');
-          if (response.ok) {
-            events = await response.json();
-            console.log('Eventos carregados com sucesso do JSON:', events.length);
-          } else {
-            console.warn('Resposta não ok ao carregar eventos:', response.status);
-            throw new Error('Falha ao carregar eventos');
-          }
-        } catch (fetchError) {
-          console.warn('Erro ao carregar arquivo JSON:', fetchError);
-          throw fetchError;
-        }
+        // Usa diretamente o arquivo JSON importado
+        events = eventsDataJson as EventData[];
+        console.log('Eventos reais carregados com sucesso:', events.length);
+        
+        // Adiciona um campo attendees se não existir
+        events = events.map(event => ({
+          ...event,
+          attendees: event.attendees || 0
+        }));
+        
+        return { events };
       } catch (error) {
         console.warn('Erro ao carregar eventos do JSON, usando dados estáticos:', error);
         // Fallback para dados estáticos em caso de erro
         events = upcomingEvents;
+        return {
+          events,
+          error: 'Usando dados estáticos devido a erro ao carregar eventos reais.'
+        };
       }
-      
-      return { events };
     } catch (error) {
       console.error('Erro ao obter eventos:', error);
       return { 

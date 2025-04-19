@@ -9,32 +9,32 @@ const Community = () => {
     {
       id: 1,
       name: "Maria Santos",
-      role: "Líder Comunitária",
-      location: "Cidade Velha",
-      interests: ["Ambiente", "Educação"],
+      role: "Costureira",
+      location: "Penha",
+      interests: ["Costura", "Educação"],
       avatar: "MS"
     },
     {
       id: 2,
       name: "João Silva",
-      role: "Dono de Negócio Local",
+      role: "Carpinteiro",
       location: "Montenegro",
-      interests: ["Negócios", "Alimentação"],
+      interests: ["Carpintaria", "Artesanato"],
       avatar: "JS"
     },
     {
       id: 3,
       name: "Ana Oliveira",
-      role: "Artista",
+      role: "Costureira",
       location: "Praia de Faro",
-      interests: ["Arte", "Música"],
+      interests: ["Costura", "Educação"],
       avatar: "AO"
     },
     {
       id: 4,
       name: "Miguel Costa",
-      role: "Estudante",
-      location: "Área Universitária",
+      role: "Informático",
+      location: "Bom João",
       interests: ["Tecnologia", "Desporto"],
       avatar: "MC"
     },
@@ -49,7 +49,7 @@ const Community = () => {
     {
       id: 6,
       name: "Francisco Pereira",
-      role: "Reformado",
+      role: "Jardineiro",
       location: "São Pedro",
       interests: ["Jardinagem", "História"],
       avatar: "FP"
@@ -57,7 +57,7 @@ const Community = () => {
     {
       id: 7,
       name: "Carla Nunes",
-      role: "Profissional de Saúde",
+      role: "Enfermeira",
       location: "Penha",
       interests: ["Saúde", "Culinária"],
       avatar: "CN"

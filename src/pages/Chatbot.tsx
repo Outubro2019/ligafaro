@@ -26,7 +26,7 @@ interface NewsItem {
 const Chatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
-      text: 'Olá! Sou o assistente virtual da Liga Faro. Como posso ajudar você hoje?',
+      text: 'Olá! Sou o assistente virtual da Liga Faro. Em que posso ajudar?',
       sender: 'bot'
     }
   ]);
