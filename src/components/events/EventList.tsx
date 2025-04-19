@@ -47,7 +47,7 @@ const EventList = ({ initialEvents }: EventListProps) => {
         toast({
           title: "Pontos adicionados!",
           description: "Você ganhou 2 pontos por demonstrar interesse neste evento.",
-          variant: "success"
+          variant: "default"
         });
       } catch (error) {
         console.error("Erro ao registrar interesse no perfil:", error);
@@ -95,7 +95,7 @@ const EventList = ({ initialEvents }: EventListProps) => {
         toast({
           title: "Pontos adicionados!",
           description: "Você ganhou 10 pontos por participar deste evento.",
-          variant: "success"
+          variant: "default"
         });
       } catch (error) {
         console.error("Erro ao registrar participação no perfil:", error);

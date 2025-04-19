@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import QRCode from "react-qr-code";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -421,6 +422,21 @@ export default function Profile() {
                         <span className="text-sm">ID: </span>
                         <span className="text-sm font-medium">{user.uid}</span>
                       </div>
+                      
+                      {/* QR Code do perfil do usuário */}
+                      <div className="mt-4 flex flex-col items-center">
+                        <span className="text-sm mb-2">QR Code do seu perfil:</span>
+                        <div className="p-2 bg-white rounded-lg">
+                          <QRCode
+                            value={`https://ligafaro.netlify.app/profile/${user.uid}`}
+                            size={150}
+                            level="H"
+                          />
+                        </div>
+                        <span className="text-xs text-muted-foreground mt-2">
+                          Escaneie para ver seu perfil completo
+                        </span>
+                      </div>
                     </div>
                   </div>
                   
@@ -638,7 +654,7 @@ export default function Profile() {
                           toast({
                             title: "Participação simulada",
                             description: "Foram adicionadas 3 participações em eventos ao seu perfil.",
-                            variant: "success"
+                            variant: "default"
                           });
                           loadUserActivities();
                           loadUserEventHistory();
@@ -666,7 +682,7 @@ export default function Profile() {
                           toast({
                             title: "Interesse simulado",
                             description: "Foram adicionados 5 interesses em eventos ao seu perfil.",
-                            variant: "success"
+                            variant: "default"
                           });
                           loadUserActivities();
                           loadUserEventInterests();
