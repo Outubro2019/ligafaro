@@ -1,0 +1,34 @@
+# Configuração específica para deploy da versão 67fdaafd37578a0008b036ed
+
+[build]
+  publish = "dist"
+  command = "npm run build:simple"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NETLIFY_SPECIFIC_DEPLOY = "67fdaafd37578a0008b036ed"
+
+# Configuração para usar o deploy específico como produção
+[context.production]
+  publish = "dist"
+  command = "npm run build:simple"
+
+# Configuração para apontar para o deploy específico
+[context.production.environment]
+  NETLIFY_SPECIFIC_DEPLOY = "67fdaafd37578a0008b036ed"
+
+# Redirecionar para o deploy específico
+[[redirects]]
+  from = "/*"
+  to = "https://67fdaafd37578a0008b036ed--wonderful-cactus-daf97f.netlify.app/:splat"
+  status = 200
+  force = true
+
+# Configuração de plugins
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = ["node_modules/.cache", ".netlify/cache"]

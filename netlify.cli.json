@@ -1,0 +1,11 @@
+{
+  "site_id": "wonderful-cactus-daf97f",
+  "build": {
+    "base": ".",
+    "publish": "dist",
+    "command": "npm run build:simple"
+  },
+  "production": {
+    "deploy_id": "67fdaafd37578a0008b036ed"
+  }
+}
