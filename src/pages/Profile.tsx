@@ -366,6 +366,16 @@ export default function Profile() {
                   <AvatarFallback>{user.displayName?.charAt(0) || user.email?.charAt(0) || "U"}</AvatarFallback>
                 </Avatar>
                 
+                 {/* Nome do Utilizador - ADICIONADO AQUI */}
+                <div className="text-center mt-3 mb-4"> {/* Adicionado margem top e bottom */}
+                  <h2 className="text-xl font-semibold">
+                    {/* Acessa diretamente o nome do utilizador do objeto 'user' */}
+                    {user?.displayName || 'Nome Indisponível'}
+                  </h2>
+                  {/* Pode adicionar o email aqui também se desejar */}
+                  {/* <p className="text-sm text-muted-foreground">{user?.email}</p> */}
+                </div>
+
                 <div className="flex flex-col items-center gap-2">
                   <div className="flex items-center gap-2">
                     <input
@@ -423,7 +433,7 @@ export default function Profile() {
                         <span className="text-sm font-medium">{user.uid}</span>
                       </div>
                       
-                      {/* QR Code do perfil do usuário */}
+                      {/* QR Code do perfil do utilizador */}
                       <div className="mt-4 flex flex-col items-center">
                         <span className="text-sm mb-2">QR Code do seu perfil:</span>
                         <div className="p-2 bg-white rounded-lg">
@@ -550,6 +560,9 @@ export default function Profile() {
                 
                 <Form {...personalForm}>
                   <form onSubmit={personalForm.handleSubmit(onSubmitPersonalInfo)} className="space-y-4">
+                    <FormDescription>
+                      Este é o nome e o email que serão exibidos para os outros utilizadores na comunidade.
+                    </FormDescription>
                     <FormField
                       control={personalForm.control}
                       name="displayName"
@@ -588,9 +601,6 @@ export default function Profile() {
                               />
                             </FormControl>
                           </div>
-                          <FormDescription>
-                            Este é o nome e o email que serão exibidos para os outros utilizadores na comunidade.
-                          </FormDescription>
                           <FormMessage />
                         </FormItem>
                       )}
@@ -745,7 +755,7 @@ export default function Profile() {
                     ) : (
                       <div className="text-center py-8">
                         <p className="text-muted-foreground">
-                          Você ainda não participou de nenhuma atividade.
+                          Ainda não participou em nenhuma atividade.
                         </p>
                       </div>
                     )}
@@ -781,7 +791,7 @@ export default function Profile() {
                     ) : (
                       <div className="text-center py-8">
                         <p className="text-muted-foreground">
-                          Você ainda não participou de nenhum evento.
+                          Ainda não participou em nenhum evento.
                         </p>
                       </div>
                     )}
@@ -817,7 +827,7 @@ export default function Profile() {
                     ) : (
                       <div className="text-center py-8">
                         <p className="text-muted-foreground">
-                          Você ainda não demonstrou interesse em nenhum evento.
+                          Ainda não demonstrou interesse em nenhum evento.
                         </p>
                       </div>
                     )}
@@ -843,7 +853,7 @@ export default function Profile() {
                             <Phone className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                             <FormControl>
                               <Input
-                                placeholder="Seu telefone"
+                                placeholder="O seu telefone de contacto"
                                 className="pl-10"
                                 disabled={!isEditingOther}
                                 {...field}
@@ -865,7 +875,7 @@ export default function Profile() {
                             <Briefcase className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                             <FormControl>
                               <Input
-                                placeholder="Sua profissão"
+                                placeholder="A sua profissão"
                                 className="pl-10"
                                 disabled={!isEditingOther}
                                 {...field}
@@ -888,7 +898,7 @@ export default function Profile() {
                           <MapPin className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                           <FormControl>
                             <Input
-                              placeholder="Sua morada"
+                              placeholder="A sua morada para contato"
                               className="pl-10"
                               disabled={!isEditingOther}
                               {...field}
@@ -910,7 +920,7 @@ export default function Profile() {
                           <FileText className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                           <FormControl>
                             <Textarea
-                              placeholder="Conte um pouco sobre você"
+                              placeholder="Conte-nos um pouco sobre si"
                               className="pl-10 min-h-[120px]"
                               disabled={!isEditingOther}
                               {...field}
@@ -936,7 +946,7 @@ export default function Profile() {
                         type="submit"
                         disabled={isSubmittingOther}
                       >
-                        {isSubmittingOther ? "Salvando..." : "Salvar"}
+                        {isSubmittingOther ? "Guardando..." : "Guardar"}
                       </Button>
                     </div>
                   ) : (

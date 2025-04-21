@@ -29,8 +29,8 @@
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/66312f7fde6d3c00b85fcd7c/capa/20240514120251262q0y.png",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.041615062729,
-      "lon": -7.84436318363
+      "lat": 37.017054,
+      "lon": -7.914594
     }
   },
   {
@@ -250,8 +250,8 @@
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.072589954861,
-      "lon": -8.104129502598
+      "lat": 37.0251161,
+      "lon": -7.9460794
     }
   },
   {
@@ -301,8 +301,8 @@
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662bc5c6ea239e00b8433d8f/capa/20240516111458175IU1.jpg",
     "has_more_categories": true,
     "coordenadas": {
-      "lat": 36.98902,
-      "lon": -7.8335
+      "lat": 36.9938715,
+      "lon": -7.839795
     }
   },
   {
@@ -352,8 +352,8 @@
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/entidades/600eeb4cef63af00cd1cc847/capa/20210219171747698mBg.png",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.1314345,
-      "lon": -8.5908964
+      "lat": 37.0175694,
+      "lon": -7.9251486
     }
   },
   {
@@ -392,7 +392,7 @@
   },
   {
     "cmf_url": "https://associativismo.cm-faro.pt/entidades/662a80a4c71ed800b79fcf29",
-    "nome": "Associação ~dos ucranianos no Algarve",
+    "nome": "Associação dos ucranianos no Algarve",
     "morada": "Rua Tenente Coronel António Palermo Oliveira Lote 68 B/C",
     "codigo_postal": "8000-536",
     "localidade": "Faro",
@@ -751,8 +751,8 @@
     "nome": "Associação dos Escoteiros de Portugal - Grupo 166",
     "morada": "Antiga Escola Primária da Arábia , Sítio da Arábia, Montenegro, 8005-408 Faro",
     "coordenadas": {
-      "lat": 37.0272,
-      "lon": -7.96575
+      "lat": 37.0194058,
+      "lon": -7.9794158
     },
     "cmf_url": "N/A",
     "codigo_postal": "N/A",
@@ -783,10 +783,10 @@
   },
   {
     "nome": "Associação Escola Futebol faro",
-    "morada": "Rua candido Guerreiro 7, 8000-321 Faro",
+    "morada": "Rua Cândido Guerreiro, n.º 7, 1º Direito, 8000-321 Faro",
     "coordenadas": {
-      "lat": 37.0389225,
-      "lon": -7.8420052
+      "lat": 37.0183104,
+      "lon": -7.9285641
     },
     "cmf_url": "N/A",
     "codigo_postal": "N/A",
@@ -867,11 +867,11 @@
     "has_more_categories": false
   },
   {
-    "nome": "Associação Nossa senhora dos Navegantes",
+    "nome": "Associação Nossa Senhora dos Navegantes",
     "morada": "Ilha da Culatra - Av. 19 de julho nº 500, 8005-556 Faro",
     "coordenadas": {
-      "lat": 36.993716497437,
-      "lon": -7.838295180275
+      "lat": 36.990895,
+      "lon": -7.841022
     },
     "cmf_url": "N/A",
     "codigo_postal": "N/A",
@@ -1074,8 +1074,8 @@
     "nome": "Associação Recreativa e Cultural de Músicos",
     "morada": "Rua do Castelo, 4, 8000-401 Faro",
     "coordenadas": {
-      "lat": 37.196017,
-      "lon": -8.861679840225934
+      "lat": 37.0116507,
+      "lon": -7.9342587
     },
     "cmf_url": "N/A",
     "codigo_postal": "N/A",
@@ -1125,8 +1125,8 @@
     "nome": "Associação South Side",
     "morada": "Rua Leão Penedo, Edifício Sporting Clube Farense, 8000-386 Faro",
     "coordenadas": {
-      "lat": 37.023926602774,
-      "lon": -7.928060133416
+      "lat": 37.023241,
+      "lon": -7.929157
     },
     "cmf_url": "N/A",
     "codigo_postal": "N/A",
@@ -1321,8 +1321,8 @@
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/662f5384ea239e00b8457e1a/capa/20240516191308582A9N.jpg",
     "has_more_categories": true,
     "coordenadas": {
-      "lat": 37.1476822,
-      "lon": -7.6036261
+      "lat": 37.0615953,
+      "lon": -7.9177656
     }
   },
   {
@@ -1474,8 +1474,8 @@
     "image_url": "https://associativismo.s3.eu-west-1.amazonaws.com/cmfaro/cmfaro/entidades/661ee40618b7a800b8c9599e/capa/20240429183120352fch.jpg",
     "has_more_categories": true,
     "coordenadas": {
-      "lat": 37.13605207133419,
-      "lon": -8.017657910179125
+      "lat": 37.0258992,
+      "lon": -7.9241924
     }
   },
   {
@@ -1764,8 +1764,8 @@
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.0965,
-      "lon": -8.2459
+      "lat": 37.027768,
+      "lon": -7.927567
     }
   },
   {
@@ -1986,8 +1986,8 @@
     "image_url": "https://associativismo.cm-faro.pt/assets/images/logos/Faro/cardDefault.png",
     "has_more_categories": false,
     "coordenadas": {
-      "lat": 37.13597423327882,
-      "lon": -8.015023830562724
+      "lat": 37.0172698,
+      "lon": -7.9225617
     }
   },
   {

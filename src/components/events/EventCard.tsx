@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Clock, Users, Heart, CheckCircle } from "lucide-react";
@@ -13,12 +12,18 @@ interface EventCardProps {
 }
 
 const EventCard = ({ event, onInterestClick, onParticipateClick }: EventCardProps) => {
+  const currentDate = new Date();
+  const eventDate = new Date(event.date);
+
+  const isToday = currentDate.toDateString() === eventDate.toDateString();
+  const isTomorrow = new Date(currentDate).setDate(currentDate.getDate() + 1) === eventDate.getTime();
+
   return (
     <Card className="overflow-hidden border-none shadow-md hover:shadow-xl transition-all duration-300">
       {event.imageUrl && (
         <div className="aspect-video w-full overflow-hidden">
-          <img 
-            src={event.imageUrl} 
+          <img
+            src={event.imageUrl}
             alt={event.title}
             className="h-full w-full object-cover transition-transform hover:scale-105"
           />
@@ -38,7 +43,11 @@ const EventCard = ({ event, onInterestClick, onParticipateClick }: EventCardProp
         <div className="space-y-2 text-sm">
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4 text-muted-foreground" />
-            <span>{event.date}</span>
+            <span>
+              {isToday && <span className="text-red-500 font-bold">HOJE! </span>}
+              {isTomorrow && <span className="text-red-500 font-bold">AMANHÃ! </span>}
+              {event.date}
+            </span>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="h-4 w-4 text-muted-foreground" />
@@ -58,7 +67,7 @@ const EventCard = ({ event, onInterestClick, onParticipateClick }: EventCardProp
             </div>
           )}
         </div>
-        
+
         <div className="mt-4 flex justify-end gap-2">
           <Button
             onClick={() => onInterestClick(event.id)}
@@ -69,7 +78,7 @@ const EventCard = ({ event, onInterestClick, onParticipateClick }: EventCardProp
             <Heart className="h-4 w-4" />
             Tenho interesse
           </Button>
-          
+
           {onParticipateClick && (
             <Button
               onClick={() => onParticipateClick(event.id)}
