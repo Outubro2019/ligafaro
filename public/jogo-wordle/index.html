@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jogo de Palavras</h1>
+            <button id="help-btn" title="Ajuda"><i class="fas fa-question-circle"></i></button>
+        </header>
+        
+        <div id="game-instructions" class="hidden">
+            <h2>Como Jogar</h2>
+            <p>Adivinhe a palavra de 5 letras em 6 tentativas.</p>
+            <p>Após cada tentativa, as cores das letras mudarão para mostrar o quão perto você está da resposta.</p>
+            <ul>
+                <li><span class="example correct">A</span> - Letra correta na posição correta</li>
+                <li><span class="example present">B</span> - Letra correta na posição errada</li>
+                <li><span class="example absent">C</span> - Letra não está na palavra</li>
+            </ul>
+            <p>Use o teclado virtual ou o teclado do seu dispositivo para digitar.</p>
+            <button id="close-instructions">Fechar</button>
+        </div>
+        
+        <div id="game-board">
+            <!-- As linhas e células serão geradas pelo JavaScript -->
+        </div>
+        
+        <div id="keyboard">
+            <!-- O teclado será gerado pelo JavaScript -->
+        </div>
+        
+        <div id="game-message"></div>
+        
+        <div class="controls">
+            <button id="new-game-btn">Novo Jogo</button>
+        </div>
+    </div>
+    
+    <script src="palavras.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

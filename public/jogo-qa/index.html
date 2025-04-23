@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Teste seus conhecimentos sobre a história de Faro com este quiz interativo!" />
+  <title>Desafia Faro! - Quiz sobre a História de Faro</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <main class="quiz-container">
+    <header class="quiz-header">
+      <h1><i class="fas fa-landmark"></i> Desafia Faro!</h1>
+      <div class="quiz-info">
+        <div id="progress-container">
+          <div id="progress-text">Pergunta <span id="current-question">1</span> de <span id="total-questions">10</span></div>
+          <div class="progress-bar">
+            <div id="progress-fill"></div>
+          </div>
+        </div>
+        <div id="current-score-container" class="score-display">
+          <i class="fas fa-star"></i> Pontuação: <span id="current-score">0</span>
+        </div>
+      </div>
+    </header>
+
+    <section id="question-box">
+      <h2 id="question">Carregando pergunta...</h2>
+      <div id="options" class="options-container"></div>
+      <p id="feedback" class="feedback-text"></p>
+    </section>
+
+    <div class="controls">
+      <button id="next-btn" disabled><span>Próxima</span> <i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <section id="score-box" class="hidden">
+      <div class="result-container">
+        <i class="fas fa-trophy result-icon"></i>
+        <h2>Quiz terminado!</h2>
+        <p id="final-score"></p>
+        <button onclick="startQuiz()"><i class="fas fa-redo"></i> Jogar de novo</button>
+      </div>
+    </section>
+
+    <footer class="quiz-footer">
+      <p>Aprenda mais sobre a rica história de Faro enquanto se diverte!</p>
+      <p class="copyright">© 2025 Desafia Faro</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

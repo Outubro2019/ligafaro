@@ -22,14 +22,14 @@ const Games = () => {
       title: "Desafia Faro!",
       description: "Teste seus conhecimentos sobre a história de Faro com este quiz interativo!",
       imageUrl: "/Logo_Liga_Faro.png",
-      path: "/Jogo Q&A Faro/index.html"
+      path: "https://ligafaro.netlify.app/jogo-qa/"
     },
     {
       id: "wordle",
       title: "Jogo de Palavras",
       description: "Adivinhe a palavra de 5 letras em 6 tentativas. Um desafio para testar seu vocabulário!",
       imageUrl: "/Logo_Liga_Faro.png",
-      path: "/Jogo wordle/index.html"
+      path: "https://ligafaro.netlify.app/jogo-wordle/"
     }
   ];
 
