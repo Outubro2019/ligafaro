@@ -20,6 +20,7 @@ import Marketplace from "./pages/Marketplace";
 import Volunteer from "./pages/Volunteer";
 import MapPage from "./pages/Map";
 import Profile from "./pages/Profile";
+import Games from "./pages/Games";
 import NotFound from "./pages/NotFound";
 import { useEffect } from "react";
 
@@ -113,6 +114,11 @@ const App = () => {
                <Route path="/map" element={
                  <MainLayout>
                    <MapPage />
+                 </MainLayout>
+               } />
+               <Route path="/games" element={
+                 <MainLayout>
+                   <Games />
                  </MainLayout>
                } />
                <Route path="/profile" element={

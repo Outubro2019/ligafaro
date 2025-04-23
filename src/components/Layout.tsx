@@ -13,7 +13,8 @@ import {
   Moon,
   Newspaper,
   Building,
-  Map
+  Map,
+  Gamepad
 } from 'lucide-react';
 import {
   SidebarProvider,
@@ -89,6 +90,7 @@ const AppSidebar = () => {
     { name: 'Mercado', path: '/marketplace', icon: ShoppingBag },
     { name: 'Voluntariado', path: '/volunteer', icon: Heart },
     { name: 'Chatbot', path: '/chatbot', icon: MessageSquare },
+    { name: 'Jogos', path: '/games', icon: Gamepad },
     { name: 'Mapa', path: '/map', icon: Map }
   ];
 
