@@ -235,6 +235,10 @@ h2 {
 }
 
 @media (max-width: 650px) {
+    .container {
+        padding: 15px 10px;
+    }
+    
     .cell {
         width: 40px;
         height: 40px;
@@ -253,5 +257,77 @@ h2 {
     .key-wide {
         min-width: 55px;
         font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px 5px;
+    }
+    
+    .cell {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    #keyboard {
+        gap: 6px;
+    }
+    
+    .keyboard-row {
+        gap: 4px;
+    }
+    
+    .key {
+        height: 45px;
+    }
+    
+    .key-letter {
+        min-width: 28px;
+        font-size: 13px;
+    }
+    
+    .key-wide {
+        min-width: 48px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 380px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 8px 4px;
+    }
+    
+    .cell {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+    
+    #keyboard {
+        gap: 4px;
+    }
+    
+    .keyboard-row {
+        gap: 3px;
+    }
+    
+    .key {
+        height: 40px;
+    }
+    
+    .key-letter {
+        min-width: 24px;
+        font-size: 12px;
+    }
+    
+    .key-wide {
+        min-width: 40px;
+        font-size: 10px;
     }
 }

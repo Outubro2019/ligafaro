@@ -52,24 +52,24 @@ const Games = () => {
       </div>
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="sm:max-w-[90vw] sm:max-h-[90vh] p-0 overflow-hidden">
-          <DialogHeader className="p-4 border-b">
+        <DialogContent className="sm:max-w-[90vw] max-w-[95vw] sm:max-h-[90vh] max-h-[95vh] p-0 overflow-hidden">
+          <DialogHeader className="p-3 sm:p-4 border-b">
             <div className="flex items-center justify-between w-full">
-              <DialogTitle className="font-display text-xl">
+              <DialogTitle className="font-display text-lg sm:text-xl">
                 {selectedGame?.title}
               </DialogTitle>
               <DialogClose asChild>
-                <Button variant="ghost" size="icon" className="rounded-full">
+                <Button variant="ghost" size="icon" className="rounded-full h-8 w-8 sm:h-9 sm:w-9">
                   <X className="h-4 w-4" />
                 </Button>
               </DialogClose>
             </div>
           </DialogHeader>
           {selectedGame && (
-            <div className="w-full h-[80vh]">
-              <iframe 
-                src={selectedGame.path} 
-                className="w-full h-full border-0" 
+            <div className="w-full h-[70vh] sm:h-[80vh]">
+              <iframe
+                src={selectedGame.path}
+                className="w-full h-full border-0"
                 title={selectedGame.title}
               />
             </div>
