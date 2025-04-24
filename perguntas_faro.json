@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Qual era o nome primitivo da atual cidade de Faro?",
+    "opcoes": [
+      "Ossónoba",
+      "Alteoba",
+      "Lucentum"
+    ],
+    "resposta_correta": "Ossónoba"
+  },
+  {
+    "id": 2,
+    "pergunta": "Durante a ocupação fenícia, qual era a principal função de Ossónoba?",
+    "opcoes": [
+      "Entreposto comercial mediterrânico",
+      "Fortaleza militar fenícia",
+      "Centro religioso fenício"
+    ],
+    "resposta_correta": "Entreposto comercial mediterrânico"
+  },
+  {
+    "id": 3,
+    "pergunta": "Qual destas civilizações NÃO teve domínio sobre Faro entre os séculos III a.C. e VIII d.C.?",
+    "opcoes": [
+      "Árabe",
+      "Romana",
+      "Visigoda"
+    ],
+    "resposta_correta": "Árabe"
+  },
+  {
+    "id": 4,
+    "pergunta": "Que nome recebeu Faro durante o domínio visigodo?",
+    "opcoes": [
+      "Santa Maria de Ossónoba",
+      "Santa Cruz de Ossónoba",
+      "São Vicente de Ossónoba"
+    ],
+    "resposta_correta": "Santa Maria de Ossónoba"
+  },
+  {
+    "id": 5,
+    "pergunta": "Quem reconquistou Ossónoba aos visigodos em 552?",
+    "opcoes": [
+      "Império Bizantino",
+      "Reino Visigótico",
+      "Império Romano do Ocidente"
+    ],
+    "resposta_correta": "Império Bizantino"
+  },
+  {
+    "id": 6,
+    "pergunta": "Que nome adotou Faro durante o domínio árabe?",
+    "opcoes": [
+      "Santa Maria Ibn Harun",
+      "Santa Maria de Alvalade",
+      "Santa Maria de Alfarrobeira"
+    ],
+    "resposta_correta": "Santa Maria Ibn Harun"
+  },
+  {
+    "id": 7,
+    "pergunta": "Qual era a estrutura urbana principal da cidade durante o domínio árabe?",
+    "opcoes": [
+      "Vila-a-Dentro",
+      "Alcáçova Real",
+      "Ribeira Velha"
+    ],
+    "resposta_correta": "Vila-a-Dentro"
+  },
+  {
+    "id": 8,
+    "pergunta": "Em que ano foi Faro conquistado pelos portugueses?",
+    "opcoes": [
+      "1249",
+      "1147",
+      "1325"
+    ],
+    "resposta_correta": "1249"
+  },
+  {
+    "id": 9,
+    "pergunta": "Que rei português conquistou Faro aos mouros?",
+    "opcoes": [
+      "D. Afonso III",
+      "D. Afonso Henriques",
+      "D. Sancho II"
+    ],
+    "resposta_correta": "D. Afonso III"
+  },
+  {
+    "id": 10,
+    "pergunta": "Quando foi Faro elevada a cidade?",
+    "opcoes": [
+      "1540",
+      "1490",
+      "1603"
+    ],
+    "resposta_correta": "1540"
+  },
+  {
+    "id": 11,
+    "pergunta": "Que nome passou a ter Ossónoba durante o domínio visigótico?",
+    "opcoes": [
+      "Santa Maria de Ossónoba",
+      "Santa Iria de Ossónoba",
+      "Santa Marta de Ossónoba"
+    ],
+    "resposta_correta": "Santa Maria de Ossónoba"
+  },
+  {
+    "id": 12,
+    "pergunta": "Que povo reconquistou Ossónoba em 552?",
+    "opcoes": [
+      "Império Bizantino",
+      "Império Romano",
+      "Império Persa"
+    ],
+    "resposta_correta": "Império Bizantino"
+  },
+  {
+    "id": 13,
+    "pergunta": "Quem era o imperador do Império Bizantino durante a reconquista de Ossónoba em 552?",
+    "opcoes": [
+      "Justiniano I",
+      "Constantino I",
+      "Teodósio I"
+    ],
+    "resposta_correta": "Justiniano I"
+  },
+  {
+    "id": 14,
+    "pergunta": "Quando é que os visigodos reconquistaram Ossónoba aos bizantinos?",
+    "opcoes": [
+      "571",
+      "631",
+      "501"
+    ],
+    "resposta_correta": "571"
+  },
+  {
+    "id": 15,
+    "pergunta": "Como se chamava a cidade de Faro no início do período islâmico?",
+    "opcoes": [
+      "Santa Maria de Ossónoba",
+      "Santa Maria de Alandalus",
+      "Santa Maria de Córdoba"
+    ],
+    "resposta_correta": "Santa Maria de Ossónoba"
+  },
+  {
+    "id": 16,
+    "pergunta": "Quem comandava o destacamento árabe que governou Ossónoba após a invasão de 712?",
+    "opcoes": [
+      "Al-Yamani",
+      "Al-Mansur",
+      "Al-Rashid"
+    ],
+    "resposta_correta": "Al-Yamani"
+  },
+  {
+    "id": 17,
+    "pergunta": "Qual era a principal estrutura urbana da cidade islâmica de Faro?",
+    "opcoes": [
+      "Vila-a-Dentro",
+      "Arrabaldes do Norte",
+      "Colinas do Sul"
+    ],
+    "resposta_correta": "Vila-a-Dentro"
+  },
+  {
+    "id": 18,
+    "pergunta": "Que nome recebeu a cidade quando foi governada por Abu Otomão Saíde ibne Harune?",
+    "opcoes": [
+      "Santa Maria Ibn Harun",
+      "Santa Maria Ibn Alxantamari",
+      "Santa Maria Ibn Sale"
+    ],
+    "resposta_correta": "Santa Maria Ibn Harun"
+  },
+  {
+    "id": 19,
+    "pergunta": "Quem liderou a revolta muladi em Santa Maria do Ocidente?",
+    "opcoes": [
+      "Iáia ibne Becre",
+      "Alboácem ibne Harune",
+      "Abu Otomão Saíde"
+    ],
+    "resposta_correta": "Iáia ibne Becre"
+  },
+  {
+    "id": 20,
+    "pergunta": "Que dinastia muçulmana unificou os Reinos das Taifas em 1092?",
+    "opcoes": [
+      "Almorávidas",
+      "Almóadas",
+      "Omíadas"
+    ],
+    "resposta_correta": "Almorávidas"
+  },
+  {
+    "id": 21,
+    "pergunta": "Qual foi o nome atribuído a Faro durante o período visigótico?",
+    "opcoes": [
+      "Santa Maria de Ossónoba",
+      "Santa Maria de Faro",
+      "Santa Maria de Al-Gharb"
+    ],
+    "resposta_correta": "Santa Maria de Ossónoba"
+  },
+  {
+    "id": 22,
+    "pergunta": "Qual a principal evidência do período bizantino em Faro?",
+    "opcoes": [
+      "Torres bizantinas",
+      "Frescos de Santa Maria",
+      "Ruínas de um palácio"
+    ],
+    "resposta_correta": "Torres bizantinas"
+  },
+  {
+    "id": 23,
+    "pergunta": "Qual foi o comandante árabe que recebeu o governo da Província de Ossónoba após a conquista?",
+    "opcoes": [
+      "Al-Yamani",
+      "Muça ibne Noçáir",
+      "Iáia ibne Becre"
+    ],
+    "resposta_correta": "Al-Yamani"
+  },
+  {
+    "id": 24,
+    "pergunta": "Qual era o nome da cidade durante a revolta Muladi?",
+    "opcoes": [
+      "Santa Maria do Ocidente",
+      "Santa Maria das Muralhas",
+      "Santa Maria de Alentejo"
+    ],
+    "resposta_correta": "Santa Maria do Ocidente"
+  },
+  {
+    "id": 25,
+    "pergunta": "Que melhorias foram feitas em Faro por Becre ibne Iáia?",
+    "opcoes": [
+      "Construção das muralhas e aumento da Vila-a-Dentro",
+      "Edificação de um castelo e novas pontes",
+      "Criação de aquedutos e banhos públicos"
+    ],
+    "resposta_correta": "Construção das muralhas e aumento da Vila-a-Dentro"
+  },
+  {
+    "id": 26,
+    "pergunta": "Qual foi o poeta de Faro do século XI mencionado no texto?",
+    "opcoes": [
+      "Alboácem ibne Harune",
+      "ibne Sale Alxantamari",
+      "ibne Almuraal"
+    ],
+    "resposta_correta": "Alboácem ibne Harune"
+  },
+  {
+    "id": 27,
+    "pergunta": "Que evento levou à unificação dos Reinos das Taifas sob domínio almorávida?",
+    "opcoes": [
+      "Invasão liderada por Iúçufe ibne Taxufine",
+      "Conquista dos cristãos por Afonso VI",
+      "Tratado de Toledo"
+    ],
+    "resposta_correta": "Invasão liderada por Iúçufe ibne Taxufine"
+  },
+  {
+    "id": 28,
+    "pergunta": "Quem governava Santa Maria Ibn Harun durante os segundos Reinos das Taifas?",
+    "opcoes": [
+      "Família Banu Mozaíne",
+      "Família Alxantamari",
+      "Família Harune"
+    ],
+    "resposta_correta": "Família Banu Mozaíne"
+  },
+  {
+    "id": 29,
+    "pergunta": "Como descreveu o geógrafo Dreses a cidade de Santa Maria do Ocidente?",
+    "opcoes": [
+      "Edificada na orla do mar, de tamanho mediano e muito bonita",
+      "Cidade fortificada no interior, de pequena dimensão",
+      "Povoação simples entre colinas e canais"
+    ],
+    "resposta_correta": "Edificada na orla do mar, de tamanho mediano e muito bonita"
+  },
+  {
+    "id": 30,
+    "pergunta": "Qual o principal impacto do período árabe na língua portuguesa?",
+    "opcoes": [
+      "Introdução de centenas de vocábulos, especialmente na toponímia e comércio",
+      "Influência nos verbos latinos",
+      "Adopção do alfabeto árabe"
+    ],
+    "resposta_correta": "Introdução de centenas de vocábulos, especialmente na toponímia e comércio"
+  },
+  {
+    "id": 31,
+    "pergunta": "Qual o nome do templo romano cujas ruínas podem ter sido aproveitadas para a Sé de Faro?",
+    "opcoes": [
+      "Templo de Diana",
+      "Templo de Ossónoba",
+      "Templo de Mercúrio"
+    ],
+    "resposta_correta": "Templo de Ossónoba"
+  },
+  {
+    "id": 32,
+    "pergunta": "Durante o domínio islâmico, que nome recebeu Faro?",
+    "opcoes": [
+      "Santa Maria",
+      "Ossónoba",
+      "Santa Maria Ibn Harun"
+    ],
+    "resposta_correta": "Santa Maria Ibn Harun"
+  },
+  {
+    "id": 33,
+    "pergunta": "Qual era a principal atividade de Faro durante o período islâmico?",
+    "opcoes": [
+      "Agricultura",
+      "Construção naval",
+      "Comércio e indústria artesanal"
+    ],
+    "resposta_correta": "Comércio e indústria artesanal"
+  },
+  {
+    "id": 34,
+    "pergunta": "O que aconteceu à cidade de Faro durante a conquista cristã em 1249?",
+    "opcoes": [
+      "Foi completamente destruída",
+      "Foi integrada no Reino de Portugal",
+      "Foi vendida aos mouros"
+    ],
+    "resposta_correta": "Foi integrada no Reino de Portugal"
+  },
+  {
+    "id": 35,
+    "pergunta": "Qual foi a importância de Faro após a Reconquista Cristã?",
+    "opcoes": [
+      "Passou a ser a capital do Algarve",
+      "Tornou-se um centro de mineração",
+      "Foi abandonada pelos seus habitantes"
+    ],
+    "resposta_correta": "Passou a ser a capital do Algarve"
+  },
+  {
+    "id": 36,
+    "pergunta": "Qual a principal evidência da presença muçulmana em Faro?",
+    "opcoes": [
+      "As muralhas medievais",
+      "A toponímia da cidade",
+      "O castelo cristão"
+    ],
+    "resposta_correta": "A toponímia da cidade"
+  },
+  {
+    "id": 37,
+    "pergunta": "Quem foi responsável pela reconquista de Faro aos mouros?",
+    "opcoes": [
+      "D. Sancho II",
+      "D. Afonso III",
+      "D. Afonso Henriques"
+    ],
+    "resposta_correta": "D. Afonso III"
+  },
+  {
+    "id": 38,
+    "pergunta": "Que papel desempenhou a Sé de Faro após a Reconquista?",
+    "opcoes": [
+      "Armazém de cereais",
+      "Palácio real",
+      "Centro religioso da região"
+    ],
+    "resposta_correta": "Centro religioso da região"
+  },
+  {
+    "id": 39,
+    "pergunta": "Como era conhecida a zona de Faro antes da ocupação romana?",
+    "opcoes": [
+      "Celtícia",
+      "Baixo Alentejo",
+      "Lusitânia"
+    ],
+    "resposta_correta": "Celtícia"
+  },
+  {
+    "id": 40,
+    "pergunta": "Qual destas culturas deixou mais vestígios na região de Faro?",
+    "opcoes": [
+      "Fenícia",
+      "Romana",
+      "Viking"
+    ],
+    "resposta_correta": "Romana"
+  },
+  {
+    "id": 41,
+    "pergunta": "Qual era a designação da região do Algarve durante o domínio muçulmano?",
+    "opcoes": [
+      "Al-Gharb al-Andalus",
+      "Magreb",
+      "Al-Andalus Central"
+    ],
+    "resposta_correta": "Al-Gharb al-Andalus"
+  },
+  {
+    "id": 42,
+    "pergunta": "Durante o domínio muçulmano, qual era o papel das alcaçarias em Faro?",
+    "opcoes": [
+      "Áreas agrícolas",
+      "Zonas de comércio e artesanato",
+      "Bairros residenciais nobres"
+    ],
+    "resposta_correta": "Zonas de comércio e artesanato"
+  },
+  {
+    "id": 43,
+    "pergunta": "Que nome foi dado à Sé de Faro após a sua transformação cristã?",
+    "opcoes": [
+      "Igreja de São Miguel",
+      "Sé de Santa Maria",
+      "Catedral de Santiago"
+    ],
+    "resposta_correta": "Sé de Santa Maria"
+  },
+  {
+    "id": 44,
+    "pergunta": "Que tipo de muralha protegeu Faro durante os séculos medievais?",
+    "opcoes": [
+      "Romana",
+      "Gótica",
+      "Muçulmana"
+    ],
+    "resposta_correta": "Muçulmana"
+  },
+  {
+    "id": 45,
+    "pergunta": "Após a conquista cristã, qual destas ordens religiosas teve influência em Faro?",
+    "opcoes": [
+      "Ordem de Avis",
+      "Ordem de Santiago",
+      "Ordem do Templo"
+    ],
+    "resposta_correta": "Ordem de Santiago"
+  },
+  {
+    "id": 46,
+    "pergunta": "Em que século Faro foi integrada definitivamente no Reino de Portugal?",
+    "opcoes": [
+      "Século XII",
+      "Século XIII",
+      "Século XIV"
+    ],
+    "resposta_correta": "Século XIII"
+  },
+  {
+    "id": 47,
+    "pergunta": "Qual destes fatores contribuiu para a importância estratégica de Faro?",
+    "opcoes": [
+      "Proximidade a minas de ouro",
+      "Localização costeira e portuária",
+      "Riqueza em madeira"
+    ],
+    "resposta_correta": "Localização costeira e portuária"
+  },
+  {
+    "id": 48,
+    "pergunta": "Qual o significado provável de 'Ibn Harun', presente na designação islâmica de Faro?",
+    "opcoes": [
+      "Filho do Harém",
+      "Descendente de Harun",
+      "Sábio do Sul"
+    ],
+    "resposta_correta": "Descendente de Harun"
+  },
+  {
+    "id": 49,
+    "pergunta": "A que povo se deve a fundação da Ossónoba?",
+    "opcoes": [
+      "Romanos",
+      "Muçulmanos",
+      "Fenícios"
+    ],
+    "resposta_correta": "Fenícios"
+  },
+  {
+    "id": 50,
+    "pergunta": "O que permitiu a Faro prosperar nos períodos romano e islâmico?",
+    "opcoes": [
+      "Extracção de petróleo",
+      "Produção agrícola e comércio",
+      "Indústria têxtil"
+    ],
+    "resposta_correta": "Produção agrícola e comércio"
+  },
+  {
+    "id": 51,
+    "pergunta": "Qual era o principal porto da região durante o domínio romano?",
+    "opcoes": [
+      "Olhão",
+      "Ossónoba",
+      "Tavira"
+    ],
+    "resposta_correta": "Ossónoba"
+  },
+  {
+    "id": 52,
+    "pergunta": "Qual destas atividades económicas foi relevante durante o período islâmico em Faro?",
+    "opcoes": [
+      "Exploração de salinas",
+      "Produção de vinho",
+      "Criação de cavalos de guerra"
+    ],
+    "resposta_correta": "Exploração de salinas"
+  },
+  {
+    "id": 53,
+    "pergunta": "Qual destes nomes é uma das designações históricas de Faro em árabe?",
+    "opcoes": [
+      "Harun al-Rashid",
+      "Santa Maria Ibn Harun",
+      "Al-Mutamid"
+    ],
+    "resposta_correta": "Santa Maria Ibn Harun"
+  },
+  {
+    "id": 54,
+    "pergunta": "Após a Reconquista Cristã, que estrutura foi edificada sobre a antiga mesquita de Faro?",
+    "opcoes": [
+      "Paços do Concelho",
+      "Castelo de Faro",
+      "Sé Catedral"
+    ],
+    "resposta_correta": "Sé Catedral"
+  },
+  {
+    "id": 55,
+    "pergunta": "Durante o período muçulmano, Faro era conhecida como?",
+    "opcoes": [
+      "Al-Farouk",
+      "Santa Maria",
+      "Santa Maria Ibn Harun"
+    ],
+    "resposta_correta": "Santa Maria Ibn Harun"
+  },
+  {
+    "id": 56,
+    "pergunta": "A transição de poder de muçulmano para cristão em Faro ocorreu em que ano?",
+    "opcoes": [
+      "1249",
+      "1212",
+      "1147"
+    ],
+    "resposta_correta": "1249"
+  },
+  {
+    "id": 57,
+    "pergunta": "Que rei português liderou a conquista de Faro em 1249?",
+    "opcoes": [
+      "D. Afonso Henriques",
+      "D. Sancho I",
+      "D. Afonso III"
+    ],
+    "resposta_correta": "D. Afonso III"
+  },
+  {
+    "id": 58,
+    "pergunta": "Que elemento urbano islâmico persistiu em Faro após a reconquista?",
+    "opcoes": [
+      "Fonte romana",
+      "Cadeia municipal",
+      "Estrutura da muralha"
+    ],
+    "resposta_correta": "Estrutura da muralha"
+  },
+  {
+    "id": 59,
+    "pergunta": "A que se refere a expressão 'Al-Gharb al-Andalus'?",
+    "opcoes": [
+      "O Norte da Península",
+      "O Sul cristão",
+      "O Oeste do Al-Andalus"
+    ],
+    "resposta_correta": "O Oeste do Al-Andalus"
+  },
+  {
+    "id": 60,
+    "pergunta": "Que documento papal reconheceu a Diocese de Faro após a reconquista?",
+    "opcoes": [
+      "Bula de D. Dinis",
+      "Bula de Alexandre III",
+      "Bula do Papa Nicolau IV"
+    ],
+    "resposta_correta": "Bula do Papa Nicolau IV"
+  },
+  {
+    "id": 61,
+    "pergunta": "Qual destas construções foi iniciada no século XVI e é um dos marcos históricos de Faro?",
+    "opcoes": [
+      "Sé Catedral",
+      "Igreja do Carmo",
+      "Arco da Vila"
+    ],
+    "resposta_correta": "Igreja do Carmo"
+  },
+  {
+    "id": 62,
+    "pergunta": "O que distingue a Igreja do Carmo em Faro?",
+    "opcoes": [
+      "As suas torres altas",
+      "A capela dos ossos",
+      "O altar barroco"
+    ],
+    "resposta_correta": "A capela dos ossos"
+  },
+  {
+    "id": 63,
+    "pergunta": "Faro foi uma cidade importante durante qual das dinastias portuguesas?",
+    "opcoes": [
+      "Dinastia de Avis",
+      "Dinastia de Borgonha",
+      "Dinastia de Bragança"
+    ],
+    "resposta_correta": "Dinastia de Borgonha"
+  },
+  {
+    "id": 64,
+    "pergunta": "Durante o domínio romano, qual era a principal via de acesso a Faro?",
+    "opcoes": [
+      "Via Augusta",
+      "Via Domitia",
+      "Via Cláudia"
+    ],
+    "resposta_correta": "Via Augusta"
+  },
+  {
+    "id": 65,
+    "pergunta": "Qual é a principal característica do centro histórico de Faro?",
+    "opcoes": [
+      "A sua arquitetura medieval",
+      "A sua praça pública",
+      "As muralhas romanas e medievais"
+    ],
+    "resposta_correta": "As muralhas romanas e medievais"
+  },
+  {
+    "id": 66,
+    "pergunta": "O que caracteriza a praça Arco da Vila em Faro?",
+    "opcoes": [
+      "É um mercado medieval",
+      "É uma área com jardins e fontes",
+      "Tem uma vista panorâmica da cidade"
+    ],
+    "resposta_correta": "É uma área com jardins e fontes"
+  },
+  {
+    "id": 67,
+    "pergunta": "Faro faz parte de que região administrativa de Portugal?",
+    "opcoes": [
+      "Alentejo",
+      "Algarve",
+      "Madeira"
+    ],
+    "resposta_correta": "Algarve"
+  },
+  {
+    "id": 68,
+    "pergunta": "A cidade de Faro foi um importante centro de comércio durante qual período histórico?",
+    "opcoes": [
+      "Idade Média",
+      "Renascimento",
+      "Antiguidade Clássica"
+    ],
+    "resposta_correta": "Renascimento"
+  },
+  {
+    "id": 69,
+    "pergunta": "Faro é conhecida pela presença de que tipo de fauna e flora?",
+    "opcoes": [
+      "Fauna tropical e flora da montanha",
+      "Fauna marítima e flora de estuário",
+      "Fauna de montanha e flora mediterrânica"
+    ],
+    "resposta_correta": "Fauna marítima e flora de estuário"
+  },
+  {
+    "id": 70,
+    "pergunta": "Qual é o nome da ilha que forma parte do arquipélago de Faro e é conhecida pela sua beleza natural?",
+    "opcoes": [
+      "Ilha de Tavira",
+      "Ilha de Faro",
+      "Ilha do Farol"
+    ],
+    "resposta_correta": "Ilha de Faro"
+  },
+  {
+    "id": 71,
+    "pergunta": "Qual é o principal museu arqueológico de Faro?",
+    "opcoes": [
+      "Museu Municipal de Faro",
+      "Museu Nacional de Arte Contemporânea",
+      "Museu de História Natural"
+    ],
+    "resposta_correta": "Museu Municipal de Faro"
+  },
+  {
+    "id": 72,
+    "pergunta": "Em que ano foi inaugurada a Igreja de São Francisco em Faro?",
+    "opcoes": [
+      "1500",
+      "1577",
+      "1650"
+    ],
+    "resposta_correta": "1577"
+  },
+  {
+    "id": 73,
+    "pergunta": "Qual é a principal fonte de riqueza histórica e cultural de Faro?",
+    "opcoes": [
+      "O turismo religioso",
+      "O comércio marítimo",
+      "A agricultura de citrinos"
+    ],
+    "resposta_correta": "O comércio marítimo"
+  },
+  {
+    "id": 74,
+    "pergunta": "Quem foi o responsável pela construção da muralha de Faro?",
+    "opcoes": [
+      "Os romanos",
+      "Os mouros",
+      "Os visigodos"
+    ],
+    "resposta_correta": "Os mouros"
+  },
+  {
+    "id": 75,
+    "pergunta": "Qual é o nome do evento anual que celebra as tradições e a cultura local de Faro?",
+    "opcoes": [
+      "Festa da Ria Formosa",
+      "Festa de Nossa Senhora da Guia",
+      "Festa de Nossa Senhora das Dores"
+    ],
+    "resposta_correta": "Festa de Nossa Senhora da Guia"
+  },
+  {
+    "id": 76,
+    "pergunta": "Qual é o nome do famoso arquipélago ao largo de Faro?",
+    "opcoes": [
+      "Arquipélago da Madeira",
+      "Arquipélago de Berlengas",
+      "Arquipélago da Ria Formosa"
+    ],
+    "resposta_correta": "Arquipélago da Ria Formosa"
+  },
+  {
+    "id": 77,
+    "pergunta": "Qual das seguintes opções descreve melhor a vegetação do Parque Natural da Ria Formosa?",
+    "opcoes": [
+      "Floresta densa e tropical",
+      "Pântano e plantas aquáticas",
+      "Montanhas rochosas e arbustos secos"
+    ],
+    "resposta_correta": "Pântano e plantas aquáticas"
+  },
+  {
+    "id": 78,
+    "pergunta": "Qual é o nome da ilha que fica mais próxima do centro de Faro e que é conhecida pela sua praia?",
+    "opcoes": [
+      "Ilha do Farol",
+      "Ilha de Tavira",
+      "Ilha de Faro"
+    ],
+    "resposta_correta": "Ilha de Faro"
+  },
+  {
+    "id": 79,
+    "pergunta": "Durante o domínio romano, qual era o nome da cidade de Faro?",
+    "opcoes": [
+      "Faro",
+      "Ossonoba",
+      "Civitas"
+    ],
+    "resposta_correta": "Ossonoba"
+  },
+  {
+    "id": 80,
+    "pergunta": "Qual é a principal característica da arquitetura da Sé Catedral de Faro?",
+    "opcoes": [
+      "Estilo barroco",
+      "Estilo manuelino",
+      "Estilo gótico"
+    ],
+    "resposta_correta": "Estilo gótico"
+  },
+  {
+    "id": 81,
+    "pergunta": "Qual era o nome do império que dominou a região de Faro antes da chegada dos mouros?",
+    "opcoes": [
+      "Império Romano",
+      "Império Bizantino",
+      "Império Cartaginês"
+    ],
+    "resposta_correta": "Império Romano"
+  },
+  {
+    "id": 82,
+    "pergunta": "A Igreja do Carmo em Faro é famosa por possuir um capela feita com ossos. Como é chamada essa capela?",
+    "opcoes": [
+      "Capela dos Ossos",
+      "Capela da Misericórdia",
+      "Capela de São João"
+    ],
+    "resposta_correta": "Capela dos Ossos"
+  },
+  {
+    "id": 83,
+    "pergunta": "Qual é a principal atividade pesqueira praticada em Faro?",
+    "opcoes": [
+      "Pesca de atum",
+      "Pesca de polvo",
+      "Pesca de camarão"
+    ],
+    "resposta_correta": "Pesca de camarão"
+  },
+  {
+    "id": 84,
+    "pergunta": "Faro está localizada em que região de Portugal?",
+    "opcoes": [
+      "Alentejo",
+      "Madeira",
+      "Algarve"
+    ],
+    "resposta_correta": "Algarve"
+  },
+  {
+    "id": 85,
+    "pergunta": "Qual é o nome do porto de Faro?",
+    "opcoes": [
+      "Porto Comercial de Faro",
+      "Porto de Abrigo",
+      "Porto de Faro"
+    ],
+    "resposta_correta": "Porto de Faro"
+  },
+  {
+    "id": 86,
+    "pergunta": "Qual é o nome da principal praça de Faro, onde estão situados vários edifícios históricos?",
+    "opcoes": [
+      "Praça do Comércio",
+      "Praça da Liberdade",
+      "Praça 5 de Outubro"
+    ],
+    "resposta_correta": "Praça do Comércio"
+  },
+  {
+    "id": 87,
+    "pergunta": "O que é a Ria Formosa?",
+    "opcoes": [
+      "Uma reserva natural",
+      "Uma rede de rios",
+      "Uma ilha"
+    ],
+    "resposta_correta": "Uma reserva natural"
+  },
+  {
+    "id": 88,
+    "pergunta": "Qual é a característica que torna o Mercado Municipal de Faro especial?",
+    "opcoes": [
+      "Sua arquitetura moderna",
+      "A venda exclusiva de produtos agrícolas locais",
+      "Sua localização no centro histórico"
+    ],
+    "resposta_correta": "A venda exclusiva de produtos agrícolas locais"
+  },
+  {
+    "id": 89,
+    "pergunta": "Qual é o nome do aeroporto de Faro?",
+    "opcoes": [
+      "Aeroporto Internacional do Algarve",
+      "Aeroporto de Faro",
+      "Aeroporto de São João"
+    ],
+    "resposta_correta": "Aeroporto de Faro"
+  },
+  {
+    "id": 90,
+    "pergunta": "Qual foi o evento histórico que levou à destruição parcial da cidade de Faro em 1755?",
+    "opcoes": [
+      "O terremoto de Lisboa",
+      "A invasão napoleónica",
+      "O ataque dos mouros"
+    ],
+    "resposta_correta": "O terremoto de Lisboa"
+  },
+  {
+    "id": 91,
+    "pergunta": "Qual é o nome da principal rua comercial do centro histórico de Faro?",
+    "opcoes": [
+      "Rua de Santo António",
+      "Rua da Liberdade",
+      "Rua da Misericórdia"
+    ],
+    "resposta_correta": "Rua de Santo António"
+  },
+  {
+    "id": 92,
+    "pergunta": "Qual é a principal festa religiosa celebrada em Faro?",
+    "opcoes": [
+      "Festa de Nossa Senhora da Assunção",
+      "Festa de São João",
+      "Festa de Nossa Senhora do Carmo"
+    ],
+    "resposta_correta": "Festa de Nossa Senhora da Assunção"
+  },
+  {
+    "id": 93,
+    "pergunta": "Em que século foi construída a Igreja de São Francisco em Faro?",
+    "opcoes": [
+      "Século XV",
+      "Século XVI",
+      "Século XVII"
+    ],
+    "resposta_correta": "Século XVI"
+  },
+  {
+    "id": 94,
+    "pergunta": "Qual é o nome do famoso teatro de Faro?",
+    "opcoes": [
+      "Teatro Nacional D. Maria II",
+      "Teatro das Figuras",
+      "Teatro São João"
+    ],
+    "resposta_correta": "Teatro das Figuras"
+  },
+  {
+    "id": 95,
+    "pergunta": "Qual é o nome da ilha em frente a Faro famosa pelo seu farol?",
+    "opcoes": [
+      "Ilha da Barreta",
+      "Ilha do Farol",
+      "Ilha da Culatra"
+    ],
+    "resposta_correta": "Ilha da Culatra"
+  },
+  {
+    "id": 96,
+    "pergunta": "Quem foi o responsável pela construção das muralhas de Faro?",
+    "opcoes": [
+      "Os mouros",
+      "Os romanos",
+      "Os fenícios"
+    ],
+    "resposta_correta": "Os mouros"
+  },
+  {
+    "id": 97,
+    "pergunta": "Qual é a principal atividade turística de Faro?",
+    "opcoes": [
+      "Visitas a museus",
+      "Turismo de praia",
+      "Passeios de barco pela Ria Formosa"
+    ],
+    "resposta_correta": "Passeios de barco pela Ria Formosa"
+  },
+  {
+    "id": 98,
+    "pergunta": "Qual é a área natural protegida que rodeia a cidade de Faro?",
+    "opcoes": [
+      "Parque Natural da Ria Formosa",
+      "Parque Natural do Ludo",
+      "Marina de Faro"
+    ],
+    "resposta_correta": "Parque Natural da Ria Formosa"
+  },
+  {
+    "id": 99,
+    "pergunta": "Qual era o nome que os fenícios deram à cidade no séc. VIII a.C.?",
+    "opcoes": [
+      "Ossonoba",
+      "Ibn-Harun",
+      "Faaram"
+    ],
+    "resposta_correta": "Ossonoba"
+  },
+  {
+    "id": 100,
+    "pergunta": "Qual foi a civilização responsável pela fundação da cidade de Faro?",
+    "opcoes": [
+      "Fenícios",
+      "Romanos",
+      "Mouros"
+    ],
+    "resposta_correta": "Fenícios"
+  }
+]

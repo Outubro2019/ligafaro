@@ -13,8 +13,25 @@ export default defineConfig(({ mode }) => ({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       },
+      '/jogo-wordle': {
+        target: 'http://localhost:3001',
+        rewrite: (path) => path.replace(/^\/jogo-wordle/, '/public/jogo-wordle')
+      },
+      '/jogo-qa': {
+        target: 'http://localhost:3001',
+        rewrite: (path) => path.replace(/^\/jogo-qa/, '/public/jogo-qa')
+      },
+      '/jogo_sopa': {
+        target: 'http://localhost:3001',
+        rewrite: (path) => path.replace(/^\/jogo_sopa/, '/public/jogo_sopa')
+      }
+    },
+    fs: {
+      // Permitir servir arquivos de fora do diretório raiz
+      allow: ['..']
     },
   },
+  publicDir: 'public',
   plugins: [
     react(),
   ],

@@ -22,20 +22,27 @@ const Games = () => {
       title: "Desafia Faro!",
       description: "Teste seus conhecimentos sobre a história de Faro com este quiz interativo!",
       imageUrl: "/Logo_Liga_Faro.png",
-      path: "https://ligafaro.netlify.app/jogo-qa/"
+      path: "/jogo-qa/"
     },
     {
       id: "wordle",
       title: "Jogo de Palavras",
       description: "Adivinhe a palavra de 5 letras em 6 tentativas. Um desafio para testar seu vocabulário!",
       imageUrl: "/Logo_Liga_Faro.png",
-      path: "https://ligafaro.netlify.app/jogo-wordle/"
+      path: "/jogo-wordle/"
+    },
+    {
+      id: "sopa",
+      title: "Sopa de Letras do Algarve",
+      description: "Encontre palavras relacionadas ao Algarve nesta divertida sopa de letras!",
+      imageUrl: "/Logo_Liga_Faro.png",
+      path: "/jogo_sopa/"
     }
   ];
 
   const openGame = (game: GameData) => {
-    setSelectedGame(game);
-    setIsDialogOpen(true);
+    // Abrir o jogo em uma nova aba em vez de usar o iframe
+    window.open(game.path, '_blank');
   };
 
   return (

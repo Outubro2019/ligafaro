@@ -223,7 +223,7 @@ function verificarLetras() {
         }
     }
     
-    // Depois, marcar as letras presentes mas em posição errada (amarelo) ou ausentes (cinza)
+    // Depois, marcar as letras presentes mas em posição errada (roxo) ou ausentes (cinza)
     for (let i = 0; i < 5; i++) {
         const cell = row.children[i];
         const letra = cell.textContent;

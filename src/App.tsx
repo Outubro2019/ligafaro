@@ -126,8 +126,8 @@ const App = () => {
                    <Profile />
                  </MainLayout>
                } />
-              {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA CATCH-ALL "*" */}
-              <Route path="*" element={<NotFound />} />
+             {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA CATCH-ALL "*" */}
+             <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
         </AuthProvider>

@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de Letras do Algarve</title>
+    <style>
+        :root {
+            --primary: #0088cc;
+            --secondary: #f39c12;
+            --success: #27ae60;
+            --bg-light: #f5f7fa;
+            --text: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 95%;
+            margin: 1rem auto;
+            padding: 1rem;
+        }
+        
+        .grid-container {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+            overflow-x: auto;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(15, 2.2rem);
+            grid-template-rows: repeat(15, 2.2rem);
+            gap: 0.15rem;
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem;
+        }
+        
+        .cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2.2rem;
+            height: 2.2rem;
+            background-color: #f8f9fa;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: bold;
+            user-select: none;
+        }
+        
+        .cell:hover {
+            background-color: #e9ecef;
+        }
+        
+        .cell.selected {
+            background-color: var(--secondary);
+            color: white;
+        }
+        
+        .cell.tentatively-selected {
+            background-color: #ffeaa7;
+            color: var(--text);
+        }
+        
+        .cell.found {
+            background-color: var(--success);
+            color: white;
+        }
+        
+        .word-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            justify-content: center;
+        }
+        
+        .word-item {
+            background-color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+        
+        .word-item.found {
+            background-color: var(--success);
+            color: white;
+            text-decoration: line-through;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background-color: #006da3;
+        }
+        
+        .timer {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        
+        .progress {
+            width: 100%;
+            height: 0.5rem;
+            background-color: #e9ecef;
+            border-radius: 0.25rem;
+            overflow: hidden;
+            margin: 0.5rem 0;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background-color: var(--primary);
+            transition: width 0.3s ease;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .modal-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            max-width: 90%;
+            width: 400px;
+            text-align: center;
+        }
+        
+        .instructions {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .cancel-button {
+            background-color: #e74c3c;
+            margin-top: 1rem;
+        }
+        
+        .cancel-button:hover {
+            background-color: #c0392b;
+        }
+        
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: repeat(15, 1.7rem);
+                grid-template-rows: repeat(15, 1.7rem);
+            }
+            
+            .cell {
+                width: 1.7rem;
+                height: 1.7rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sopa de Letras do Algarve</h1>
+    </header>
+    
+    <div class="container">
+        <div class="instructions">
+            <strong>Como jogar:</strong>
+            <ul>
+                <li>Clique na primeira letra e arraste até à última letra de cada palavra</li>
+                <li>Para cancelar uma seleção em progresso, clique no botão "Cancelar Seleção" ou pressione a tecla ESC</li>
+                <li>Pode selecionar palavras na horizontal, vertical e diagonal</li>
+                <li>Pode selecionar palavras que se cruzam com outras</li>
+            </ul>
+        </div>
+        
+        <div class="stats">
+            <div>Palavras encontradas: <span id="found-count">0</span>/<span id="total-count">0</span></div>
+            <div>Tema: <span id="current-theme">Carregando...</span></div>
+            <div class="timer">00:00</div>
+        </div>
+        
+        <div class="progress">
+            <div class="progress-bar" style="width: 0%"></div>
+        </div>
+        
+        <div class="grid-container">
+            <div class="grid" id="grid"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="cancel-selection" class="cancel-button">Cancelar Seleção</button>
+        </div>
+        
+        <div class="word-list" id="word-list"></div>
+        
+        <div class="controls">
+            <button id="new-game">Novo Jogo</button>
+            <button id="hint">Dica</button>
+        </div>
+    </div>
+    
+    <div class="modal" id="win-modal">
+        <div class="modal-content">
+            <h2>Parabéns!</h2>
+            <p>Você encontrou todas as palavras em <span id="final-time">00:00</span>!</p>
+            <button id="play-again">Jogar Novamente</button>
+        </div>
+    </div>
+    
+    <script>
+        // Palavras relacionadas ao Algarve organizadas por temas
+        const wordSets = [
+          // Tema: Localidades
+          [
+            "ALGARVE", "FARO", "ALBUFEIRA", "SAGRES", "LAGOS",
+            "VILAMOURA", "PORTIMAO", "TAVIRA", "LOULE", "SILVES",
+            "MONCHIQUE", "OLHAO", "ALJEZUR", "ALCOUTIM", "CASTRO"
+          ],
+          
+          // Tema: Praias
+          [
+            "FALESIA", "MARINHA", "ROCHA", "CARVOEIRO", "ARMACAO",
+            "CANEIROS", "OURA", "GALE", "ZAVIAL", "BELICHE",
+            "CAMILO", "MEIA", "BARRIL", "ODECEIXE", "ARRIFANA"
+          ],
+          
+          // Tema: Gastronomia
+          [
+            "CATAPLANA", "CONQUILHAS", "AMEIJOEIRA", "SARDINHA", "PERCEBES",
+            "ARROZ", "OSTRAS", "XEREM", "CAMARAO", "FEIJOADA",
+            "LINGUEIRINHAS", "FIGOS", "AMENDOA", "LARANJA", "DOCES"
+          ],
+          
+          // Tema: Natureza
+          [
+            "ALFARROBA", "SOBREIRO", "MEDRONHO", "AMENDOEIRA", "PALMEIRA",
+            "FLAMINGO", "AGUIA", "CHAMELEON", "RAPOSA", "LONTRA",
+            "LINCE", "SERRA", "BARROCAL", "ESTUARIO", "SAPAL"
+          ],
+          
+          // Tema: Turismo
+          [
+            "TURISMO", "GOLF", "MARINA", "HOTEL", "RESORT",
+            "CASINO", "ZOOMARINE", "MUSEU", "CASTELO", "AQUASHOW",
+            "SLIDE", "KARTING", "PASSEIO", "MERGULHO", "VELA"
+          ],
+          
+          // Tema: Cultura
+          [
+            "AZULEJO", "MOURA", "HISTORIA", "CASTELO", "IGREJA",
+            "MOURISCA", "ROMANO", "FADO", "ARTESANATO", "ARRAIAL",
+            "FESTAS", "FOLCLORE", "DANCA", "ACORDEAO", "TRADICAO"
+          ],
+          
+          // Tema: Geografia
+          [
+            "SOTAVENTO", "BARLAVENTO", "LITORAL", "SERRA", "RIA",
+            "GUADIANA", "ARADE", "ILHAS", "FAROL", "PENÍNSULA",
+            "BAÍA", "COSTA", "MONTANHA", "GRUTA", "PRAIA"
+          ],
+          
+          // Tema: Agricultura
+          [
+            "LARANJA", "AMEIXA", "AMORA", "ALFARROBA", "FIGO",
+            "AMENDOA", "AZEITONA", "VINHO", "MEDRONHO", "MEL",
+            "ALECRIM", "OREGAOS", "COENTROS", "HORTA", "POMAR"
+          ],
+          
+          // Tema: Atividades marítimas
+          [
+            "PESCA", "SURF", "VELA", "MERGULHO", "SNORKEL",
+            "NAVEGACAO", "CANOAGEM", "KAYAK", "PADDLEBOARD", "BARCO",
+            "MARISCADA", "REGATA", "CATAMARAN", "MARINA", "PORTO"
+          ],
+          
+          // Tema: Monumentos e Pontos de interesse
+          [
+            "FORTALEZA", "CAPELA", "FAROL", "IGREJAMATRIZ", "MURALHA",
+            "CASTELO", "PALACIO", "RUINAS", "MUSEU", "AQUEDUTO",
+            "CONVENTO", "TORRE", "ERMIDA", "MIRADOURO", "ARCO"
+          ]
+        ];
+        
+        // Nomes dos temas para mostrar ao jogador
+        const themeNames = [
+          "Localidades",
+          "Praias",
+          "Gastronomia",
+          "Natureza",
+          "Turismo",
+          "Cultura",
+          "Geografia",
+          "Agricultura",
+          "Atividades Marítimas",
+          "Monumentos"
+        ];
+        
+        let currentWords = [];
+        let grid = [];
+        let gridSize = 15;
+        let foundWords = [];
+        let selectedCells = [];
+        let isSelecting = false;
+        let selectionStartCell = null;
+        let selectionDirection = null;
+        let gameStarted = false;
+        let startTime;
+        let timerInterval;
+        
+        // Elementos DOM
+        const gridElement = document.getElementById('grid');
+        const wordListElement = document.getElementById('word-list');
+        const newGameButton = document.getElementById('new-game');
+        const hintButton = document.getElementById('hint');
+        const foundCountElement = document.getElementById('found-count');
+        const totalCountElement = document.getElementById('total-count');
+        const timerElement = document.querySelector('.timer');
+        const progressBar = document.querySelector('.progress-bar');
+        const winModal = document.getElementById('win-modal');
+        const finalTimeElement = document.getElementById('final-time');
+        const playAgainButton = document.getElementById('play-again');
+        const cancelSelectionButton = document.getElementById('cancel-selection');
+        
+        // Criar grade vazia
+        function createEmptyGrid() {
+            grid = [];
+            for (let i = 0; i < gridSize; i++) {
+                grid.push([]);
+                for (let j = 0; j < gridSize; j++) {
+                    grid[i].push({
+                        letter: '',
+                        words: []
+                    });
+                }
+            }
+        }
+        
+        // Verificar se uma posição está dentro da grade
+        function isInBounds(x, y) {
+            return x >= 0 && x < gridSize && y >= 0 && y < gridSize;
+        }
+        
+        // Verificar se uma palavra pode ser colocada em uma direção específica
+        function canPlaceWord(word, startX, startY, dx, dy) {
+            for (let i = 0; i < word.length; i++) {
+                const x = startX + i * dx;
+                const y = startY + i * dy;
+                
+                if (!isInBounds(x, y)) {
+                    return false;
+                }
+                
+                if (grid[y][x].letter !== '' && grid[y][x].letter !== word[i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        
+        // Colocar uma palavra na grade
+        function placeWord(word, startX, startY, dx, dy) {
+            const wordPositions = [];
+            
+            for (let i = 0; i < word.length; i++) {
+                const x = startX + i * dx;
+                const y = startY + i * dy;
+                
+                grid[y][x].letter = word[i];
+                grid[y][x].words.push(word);
+                
+                wordPositions.push({ x, y });
+            }
+            
+            return wordPositions;
+        }
+        
+        // Tentar colocar todas as palavras na grade
+        function placeWords(words) {
+            const wordPositions = {};
+            const directions = [
+                { dx: 1, dy: 0 },   // horizontal direita
+                { dx: 0, dy: 1 },   // vertical baixo
+                { dx: 1, dy: 1 },   // diagonal direita baixo
+                { dx: -1, dy: 0 },  // horizontal esquerda
+                { dx: 0, dy: -1 },  // vertical cima
+                { dx: -1, dy: -1 }, // diagonal esquerda cima
+                { dx: 1, dy: -1 },  // diagonal direita cima
+                { dx: -1, dy: 1 }   // diagonal esquerda baixo
+            ];
+            
+            createEmptyGrid();
+            
+            for (const word of words) {
+                let placed = false;
+                let attempts = 0;
+                const maxAttempts = 100;
+                
+                while (!placed && attempts < maxAttempts) {
+                    attempts++;
+                    
+                    // Escolher uma direção aleatória
+                    const direction = directions[Math.floor(Math.random() * directions.length)];
+                    const dx = direction.dx;
+                    const dy = direction.dy;
+                    
+                    // Calcular limites válidos para o ponto inicial
+                    let startXMax = gridSize - 1;
+                    let startYMax = gridSize - 1;
+                    
+                    if (dx > 0) startXMax = gridSize - word.length;
+                    if (dx < 0) startXMax = word.length - 1;
+                    if (dy > 0) startYMax = gridSize - word.length;
+                    if (dy < 0) startYMax = word.length - 1;
+                    
+                    // Escolher um ponto inicial aleatório
+                    const startX = Math.floor(Math.random() * (startXMax + 1));
+                    const startY = Math.floor(Math.random() * (startYMax + 1));
+                    
+                    if (canPlaceWord(word, startX, startY, dx, dy)) {
+                        wordPositions[word] = placeWord(word, startX, startY, dx, dy);
+                        placed = true;
+                    }
+                }
+                
+                if (!placed) {
+                    // Se não conseguir colocar uma palavra após várias tentativas
+                    return false;
+                }
+            }
+            
+            // Preencher espaços vazios com letras aleatórias
+            for (let y = 0; y < gridSize; y++) {
+                for (let x = 0; x < gridSize; x++) {
+                    if (grid[y][x].letter === '') {
+                        grid[y][x].letter = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+                    }
+                }
+            }
+            
+            return wordPositions;
+        }
+        
+        // Renderizar a grade no DOM
+        function renderGrid() {
+            gridElement.innerHTML = '';
+            
+            for (let y = 0; y < gridSize; y++) {
+                for (let x = 0; x < gridSize; x++) {
+                    const cell = document.createElement('div');
+                    cell.classList.add('cell');
+                    cell.dataset.x = x;
+                    cell.dataset.y = y;
+                    cell.textContent = grid[y][x].letter;
+                    
+                    gridElement.appendChild(cell);
+                }
+            }
+            
+            // Adicionar eventos ao grid em vez de a cada célula para melhor desempenho
+            gridElement.addEventListener('mousedown', handleMouseDown);
+            gridElement.addEventListener('mouseover', handleMouseOver);
+            document.addEventListener('mouseup', handleMouseUp);
+            document.addEventListener('keydown', handleKeyDown);
+        }
+        
+        // Renderizar a lista de palavras
+        function renderWordList() {
+            wordListElement.innerHTML = '';
+            
+            for (const word of currentWords) {
+                const wordItem = document.createElement('div');
+                wordItem.classList.add('word-item');
+                if (foundWords.includes(word)) {
+                    wordItem.classList.add('found');
+                }
+                wordItem.textContent = word;
+                wordListElement.appendChild(wordItem);
+            }
+        }
+        
+        // Lidar com início da seleção
+        function handleMouseDown(e) {
+            if (e.target.classList.contains('cell')) {
+                if (!gameStarted) {
+                    startTimer();
+                }
+                
+                isSelecting = true;
+                clearSelection();
+                
+                const x = parseInt(e.target.dataset.x);
+                const y = parseInt(e.target.dataset.y);
+                
+                selectionStartCell = { x, y };
+                
+                selectedCells.push({ x, y, element: e.target });
+                e.target.classList.add('selected');
+                
+                // Prevenir eventos padrão para evitar seleção de texto
+                e.preventDefault();
+            }
+        }
+        
+        // Lidar com movimento durante a seleção
+        function handleMouseOver(e) {
+            if (!isSelecting || !e.target.classList.contains('cell')) return;
+            
+            const x = parseInt(e.target.dataset.x);
+            const y = parseInt(e.target.dataset.y);
+            
+            // Verificar se esta célula já foi selecionada
+            for (const cell of selectedCells) {
+                if (cell.x === x && cell.y === y) {
+                    // Caso especial: voltar à célula anterior (permite desfazer o último movimento)
+                    if (selectedCells.length > 1 && selectedCells[selectedCells.length - 2].x === x && selectedCells[selectedCells.length - 2].y === y) {
+                        // Remover a última célula selecionada
+                        const lastCell = selectedCells.pop();
+                        lastCell.element.classList.remove('selected');
+                        lastCell.element.classList.remove('tentatively-selected');
+                        
+                        // Redefinir a direção se voltarmos ao início
+                        if (selectedCells.length === 1) {
+                            selectionDirection = null;
+                        }
+                    }
+                    return;
+                }
+            }
+            
+            // Se é a segunda célula, definir a direção
+            if (selectedCells.length === 1 && !selectionDirection) {
+                const dx = x - selectionStartCell.x;
+                const dy = y - selectionStartCell.y;
+                
+                // Verificar se é uma direção válida (horizontal, vertical ou diagonal)
+                if (dx !== 0 && dy !== 0 && Math.abs(dx) !== Math.abs(dy)) {
+                    return; // Não é uma linha reta ou diagonal
+                }
+                
+                // Normalizar a direção
+                const distance = Math.max(Math.abs(dx), Math.abs(dy));
+                selectionDirection = {
+                    dx: dx !== 0 ? dx / Math.abs(dx) : 0,
+                    dy: dy !== 0 ? dy / Math.abs(dy) : 0
+                };
+                
+                // Se estamos pulando células, preencher as células intermediárias
+                if (distance > 1) {
+                    for (let i = 1; i < distance; i++) {
+                        const intermediateX = selectionStartCell.x + Math.round(selectionDirection.dx * i);
+                        const intermediateY = selectionStartCell.y + Math.round(selectionDirection.dy * i);
+                        
+                        if (isInBounds(intermediateX, intermediateY)) {
+                            const intermediateCell = document.querySelector(`.cell[data-x="${intermediateX}"][data-y="${intermediateY}"]`);
+                            
+                            selectedCells.push({
+                                x: intermediateX,
+                                y: intermediateY,
+                                element: intermediateCell
+                            });
+                            
+                            intermediateCell.classList.add('tentatively-selected');
+                        }
+                    }
+                }
+            } else if (selectionDirection) {
+                // Verificar se a nova célula segue a direção estabelecida
+                const dx = x - selectedCells[selectedCells.length - 1].x;
+                const dy = y - selectedCells[selectedCells.length - 1].y;
+                
+                const expectedX = selectedCells[selectedCells.length - 1].x + selectionDirection.dx;
+                const expectedY = selectedCells[selectedCells.length - 1].y + selectionDirection.dy;
+                
+                if (x !== expectedX || y !== expectedY) {
+                    return; // Não segue a direção estabelecida
+                }
+            }
+            
+            // Adicionar a nova célula à seleção
+            selectedCells.push({ x, y, element: e.target });
+            e.target.classList.add('tentatively-selected');
+        }
+        
+        // Lidar com o fim da seleção
+        function handleMouseUp(e) {
+            if (!isSelecting) return;
+            
+            isSelecting = false;
+            selectionDirection = null;
+            
+            // Converter células temporariamente selecionadas para selecionadas
+            for (const cell of selectedCells) {
+                cell.element.classList.remove('tentatively-selected');
+                cell.element.classList.add('selected');
+            }
+            
+            // Verificar se a seleção forma uma palavra válida
+            checkSelectedWord();
+        }
+        
+        // Lidar com teclas pressionadas
+        function handleKeyDown(e) {
+            // Cancelar a seleção atual ao pressionar Esc
+            if (e.key === 'Escape') {
+                cancelSelection();
+            }
+        }
+        
+        // Cancelar a seleção atual
+        function cancelSelection() {
+            clearSelection();
+            isSelecting = false;
+            selectionDirection = null;
+        }
+        
+        // Limpar seleção de células
+        function clearSelection() {
+            for (const cell of selectedCells) {
+                if (!cell.element.classList.contains('found')) {
+                    cell.element.classList.remove('selected');
+                    cell.element.classList.remove('tentatively-selected');
+                }
+            }
+            selectedCells = [];
+        }
+        
+        // Verificar se a seleção forma uma palavra válida
+        function checkSelectedWord() {
+            if (selectedCells.length === 0) return;
+            
+            // Obter a palavra formada
+            let word = '';
+            for (const cell of selectedCells) {
+                word += grid[cell.y][cell.x].letter;
+            }
+            
+            // Verificar se a palavra também está correta na direção inversa
+            const reverseWord = word.split('').reverse().join('');
+            
+            if (currentWords.includes(word) && !foundWords.includes(word)) {
+                foundWords.push(word);
+                markWordAsFound(word);
+                highlightFoundWord();
+                updateProgress();
+                checkWinCondition();
+            } else if (currentWords.includes(reverseWord) && !foundWords.includes(reverseWord)) {
+                foundWords.push(reverseWord);
+                markWordAsFound(reverseWord);
+                highlightFoundWord();
+                updateProgress();
+                checkWinCondition();
+            } else {
+                clearSelection();
+            }
+        }
+        
+        // Marcar palavra como encontrada na lista
+        function markWordAsFound(word) {
+            const wordItems = wordListElement.querySelectorAll('.word-item');
+            for (const item of wordItems) {
+                if (item.textContent === word) {
+                    item.classList.add('found');
+                    break;
+                }
+            }
+        }
+        
+        // Destacar palavra encontrada na grade
+        function highlightFoundWord() {
+            for (const cell of selectedCells) {
+                cell.element.classList.remove('selected');
+                cell.element.classList.remove('tentatively-selected');
+                cell.element.classList.add('found');
+            }
+        }
+        
+        // Atualizar progresso
+        function updateProgress() {
+            foundCountElement.textContent = foundWords.length;
+            const progress = (foundWords.length / currentWords.length) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+        
+        // Verificar condição de vitória
+        function checkWinCondition() {
+            if (foundWords.length === currentWords.length) {
+                stopTimer();
+                finalTimeElement.textContent = timerElement.textContent;
+                setTimeout(() => {
+                    winModal.style.display = 'flex';
+                }, 500);
+            }
+        }
+        
+        // Iniciar temporizador
+        function startTimer() {
+            gameStarted = true;
+            startTime = Date.now();
+            
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+            
+            timerInterval = setInterval(() => {
+                const elapsedTime = Date.now() - startTime;
+                const minutes = Math.floor(elapsedTime / 60000);
+                const seconds = Math.floor((elapsedTime % 60000) / 1000);
+                
+                timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }, 1000);
+        }
+        
+        // Parar temporizador
+        function stopTimer() {
+            clearInterval(timerInterval);
+        }
+        
+        // Novo jogo
+        function newGame() {
+            gameStarted = false;
+            foundWords = [];
+            
+            // Escolher um conjunto de palavras aleatório
+            const randomWordSetIndex = Math.floor(Math.random() * wordSets.length);
+            currentWords = [...wordSets[randomWordSetIndex]];
+            
+            // Atualizar o nome do tema atual
+            document.getElementById('current-theme').textContent = themeNames[randomWordSetIndex];
+            
+            // Ordenar palavras por comprimento (mais longas primeiro)
+            currentWords.sort((a, b) => b.length - a.length);
+            
+            // Tentar criar grade várias vezes se necessário
+            let attempts = 0;
+            let success = false;
+            
+            while (!success && attempts < 10) {
+                success = placeWords(currentWords);
+                attempts++;
+            }
+            
+            if (!success) {
+                alert("Erro ao criar o jogo. Tente novamente.");
+                return;
+            }
+            
+            renderGrid();
+            renderWordList();
+            
+            totalCountElement.textContent = currentWords.length;
+            foundCountElement.textContent = 0;
+            progressBar.style.width = '0%';
+            timerElement.textContent = '00:00';
+            
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+            
+            winModal.style.display = 'none';
+        }
+        
+        // Fornecer dica
+        function giveHint() {
+            if (foundWords.length === currentWords.length) return;
+            
+            // Encontrar palavra não encontrada
+            const remainingWords = currentWords.filter(word => !foundWords.includes(word));
+            const randomWord = remainingWords[Math.floor(Math.random() * remainingWords.length)];
+            
+            // Piscar primeira letra
+            for (let y = 0; y < gridSize; y++) {
+                for (let x = 0; x < gridSize; x++) {
+                    if (grid[y][x].words.includes(randomWord)) {
+                        const cell = document.querySelector(`.cell[data-x="${x}"][data-y="${y}"]`);
+                        
+                        if (cell) {
+                            cell.classList.add('selected');
+                            
+                            setTimeout(() => {
+                                if (!cell.classList.contains('found')) {
+                                    cell.classList.remove('selected');
+                                }
+                            }, 1500);
+                            
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Adicionar event listeners
+        newGameButton.addEventListener('click', newGame);
+        hintButton.addEventListener('click', giveHint);
+        playAgainButton.addEventListener('click', newGame);
+        cancelSelectionButton.addEventListener('click', cancelSelection);
+        
+        // Iniciar jogo
+        newGame();
+    </script>
+</body>
+</html>
