@@ -50,9 +50,52 @@ export default defineConfig(({ mode }) => ({
         'path'
       ],
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
+        manualChunks: (id) => {
+          // Chunk para React e bibliotecas principais
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
+              return 'react-vendor';
+            }
+            
+            // Chunk para Radix UI components
+            if (id.includes('@radix-ui')) {
+              return 'radix-ui';
+            }
+            
+            // Chunk para Leaflet e mapas
+            if (id.includes('leaflet') || id.includes('react-leaflet')) {
+              return 'maps';
+            }
+            
+            // Chunk para Firebase
+            if (id.includes('firebase')) {
+              return 'firebase';
+            }
+            
+            // Chunk para TanStack Query
+            if (id.includes('@tanstack')) {
+              return 'tanstack';
+            }
+            
+            // Chunk para outras bibliotecas grandes
+            if (id.includes('recharts') || id.includes('date-fns') || id.includes('lucide-react')) {
+              return 'ui-libs';
+            }
+            
+            // Chunk para outras dependências
+            return 'vendor';
+          }
         },
+      },
+    },
+    // Aumentar o limite de aviso para chunks grandes
+    chunkSizeWarningLimit: 1000,
+    // Otimizações adicionais
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
       },
     },
   },

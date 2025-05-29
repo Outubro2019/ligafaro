@@ -1,7 +1,6 @@
 import { EventData } from "@/types/EventTypes";
 import { EventResponse } from "./types/eventTypes";
 import { upcomingEvents } from "@/data/eventsData";
-import eventsDataJson from "@/events_data.json";
 
 /**
  * Serviço para gerenciar eventos
@@ -12,35 +11,44 @@ export const eventsService = {
    */
   async getEvents(): Promise<EventResponse> {
     try {
-      // Tenta carregar os eventos do arquivo JSON
+      // Tenta carregar os eventos do arquivo JSON público
       let events: EventData[] = [];
       
       try {
-        console.log('Carregando eventos do arquivo JSON importado...');
+        console.log('Carregando eventos do arquivo JSON público...');
         
-        // Usa diretamente o arquivo JSON importado
-        events = eventsDataJson as EventData[];
-        console.log('Eventos reais carregados com sucesso:', events.length);
+        const response = await fetch('/events_data.json');
         
-        // Adiciona um campo attendees se não existir
-        events = events.map(event => ({
-          ...event,
-          attendees: event.attendees || 0
-        }));
-        
-        return { events };
+        if (response.ok) {
+          const eventsData = await response.json();
+          console.log('Eventos carregados com sucesso do JSON público');
+          
+          if (Array.isArray(eventsData) && eventsData.length > 0) {
+            events = eventsData.map(event => ({
+              ...event,
+              attendees: event.attendees || 0
+            }));
+            console.log('Número de eventos:', events.length);
+            console.log('Primeiro evento:', events[0].title);
+            return { events };
+          }
+        } else {
+          console.warn('Falha ao carregar eventos do JSON público:', response.status);
+        }
       } catch (error) {
-        console.warn('Erro ao carregar eventos do JSON, usando dados estáticos:', error);
-        // Fallback para dados estáticos em caso de erro
-        events = upcomingEvents;
-        return {
-          events,
-          error: 'Usando dados estáticos devido a erro ao carregar eventos reais.'
-        };
+        console.warn('Erro ao carregar eventos do JSON público:', error);
       }
+      
+      // Fallback para dados estáticos em caso de erro
+      console.log('Usando dados estáticos como fallback');
+      events = upcomingEvents;
+      return {
+        events,
+        error: 'Usando dados estáticos devido a erro ao carregar eventos reais.'
+      };
     } catch (error) {
       console.error('Erro ao obter eventos:', error);
-      return { 
+      return {
         events: upcomingEvents,
         error: 'Não foi possível carregar os eventos. Usando dados estáticos.'
       };

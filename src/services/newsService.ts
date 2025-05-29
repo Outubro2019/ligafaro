@@ -46,14 +46,19 @@ export const fetchNews = async (query = 'Faro', pageSize = 10): Promise<NewsItem
     // Primeiro, tenta carregar o arquivo JSON local
     try {
       console.log('Tentando carregar notícias do arquivo JSON local...');
-      const response = await fetch('/noticias_faro.json?url');
+      const response = await fetch('/noticias_faro.json');
       
       if (response.ok) {
         const newsData = await response.json();
         console.log('Notícias carregadas com sucesso do JSON local');
-        console.log('Número de notícias:', newsData.length);
         
-        if (newsData.length > 0) {
+        // Verificar se é o formato correto com articles
+        if (newsData.articles && newsData.articles.length > 0) {
+          console.log('Número de notícias:', newsData.articles.length);
+          console.log('Primeira notícia:', newsData.articles[0].title);
+          return sortNewsByDate(newsData.articles);
+        } else if (Array.isArray(newsData) && newsData.length > 0) {
+          console.log('Número de notícias (array direto):', newsData.length);
           console.log('Primeira notícia:', newsData[0].title);
           return sortNewsByDate(newsData);
         }
