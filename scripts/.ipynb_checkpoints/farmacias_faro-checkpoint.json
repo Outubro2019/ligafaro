@@ -1,0 +1,146 @@
+[
+    {
+        "tipo": "Permanente",
+        "nome": "Farmácia Almeida",
+        "morada": "Estrada Senhora da Saúde, 39-41 Faro (São Pedro)",
+        "telefone": "N/A",
+        "horarios": [
+            "00:00 às 24:00"
+        ],
+        "servicos": [
+            "Entregas ao Domicílio",
+            "Administração de Vacinas",
+            "Check Up Saúde"
+        ],
+        "website": "http://www.farmacia-almeida.com",
+        "link_mapa": "mapa/9814",
+        "link_farmacia": "f/9814/Farmacia_Almeida/"
+    },
+    {
+        "tipo": "Permanente",
+        "nome": "Farmácia da Penha",
+        "morada": "Estrada da Penha, 52 Sé",
+        "telefone": "N/A",
+        "horarios": [
+            "00:00 às 24:00"
+        ],
+        "servicos": [
+            "Entregas ao Domicílio",
+            "Administração de Vacinas",
+            "Medição de Pressão Arterial"
+        ],
+        "website": "http://www.farmaciadapenha.pt",
+        "link_mapa": "mapa/10693",
+        "link_farmacia": "f/10693/Farmacia_da_Penha/"
+    },
+    {
+        "tipo": "Horário alargado",
+        "nome": "Farmácia Baptista",
+        "morada": "EN 125, KM 103, Forum Algarve, LJ 0.76 Faro (São Pedro)",
+        "telefone": "N/A",
+        "horarios": [
+            "09:00 às 23:00"
+        ],
+        "servicos": [
+            "Testes COVID19",
+            "Entregas ao Domicílio",
+            "Receita Eletrónica"
+        ],
+        "website": "https://www.facebook.com/FarmaciaBaptista",
+        "link_mapa": "mapa/6947",
+        "link_farmacia": "f/6947/Farmacia_Baptista/"
+    },
+    {
+        "tipo": "Horário alargado",
+        "nome": "Farmácia Amoreira",
+        "morada": "Rua Jornal Folha de Domingo, 55 B União das freguesias de Faro (Sé e São Pedro)",
+        "telefone": "289 819 740",
+        "horarios": [
+            "08:00 às 22:00"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/34207",
+        "link_farmacia": "f/34207/Farmacia_Amoreira/"
+    },
+    {
+        "tipo": "Horário alargado",
+        "nome": "Farmácia Crespo Santos",
+        "morada": "Rua Teófilo da Trindade, 15-A Faro (São Pedro)",
+        "telefone": "289 828 061",
+        "horarios": [
+            "09:00 às 22:00"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/13056",
+        "link_farmacia": "f/13056/Farmacia_Crespo_Santos/"
+    },
+    {
+        "tipo": "Horário alargado",
+        "nome": "Farmácia Helena",
+        "morada": "Largo Sá Carneiro, 69 Sé",
+        "telefone": "289 823 667",
+        "horarios": [
+            "09:00 às 21:00"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/10448",
+        "link_farmacia": "f/10448/Farmacia_Helena/"
+    },
+    {
+        "tipo": "Disponibilidade",
+        "nome": "Farmácia Assunção",
+        "morada": "Rua Julio Dinis, 13-B Montenegro",
+        "telefone": "289 817 485",
+        "horarios": [
+            "09:00 às 19:30"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/21482",
+        "link_farmacia": "f/21482/Farmacia_Assuncao/"
+    },
+    {
+        "tipo": "Disponibilidade",
+        "nome": "Farmácia Coelho",
+        "morada": "Rua de Faro, n 21 Santa Bárbara de Nexe",
+        "telefone": "289 992 793",
+        "horarios": [
+            "09:00 às 13:00",
+            "14:00 às 19:00"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/25380",
+        "link_farmacia": "f/25380/Farmacia_Coelho/"
+    },
+    {
+        "tipo": "Disponibilidade",
+        "nome": "Farmácia Leonardo",
+        "morada": "Rua 8 de Dezembro, 2-A Conceição",
+        "telefone": "289 832 370",
+        "horarios": [
+            "09:00 às 20:00"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/23973",
+        "link_farmacia": "f/23973/Farmacia_Leonardo/"
+    },
+    {
+        "tipo": "Disponibilidade",
+        "nome": "Farmácia Ossonoba",
+        "morada": "Largo Ossonoba, 22 Estói",
+        "telefone": "289 991 022",
+        "horarios": [
+            "08:30 às 13:00",
+            "14:30 às 20:00"
+        ],
+        "servicos": [],
+        "website": "N/A",
+        "link_mapa": "mapa/4472",
+        "link_farmacia": "f/4472/Farmacia_Ossonoba/"
+    }
+]

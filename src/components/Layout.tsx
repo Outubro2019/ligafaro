@@ -14,7 +14,8 @@ import {
   Newspaper,
   Building,
   Map,
-  Gamepad
+  Gamepad,
+  Cross
 } from 'lucide-react';
 import {
   SidebarProvider,
@@ -46,10 +47,10 @@ const MainLayout = ({ children }: LayoutProps) => {
 
   return (
     <SidebarProvider>
-      <div className="flex min-h-screen w-full bg-sky-blue">
+      <div className="flex min-h-screen w-full">
         <AppSidebar />
         <SidebarInset className="pb-8">
-          <header className="sticky top-0 z-10 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md px-4 py-3 flex items-center justify-between border-b border-gray-100 dark:border-gray-800">
+          <header className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md px-4 py-3 flex items-center justify-between border-b border-gray-100 dark:border-gray-800">
             <div className="flex items-center gap-2">
               <SidebarTrigger />
               <h1 className="text-xl font-display font-bold bg-gradient-to-r from-primary via-purple-500 to-blue-500 bg-clip-text text-transparent">LigaFaro</h1>
@@ -86,6 +87,7 @@ const AppSidebar = () => {
     { name: 'Notícias', path: '/news', icon: Newspaper },
     { name: 'Fórum', path: '/forum', icon: MessageSquare },
     { name: 'Associações Locais', path: '/associacoes', icon: Building },
+    { name: 'Farmácias', path: '/pharmacies', icon: Cross },
     { name: 'Comunidade', path: '/community', icon: Users },
     { name: 'Mercado', path: '/marketplace', icon: ShoppingBag },
     { name: 'Voluntariado', path: '/volunteer', icon: Heart },

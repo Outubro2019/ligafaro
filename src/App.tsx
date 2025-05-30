@@ -22,6 +22,7 @@ import Chatbot from "./pages/Chatbot";
 import MapPage from "./pages/Map";
 import Profile from "./pages/Profile";
 import Games from "./pages/Games";
+import Pharmacies from "./pages/Pharmacies";
 import NotFound from "./pages/NotFound";
 
 
@@ -120,6 +121,11 @@ const App = () => {
                <Route path="/games" element={
                  <MainLayout>
                    <Games />
+                 </MainLayout>
+               } />
+               <Route path="/pharmacies" element={
+                 <MainLayout>
+                   <Pharmacies />
                  </MainLayout>
                } />
                <Route path="/profile" element={

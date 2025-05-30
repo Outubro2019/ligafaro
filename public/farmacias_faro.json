@@ -1,0 +1,163 @@
+{
+  "farmacias": [
+    {
+      "id": "farmacia-almeida",
+      "name": "Farmácia Almeida",
+      "address": "Estrada Senhora da Saúde, 39-41, Faro",
+      "phone": "289 822 437",
+      "services": [
+        "Entregas ao Domicílio",
+        "Administração de Vacinas",
+        "Check Up Saúde"
+      ],
+      "coordinates": {
+        "lat": 37.025739,
+        "lng": -7.940028
+      },
+      "website": "http://www.farmacia-almeida.com",
+      "schedule": "00:00 às 24:00",
+      "dutySchedule": {
+        "date": "2025-05-30",
+        "startTime": "00:00",
+        "endTime": "24:00"
+      }
+    },
+    {
+      "id": "farmacia-da-penha",
+      "name": "Farmácia da Penha",
+      "address": "Estrada da Penha, 52, Faro",
+      "phone": "289 822 342",
+      "services": [
+        "Entregas ao Domicílio",
+        "Administração de Vacinas",
+        "Medição de Pressão Arterial"
+      ],
+      "coordinates": {
+        "lat": 37.023685,
+        "lng": -7.926673
+      },
+      "website": "http://www.farmaciadapenha.pt",
+      "schedule": "00:00 às 24:00",
+      "dutySchedule": {
+        "date": "2025-05-30",
+        "startTime": "00:00",
+        "endTime": "24:00"
+      }
+    },
+    {
+      "id": "farmacia-baptista",
+      "name": "Farmácia Baptista",
+      "address": "EN 125, KM 103, Forum Algarve, LJ 0.76, Faro",
+      "phone": "289 822 649",
+      "services": [
+        "Testes COVID19",
+        "Entregas ao Domicílio",
+        "Receita Eletrónica"
+      ],
+      "coordinates": {
+        "lat": 37.02811,
+        "lng": -7.94438
+      },
+      "website": "https://www.facebook.com/FarmaciaBaptista",
+      "schedule": "09:00 às 23:00"
+    },
+    {
+      "id": "farmacia-amoreira",
+      "name": "Farmácia Amoreira",
+      "address": "Rua Jornal Folha de Domingo, 55 B, Faro",
+      "phone": "289 819 740",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.027547,
+        "lng": -7.927414
+      },
+      "schedule": "08:00 às 22:00"
+    },
+    {
+      "id": "farmacia-crespo-santos",
+      "name": "Farmácia Crespo Santos",
+      "address": "Rua Teófilo da Trindade, 15-A, Faro",
+      "phone": "289 828 061",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.020537,
+        "lng": -7.931873
+      },
+      "schedule": "09:00 às 22:00"
+    },
+    {
+      "id": "farmacia-helena",
+      "name": "Farmácia Helena",
+      "address": "Largo Sá Carneiro, 69, Faro",
+      "phone": "289 823 667",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.01935,
+        "lng": -7.928378
+      },
+      "schedule": "09:00 às 21:00"
+    },
+    {
+      "id": "farmacia-assuncao",
+      "name": "Farmácia Assunção",
+      "address": "Rua Julio Dinis, 13-B, Montenegro",
+      "phone": "289 817 485",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.03144,
+        "lng": -7.961723
+      },
+      "schedule": "09:00 às 19:30"
+    },
+    {
+      "id": "farmacia-coelho",
+      "name": "Farmácia Coelho",
+      "address": "Rua de Faro, n 21, Santa Bárbara de Nexe",
+      "phone": "289 992 793",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.102343,
+        "lng": -7.963578
+      },
+      "schedule": "09:00 às 13:00, 14:00 às 19:00"
+    },
+    {
+      "id": "farmacia-leonardo",
+      "name": "Farmácia Leonardo",
+      "address": "Rua 8 de Dezembro, 2-A, Conceição",
+      "phone": "289 832 370",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.061052450719,
+        "lng": -7.9174891327946
+      },
+      "schedule": "09:00 às 20:00"
+    },
+    {
+      "id": "farmacia-ossonoba",
+      "name": "Farmácia Ossónoba",
+      "address": "Largo Ossónoba, 22, Estói",
+      "phone": "289 991 022",
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.095365,
+        "lng": -7.89463
+      },
+      "schedule": "08:30 às 13:00, 14:30 às 20:00"
+    }
+  ]
+}
