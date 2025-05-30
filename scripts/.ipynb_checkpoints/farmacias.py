@@ -31,7 +31,7 @@ headers_list = [
 ]
 
 # URL do site
-url = "https://www.farmaciasdeservico.net/localidade/faro/faro"
+url = "https://www.farmaciasdeservico.net/localidade/faro/faro/expediente"
 
 # Função para verificar se a farmácia está aberta às 01:15 PM
 def esta_aberta(horarios, hora_atual=time(13, 15)):

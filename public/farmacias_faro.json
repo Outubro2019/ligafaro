@@ -3,8 +3,9 @@
     {
       "id": "farmacia-almeida",
       "name": "Farmácia Almeida",
-      "address": "Estrada Senhora da Saúde, 39-41, Faro",
+      "address": "Estrada Senhora da Saúde, 39-41, Faro (São Pedro)",
       "phone": "289 822 437",
+      "isOnDuty": true,
       "services": [
         "Entregas ao Domicílio",
         "Administração de Vacinas",
@@ -15,40 +16,14 @@
         "lng": -7.940028
       },
       "website": "http://www.farmacia-almeida.com",
-      "schedule": "00:00 às 24:00",
-      "dutySchedule": {
-        "date": "2025-05-30",
-        "startTime": "00:00",
-        "endTime": "24:00"
-      }
-    },
-    {
-      "id": "farmacia-da-penha",
-      "name": "Farmácia da Penha",
-      "address": "Estrada da Penha, 52, Faro",
-      "phone": "289 822 342",
-      "services": [
-        "Entregas ao Domicílio",
-        "Administração de Vacinas",
-        "Medição de Pressão Arterial"
-      ],
-      "coordinates": {
-        "lat": 37.023685,
-        "lng": -7.926673
-      },
-      "website": "http://www.farmaciadapenha.pt",
-      "schedule": "00:00 às 24:00",
-      "dutySchedule": {
-        "date": "2025-05-30",
-        "startTime": "00:00",
-        "endTime": "24:00"
-      }
+      "schedule": "00:00 às 24:00"
     },
     {
       "id": "farmacia-baptista",
       "name": "Farmácia Baptista",
-      "address": "EN 125, KM 103, Forum Algarve, LJ 0.76, Faro",
+      "address": "EN 125, KM 103, Forum Algarve, LJ 0.76, Faro (São Pedro)",
       "phone": "289 822 649",
+      "isOnDuty": true,
       "services": [
         "Testes COVID19",
         "Entregas ao Domicílio",
@@ -62,10 +37,29 @@
       "schedule": "09:00 às 23:00"
     },
     {
+      "id": "farmacia-da-penha",
+      "name": "Farmácia da Penha",
+      "address": "Estrada da Penha, 52, Sé",
+      "phone": "289 822 342",
+      "isOnDuty": true,
+      "services": [
+        "Entregas ao Domicílio",
+        "Administração de Vacinas",
+        "Medição de Pressão Arterial"
+      ],
+      "coordinates": {
+        "lat": 37.023685,
+        "lng": -7.926673
+      },
+      "website": "http://www.farmaciadapenha.pt",
+      "schedule": "00:00 às 24:00"
+    },
+    {
       "id": "farmacia-amoreira",
       "name": "Farmácia Amoreira",
-      "address": "Rua Jornal Folha de Domingo, 55 B, Faro",
+      "address": "Rua Jornal Folha de Domingo, 55 B, União das freguesias de Faro (Sé e São Pedro)",
       "phone": "289 819 740",
+      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -76,38 +70,11 @@
       "schedule": "08:00 às 22:00"
     },
     {
-      "id": "farmacia-crespo-santos",
-      "name": "Farmácia Crespo Santos",
-      "address": "Rua Teófilo da Trindade, 15-A, Faro",
-      "phone": "289 828 061",
-      "services": [
-        "Medicamentos"
-      ],
-      "coordinates": {
-        "lat": 37.020537,
-        "lng": -7.931873
-      },
-      "schedule": "09:00 às 22:00"
-    },
-    {
-      "id": "farmacia-helena",
-      "name": "Farmácia Helena",
-      "address": "Largo Sá Carneiro, 69, Faro",
-      "phone": "289 823 667",
-      "services": [
-        "Medicamentos"
-      ],
-      "coordinates": {
-        "lat": 37.01935,
-        "lng": -7.928378
-      },
-      "schedule": "09:00 às 21:00"
-    },
-    {
       "id": "farmacia-assuncao",
       "name": "Farmácia Assunção",
       "address": "Rua Julio Dinis, 13-B, Montenegro",
       "phone": "289 817 485",
+      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -118,10 +85,26 @@
       "schedule": "09:00 às 19:30"
     },
     {
+      "id": "farmacia-canine",
+      "name": "Farmácia Caniné",
+      "address": "Rua Dr. Francisco Gomes, 14 e 16, Sé",
+      "phone": "289 822 277",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.016103,
+        "lng": -7.934129
+      },
+      "schedule": "09:00 às 20:00"
+    },
+    {
       "id": "farmacia-coelho",
       "name": "Farmácia Coelho",
       "address": "Rua de Faro, n 21, Santa Bárbara de Nexe",
       "phone": "289 992 793",
+      "isOnDuty": false,
       "services": [
         "Medicamentos"
       ],
@@ -132,10 +115,101 @@
       "schedule": "09:00 às 13:00, 14:00 às 19:00"
     },
     {
+      "id": "farmacia-crespo-santos",
+      "name": "Farmácia Crespo Santos",
+      "address": "Rua Teófilo da Trindade, 15-A, Faro (São Pedro)",
+      "phone": "289 828 061",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.020537,
+        "lng": -7.931873
+      },
+      "schedule": "09:00 às 22:00"
+    },
+    {
+      "id": "farmacia-da-baixa",
+      "name": "Farmácia da Baixa",
+      "address": "Rua Ivens, 31, Sé",
+      "phone": "289 825 888",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.016885,
+        "lng": -7.934017
+      },
+      "schedule": "09:00 às 20:00"
+    },
+    {
+      "id": "farmacia-do-montepio",
+      "name": "Farmácia do Montepio",
+      "address": "Rua de Santo António, 55-57, Sé",
+      "phone": "289 823 636",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.016392,
+        "lng": -7.931997
+      },
+      "schedule": "08:30 às 20:00"
+    },
+    {
+      "id": "farmacia-helena",
+      "name": "Farmácia Helena",
+      "address": "Largo Sá Carneiro, 69, Sé",
+      "phone": "289 823 667",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.01935,
+        "lng": -7.928378
+      },
+      "schedule": "09:00 às 21:00"
+    },
+    {
+      "id": "farmacia-higiene",
+      "name": "Farmácia Higiene",
+      "address": "Rua José Pedro de Almeida, Edifício Diamante, Loja 1 B, Sé",
+      "phone": "289 822 757",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.015407,
+        "lng": -7.919752
+      },
+      "schedule": "09:00 às 19:00"
+    },
+    {
+      "id": "farmacia-huguette-ribeiro",
+      "name": "Farmácia Huguette Ribeiro",
+      "address": "Rua  Mar e Guerra, 31, Faro (São Pedro)",
+      "phone": "289 815 103",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.051822,
+        "lng": -7.951842
+      },
+      "schedule": "09:00 às 13:30, 14:30 às 19:00"
+    },
+    {
       "id": "farmacia-leonardo",
       "name": "Farmácia Leonardo",
       "address": "Rua 8 de Dezembro, 2-A, Conceição",
       "phone": "289 832 370",
+      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -147,9 +221,10 @@
     },
     {
       "id": "farmacia-ossonoba",
-      "name": "Farmácia Ossónoba",
-      "address": "Largo Ossónoba, 22, Estói",
+      "name": "Farmácia Ossonoba",
+      "address": "Largo Ossonoba, 22, Estói",
       "phone": "289 991 022",
+      "isOnDuty": false,
       "services": [
         "Medicamentos"
       ],
@@ -158,6 +233,58 @@
         "lng": -7.89463
       },
       "schedule": "08:30 às 13:00, 14:30 às 20:00"
+    },
+    {
+      "id": "farmacia-palma-batista",
+      "name": "Farmácia Palma Batista",
+      "address": "Rua do Alportel, 157-A, Faro (São Pedro)",
+      "phone": "289 804 504",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.02374,
+        "lng": -7.932483
+      },
+      "schedule": "09:00 às 20:30"
+    },
+    {
+      "id": "farmacia-pereira-gago",
+      "name": "Farmácia Pereira Gago",
+      "address": "Rua de Santo António, 81, Sé",
+      "phone": "289 822 403",
+      "isOnDuty": true,
+      "services": [
+        "Medicamentos"
+      ],
+      "coordinates": {
+        "lat": 37.016623,
+        "lng": -7.931165
+      },
+      "schedule": "09:00 às 20:00"
+    }
+  ],
+  "escalas_servico": [
+    {
+      "date": "2025-05-30",
+      "pharmacies": [
+        "farmacia-almeida",
+        "farmacia-baptista",
+        "farmacia-da-penha",
+        "farmacia-amoreira",
+        "farmacia-assuncao",
+        "farmacia-canine",
+        "farmacia-crespo-santos",
+        "farmacia-da-baixa",
+        "farmacia-do-montepio",
+        "farmacia-helena",
+        "farmacia-higiene",
+        "farmacia-huguette-ribeiro",
+        "farmacia-leonardo",
+        "farmacia-palma-batista",
+        "farmacia-pereira-gago"
+      ]
     }
   ]
 }
