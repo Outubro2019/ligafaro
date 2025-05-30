@@ -69,6 +69,16 @@ export const PharmacyCard: React.FC<PharmacyCardProps> = ({
           <span className="text-sm text-gray-600">{pharmacy.phone}</span>
         </div>
 
+        {/* Horário Normal */}
+        {pharmacy.schedule && (
+          <div className="flex items-center space-x-2">
+            <Clock className="w-4 h-4 text-gray-500" />
+            <span className="text-sm text-gray-600">
+              Horário: {pharmacy.schedule}
+            </span>
+          </div>
+        )}
+
         {/* Horário de Serviço */}
         {pharmacy.dutySchedule && (
           <div className="flex items-center space-x-2">

@@ -63,7 +63,7 @@
     "leaflet": "^1.9.4",
     "lru-cache": "^11.1.0",
     "lucide-react": "^0.462.0",
-    "netlify-lambda": "^0.4.0",
+    "netlify-lambda": "^2.0.16",
     "next-themes": "^0.3.0",
     "node-fetch": "^3.3.2",
     "react": "^18.3.1",

@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import eventsData from '../../public/events_data.json';
-import noticiasData from '../../public/noticias_faro.json';
 
 interface Message {
   text: string;
@@ -38,13 +36,25 @@ const Chatbot = () => {
 
   // Carregar dados de eventos e notícias
   useEffect(() => {
-    try {
-      setEvents(eventsData as Event[]);
-      setNews(noticiasData as NewsItem[]);
-      console.log(`Carregados ${eventsData.length} eventos e ${noticiasData.length} notícias`);
-    } catch (error) {
-      console.error('Erro ao carregar dados:', error);
-    }
+    const loadData = async () => {
+      try {
+        // Carregar eventos
+        const eventsResponse = await fetch('/events_data.json');
+        const eventsData = await eventsResponse.json();
+        setEvents(eventsData as Event[]);
+
+        // Carregar notícias
+        const newsResponse = await fetch('/noticias_faro.json');
+        const noticiasData = await newsResponse.json();
+        setNews(noticiasData as NewsItem[]);
+
+        console.log(`Carregados ${eventsData.length} eventos e ${noticiasData.length} notícias`);
+      } catch (error) {
+        console.error('Erro ao carregar dados:', error);
+      }
+    };
+
+    loadData();
   }, []);
 
   // Função para processar perguntas diretamente no componente

@@ -3,9 +3,8 @@
     {
       "id": "farmacia-almeida",
       "name": "Farmácia Almeida",
-      "address": "Estrada Senhora da Saúde, 39-41, Faro (São Pedro)",
+      "address": "Estrada Senhora da Saúde, 39-41, Faro",
       "phone": "289 822 437",
-      "isOnDuty": true,
       "services": [
         "Entregas ao Domicílio",
         "Administração de Vacinas",
@@ -21,9 +20,8 @@
     {
       "id": "farmacia-baptista",
       "name": "Farmácia Baptista",
-      "address": "EN 125, KM 103, Forum Algarve, LJ 0.76, Faro (São Pedro)",
+      "address": "EN 125, KM 103, Forum Algarve, LJ 0.76, Faro",
       "phone": "289 822 649",
-      "isOnDuty": true,
       "services": [
         "Testes COVID19",
         "Entregas ao Domicílio",
@@ -41,7 +39,6 @@
       "name": "Farmácia da Penha",
       "address": "Estrada da Penha, 52, Sé",
       "phone": "289 822 342",
-      "isOnDuty": true,
       "services": [
         "Entregas ao Domicílio",
         "Administração de Vacinas",
@@ -57,9 +54,8 @@
     {
       "id": "farmacia-amoreira",
       "name": "Farmácia Amoreira",
-      "address": "Rua Jornal Folha de Domingo, 55 B, União das freguesias de Faro (Sé e São Pedro)",
+      "address": "Rua Jornal Folha de Domingo, 55 B, Faro",
       "phone": "289 819 740",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -74,7 +70,6 @@
       "name": "Farmácia Assunção",
       "address": "Rua Julio Dinis, 13-B, Montenegro",
       "phone": "289 817 485",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -89,7 +84,6 @@
       "name": "Farmácia Caniné",
       "address": "Rua Dr. Francisco Gomes, 14 e 16, Sé",
       "phone": "289 822 277",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -104,7 +98,6 @@
       "name": "Farmácia Coelho",
       "address": "Rua de Faro, n 21, Santa Bárbara de Nexe",
       "phone": "289 992 793",
-      "isOnDuty": false,
       "services": [
         "Medicamentos"
       ],
@@ -117,9 +110,8 @@
     {
       "id": "farmacia-crespo-santos",
       "name": "Farmácia Crespo Santos",
-      "address": "Rua Teófilo da Trindade, 15-A, Faro (São Pedro)",
+      "address": "Rua Teófilo da Trindade, 15-A, Faro",
       "phone": "289 828 061",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -132,9 +124,8 @@
     {
       "id": "farmacia-da-baixa",
       "name": "Farmácia da Baixa",
-      "address": "Rua Ivens, 31, Sé",
+      "address": "Rua Ivens, 31, Faro",
       "phone": "289 825 888",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -147,9 +138,8 @@
     {
       "id": "farmacia-do-montepio",
       "name": "Farmácia do Montepio",
-      "address": "Rua de Santo António, 55-57, Sé",
+      "address": "Rua de Santo António, 55-57, Faro",
       "phone": "289 823 636",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -162,9 +152,8 @@
     {
       "id": "farmacia-helena",
       "name": "Farmácia Helena",
-      "address": "Largo Sá Carneiro, 69, Sé",
+      "address": "Largo Sá Carneiro, 69, Faro",
       "phone": "289 823 667",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -177,9 +166,8 @@
     {
       "id": "farmacia-higiene",
       "name": "Farmácia Higiene",
-      "address": "Rua José Pedro de Almeida, Edifício Diamante, Loja 1 B, Sé",
+      "address": "Rua José Pedro de Almeida, Edifício Diamante, Loja 1 B, Faro",
       "phone": "289 822 757",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -192,9 +180,8 @@
     {
       "id": "farmacia-huguette-ribeiro",
       "name": "Farmácia Huguette Ribeiro",
-      "address": "Rua  Mar e Guerra, 31, Faro (São Pedro)",
+      "address": "Rua  Mar e Guerra, 31, Faro",
       "phone": "289 815 103",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -209,7 +196,6 @@
       "name": "Farmácia Leonardo",
       "address": "Rua 8 de Dezembro, 2-A, Conceição",
       "phone": "289 832 370",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -224,7 +210,6 @@
       "name": "Farmácia Ossonoba",
       "address": "Largo Ossonoba, 22, Estói",
       "phone": "289 991 022",
-      "isOnDuty": false,
       "services": [
         "Medicamentos"
       ],
@@ -237,9 +222,8 @@
     {
       "id": "farmacia-palma-batista",
       "name": "Farmácia Palma Batista",
-      "address": "Rua do Alportel, 157-A, Faro (São Pedro)",
+      "address": "Rua do Alportel, 157-A, Faro",
       "phone": "289 804 504",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -252,9 +236,8 @@
     {
       "id": "farmacia-pereira-gago",
       "name": "Farmácia Pereira Gago",
-      "address": "Rua de Santo António, 81, Sé",
+      "address": "Rua de Santo António, 81, Faro",
       "phone": "289 822 403",
-      "isOnDuty": true,
       "services": [
         "Medicamentos"
       ],
@@ -263,28 +246,6 @@
         "lng": -7.931165
       },
       "schedule": "09:00 às 20:00"
-    }
-  ],
-  "escalas_servico": [
-    {
-      "date": "2025-05-30",
-      "pharmacies": [
-        "farmacia-almeida",
-        "farmacia-baptista",
-        "farmacia-da-penha",
-        "farmacia-amoreira",
-        "farmacia-assuncao",
-        "farmacia-canine",
-        "farmacia-crespo-santos",
-        "farmacia-da-baixa",
-        "farmacia-do-montepio",
-        "farmacia-helena",
-        "farmacia-higiene",
-        "farmacia-huguette-ribeiro",
-        "farmacia-leonardo",
-        "farmacia-palma-batista",
-        "farmacia-pereira-gago"
-      ]
     }
   ]
 }
